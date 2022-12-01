@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "9c17df964ce07e08",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4814f62392526d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fad5baa3c350f7e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "beca_notes/HUST/2022.1/computer_networking/Chap1.2 - Chuyển mạch gói & chuyển mạch kênh.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c575dd0505ba3695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "beca_notes/HUST/2022.1/computer_networking/Chap1.1 - Cơ bản về mạng máy tính.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d5ad1293633917e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "beca_notes/HUST/2022.1/computer_networking/Chap1.3 - Một số thông số cơ bản trong mạng.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4ca21cf1f48b459",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "beca_notes/HUST/2022.1/software_intro/Chap3 - Phương pháp Agile.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "afba5a14975fc67d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3994a1c43cb7a096",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4fc8b4e48fe67660",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "c55e4f5d620befdd",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "c8de7ae7f669809e",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e30bb47989bf8fb9",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "019134d164412b01",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "beca_notes/HUST/2022.1/software_intro/Chap3 - Phương pháp Agile.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c9f3e69353adf9d1",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "beca_notes/HUST/2022.1/software_intro/Chap3 - Phương pháp Agile.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8f4779c752285ab3",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "beca_notes/HUST/2022.1/software_intro/Chap3 - Phương pháp Agile.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "a4ca21cf1f48b459",
+  "lastOpenFiles": [
+    "beca_notes/HUST/2022.1/software_intro/Chap2 - Vòng đời phần mềm.md",
+    "beca_notes/HUST/2022.1/software_intro/Chap3 - Phương pháp Agile.md",
+    "beca_notes/HUST/2022.1/OOP/3. Abstraction & Encapsulation.md",
+    "beca_notes/HUST/2022.1/OOP/2. UML & use case diagram.md",
+    "beca_notes/HUST/2022.1/software_intro/Chap4 - Quản lý dự án.md",
+    "beca_notes/HUST/2022.1/os_principles/Chap2 - Quản lý tiến trình.md",
+    "beca_notes/HUST/2022.1/OOP/5. Memory Management and Class organization.md",
+    "beca_notes/HUST/2022.1/OOP/4. Some techniques in class building.md",
+    "beca_notes/HUST/2022.1/OOP/1. Intro.md",
+    "beca_notes/HUST/2022.1/computer_networking/Chap1.4 - Kiến trúc phân tầng.md"
+  ]
+}

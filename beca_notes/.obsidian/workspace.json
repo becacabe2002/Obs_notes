@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "6ca98853872d6508",
+    "type": "split",
+    "children": [
+      {
+        "id": "e58698268e89da53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b579ad96a801c00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.1/OOP/7. Abstract Class and Interface.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20e63a219fb550a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.1/os_principles/Chap1 - Tổng quan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e936a709c3a3f823",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.1/os_principles/Chap2.5 - Bế tắc và xử lý bế tắc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf87877aafe01076",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.1/software_intro/Chap4 - Quản lý dự án.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a1bc243c9071488f",
+    "type": "split",
+    "children": [
+      {
+        "id": "6726d76cb158ef36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f56e9bb44bb16698",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bb27259274e0d770",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b6f174b6bd3eb040",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "077cc7c46907b096",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "356e4c7443db1b40",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HUST/2022.1/os_principles/Chap2.5 - Bế tắc và xử lý bế tắc.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d605ba660c0bb7ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0ddc9dd7237782d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccbef768f42d63e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HUST/2022.1/os_principles/Chap2.5 - Bế tắc và xử lý bế tắc.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d3591169472f13e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HUST/2022.1/os_principles/Chap2.5 - Bế tắc và xử lý bế tắc.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0985aeef55949f6d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05c2f25963033c72",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f56e9bb44bb16698",
+  "lastOpenFiles": [
+    "HUST/2022.1/os_principles/Chap2.4 - Tài nguyên găng và điều độ tiến trình.md",
+    "HUST/2022.1/os_principles/Chap2.5 - Bế tắc và xử lý bế tắc.md",
+    "HUST/2022.1/os_principles/Chương 3 - Quản lý bộ nhớ.md",
+    "HUST/2022.1/software_intro/Chap6.1 - Kỹ nghệ yêu cầu phần mềm.md",
+    "HUST/2022.1/computer_networking/Chap3 - Tầng liên kết dữ liệu.md",
+    "Database/DB with SQL Server/W6 - RELATIONAL DATABASE DESIGN.md",
+    "HUST/2022.1/software_intro/Chap4 - Quản lý dự án.md",
+    "HUST/2022.1/software_intro/Chap2 - Vòng đời phần mềm.md",
+    "HUST/2022.1/os_principles/Chap1 - Tổng quan.md",
+    "HUST/2022.1/OOP/8. Polymorphism (Đa hình).md"
+  ]
+}

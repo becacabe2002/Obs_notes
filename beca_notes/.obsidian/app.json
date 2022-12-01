@@ -1,0 +1,19 @@
+{
+  "readableLineLength": false,
+  "showFrontmatter": false,
+  "showLineNumber": true,
+  "trashOption": "system",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./attachements",
+  "promptDelete": false,
+  "strictLineBreaks": false,
+  "foldIndent": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
