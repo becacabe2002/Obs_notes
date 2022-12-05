@@ -1,4 +1,4 @@
-## 1. Khái niệm
+	## 1. Khái niệm
 >[!info] Yêu cầu phần mềm (Software requirement)
 > Mong muốn/nhu cầu: khách hàng, người dùng mong đợi.
 > 
@@ -11,8 +11,10 @@
 
 ### Kỹ nghệ yêu cầu phần mềm (Software requirement engineering - SRE)
 > [!info] Khởi đầu (Inception) 🏁: 
->* Tìm hiểu nhu cầu, cơ hội, ý tưởng
->* Thu thập thông tin
+>* Vấn đề cần giải quyết
+>* Đối tượng cần giải pháp
+>* Loại giải pháp mong muốn
+>* Mức độ hiệu quả ban đầu của việc trao đổi thông tin giữa hai bên.
 
 > [!info] Khám phá (Eliciation)  🔍: 
 > xác định tất cả các yêu cầu của khách hàng (hỏi đáp, phỏng vấn, phân tích xu hướng, xin ý kiến tham vấn)
@@ -22,13 +24,26 @@
 >-> Hiểu rõ về yêu cầu
 
 > [!info] Đàm phán (Negotiation) 🤝
+> Đồng ý với một hệ thống có thể bàn giao một cách thực tế đối với cả 2 bên.
 
 > [!info] Đặc tả (Specification)
-> tài liệu ghi nhận đầy đủ yêu cầu (SRS)
+> tài liệu ghi nhận đầy đủ yêu cầu (SRS), có thể là một hoặc nhiều thứ sau:
+> * Một tài liệu được viết 
+> * Một tập hợp các mô hình
+> * Một hình thức biểu diễn toán học
+> * Một tập các use-case
+> * Một prototype
+> 
 
-* Nhưng sẽ có thể có những thiếu sót trong quá trình đặc tả
+* Nhưng sẽ có thể có những thiếu sót trong quá trình đặc tả, vậy nên cần có sự đánh giá.
 
 > [!info] Đánh giá (Validation)
+> Tạo cơ chế xem xét các vấn đề
+> * Sai sót trong nội dung hoặc giải thích
+> * Phần được yêu cầu làm rõ
+> * Thông tin bị thiếu
+> * Mâu thuẫn
+> * Yêu cầu không thực tế, không thể đạt được
 
 ![[20221121_151400 1.jpg]]
 
@@ -40,12 +55,13 @@
 ### Nguồn gốc yêu cầu phần mềm
 > [!note] Khách hàng/người sử dụng
 > * Khách hàng cung cấp các ***business requirement***: cung cấp các thông tin về cty, về các đặc điểm ở mức độ cao, về mô hình và phạm vi của hệ thống
-> * Khách hàng cung cấp các ***user requirement***: Cung cấp các thông tin về từng nhiệm vụ cụ thể mà họ sẽ làm việc với phần mề,.
-> ->Cần phối hợp, kết hợp chặt chẽ với hai loại khách hàng trên.
+> * Khách hàng cung cấp các ***user requirement***: Cung cấp các thông tin về từng nhiệm vụ cụ thể mà họ sẽ làm việc với phần mềm.
+> 
+> **->Cần phối hợp, kết hợp chặt chẽ với hai loại khách hàng trên.**
 
 #### Đặc điểm của khách hàng pm
 * ý tưởng mơ hồ/chưa rõ ràng về phần mềm
-* Hay thay đổi 
+* Hay thay đổi -> cần nắm bắt để sửa đổi các mô tả hợp lý
 
 > [!warning] Các thách thức của kỹ nghệ yêu cầu PM
 > * Sự tham gia quá mức của NSD
@@ -69,18 +85,45 @@
 >	* Các ràng buộc khác
 
 ### Yêu cầu chức năng
+> [!info] Yêu cầu chức năng
+> Miêu tả các chức năng của hệ thống, phụ thuộc vào kiểu phần mềm và mong đợi của người dùng
+> 
+
+* Giữa phần mềm và môi trường, độc lập với việc cài đặt
+
+#### Các công cụ đặc tả yêu cầu chức năng 
+* [[Chap6.1 - Kỹ nghệ yêu cầu phần mềm#Biểu đồ luồng dữ liệu - Data Flow Diagram (DFD)]]
+* [[Chap6.1 - Kỹ nghệ yêu cầu phần mềm#Máy trạng thái - Finite State Machine]]
+* Mạng Petri
+
+* Tuy nhiên, ko bắt buộc và có thể dùng ngôn ngữ tự nhiên
 
 ### Yêu cầu phi chức năng và ràng buộc
+> [!info] Yêu cầu phi chức năng
+> Định nghĩa các khía cạnh sử dụng phần mềm, ko liên quan trực tiếp tới các hành vi chức năng (độ tin cậy, response time, memory ...)
+
+> [!info] Ràng buộc
+> Các ràng buộc do khách hàng hay môi trường thực thi phần mềm đặt ra
+
+* Các yêu cầu do tổ chức qui định chuẩn về quá trình tiến hành, chuẩn tài
+* Các yêu cầu từ bên ngoài
+
+#### Các công cụ đặc tả yêu cầu phi chức năng
+* [[Chap6.1 - Kỹ nghệ yêu cầu phần mềm#Sơ đồ thực thể liên kết - Entity Relation Diagram (ERD)]]
+* Đặc tả Logic (Logic Specifications)
+* Đặc tả đại số
+
+> [!warning] Khó phát biểu chính xác, khó kiểm tra
 
 ![[20221121_162347.jpg]]
 
 ## 4. Các hoạt động chính trong kỹ nghệ yêu cầu phần mềm
-* **Phát hiện** các yêu cầu pm (Requirements elicitattion)
-* **Phân tích** các yêu cầu pm và thương lượng với khách hàng (Requirements analysis and negotiation)
-* **Đặc tả** các yêu cầu phần mềm (Requirement specification)
-* **Mô hình hoá** hệ thống (System modeling)
+* [[Chap6.1 - Kỹ nghệ yêu cầu phần mềm#4.1 Phát hiện yêu cầu phần mềm]]
+* [[Chap6.1 - Kỹ nghệ yêu cầu phần mềm#4.2 Phân tích các yêu cầu của pm và thương lượng với khách hàng]]
+* [[Chap6.1 - Kỹ nghệ yêu cầu phần mềm#4.3 Đặc tả yêu cầu phần mềm]]
+* [[Chap6.1 - Kỹ nghệ yêu cầu phần mềm#4.4 Một số mô hình hoá hệ thống]]
 * **Kiểm tra tính hợp lý** của các yêu cầu pm (Requirements validation)
-* **Quản trị** các yêu cầu pm (Requirements management)
+* [[Chap6.1 - Kỹ nghệ yêu cầu phần mềm#4.5 Quản trị các yêu cầu phần mềm]]
 
 ![[Pasted image 20221128142618.png]]
 * Cần xây dựng mô hình nguyên mẫu khi khách hàng chưa xác định rõ được yêu cầu
@@ -116,11 +159,53 @@
  > * **Khảo sát** tỉ mỉ từng yêu cầu phần mềm trong mối qua hệ của nó với các yêu cầu pm khác
  > * **Thẩm định** từng yêu cầu pm theo các t/c: phù hợp, đầy đủ, rõ ràng, không trùng lặp
  > * **Phân cấp** các yêu cầu pm dựa tren nhu cầu và đòi hỏi khách hàng/người sử dụng
+ > * Thẩm định từng yêu cầu về khả năng thực hiện
  > * **Thẩm định các rủi ro** có thể xảy ra với từng yêu cầu.
- > 
+ > * **Đánh giá thô** về giá thành và thời gian thực hiện của từng yêu cầu pm 
+ > * Giải quyết các bất đồng giữa hai bên bằng thảo luận và thương lượng
  
 ### 4.3 Đặc tả yêu cầu phần mềm
+> [!info] Đặc tả các yêu cầu phần mềm
+> Xây dựng các tài liệu đặc tả , có thể sử dụng các công cụ : mô hình hoá, mô hình toán học hình thức, tập hợp các kịch bản sử dụng, các prototype hoặc tổ hợp các công cụ nói trên.
 
+#### Các phương pháp đặc tả
+ * ***Phi hình thức (Informal Specifications)*** - viết bằng ngôn ngữ tự nhiên
+ 
+ * ***Hình thức (Formal Specifications)*** - viết bằng tập hợp các ký pháp có các quy định syntax và sematic chặt chẽ 
+
+> [!important] Tiêu chí đánh giá chất lượng
+> * Tính rõ ràng, chính xác
+> * Tính phù hợp
+> * Tính đầy đủ, hoàn thiện
+
+#### Các thành phần của hồ sơ đặc tả
+* ***Đặc tả vận hành (Operational Specifications)***: 
+	* Đặc tả chức năng
+	* Mô tả các hoạt động của hệ thống phần mềm sẽ xây dựng
+		* Các dịch vụ mà hệ thống phải cung cấp
+		* Hệ thống sẽ phản ứng với đầu vào cụ thể ra sao
+		* Hành vi của hệ thống trong các tình huống đặc biệt
+
+* ***Đặc tả mô tả (Descriptive specifications)***:
+	* Đặc tả phi chức năng
+	* Đặc tả các đặc tính, đặc trưng của phần mềm
+		* Các ràng buộc về dịch vụ hay các chức năng hệ thống cung cấp như thời gian
+		* Ràng buộc về quá trình phát triển 
+		* Các chuẩn
+
+* Ngoài ra có các yêu cầu đặc trưng về lĩnh vực của ứng dụng hệ thống
+
+#### Tài liệu yêu cầu
+> [!info] Tài liệu yêu cầu
+> Các phát biểu chính thức về cái được yêu cầu bởi các nhà phát triển hệ thống, bao gồm:  
+> * Định nghĩa
+> * Đặc tả yêu cầu 
+
+
+> [!warning] Không phải là tài liệu thiết kế
+> Chỉ là tập các điều mà hệ thống phải làm, ko phải làm như thế nào.
+
+![[Pasted image 20221202235333.png]]
 
 ### 4.4 Một số mô hình hoá hệ thống
 #### Biểu đồ phân cấp chức năng - Work Break down Structure (WBS)
@@ -151,10 +236,10 @@
 > [!info] 
 > Biểu diễn tập trung trạng thái hữu hạn của hệ thống và các dịch chuyển giữa các trạng thái
 
-> [!note] Ký pháp 
-> * tập các trạng thái (state) Q hữu hạn: các hình tròn chứa tên trạng thái
-> * Dịch chuyển: mũi tên, trên mũi tên chứa hành động
-> * Tập hữu hạn các đầu vào I
+> 	[!note] Ký pháp 
+> 	* tập các trạng thái (state) Q hữu hạn: các hình tròn chứa tên trạng thái
+> 	* Dịch chuyển: mũi tên, trên mũi tên chứa hành động
+> 	* Tập hữu hạn các đầu vào I
 
 ![[Pasted image 20221128160910.png]]
 
@@ -192,4 +277,41 @@
 
 ![[Pasted image 20221128164057.png]]
 
+|DFD|FSM|ERD|
+|---|---|---|
+|Đơn giản, dễ hiểu|Có thể phức tạp với số lượng trạng thái lớn|Đơn giản, dễ hiểu|
+|Mô tả luồng dữ liệu|Mô tả trạng thái của thực thể|Mô tả trừu tượng cơ sở dữ liệu|
+|Không xác định rõ hướng thực hiện|Xác định rõ hướng thực hiện|Không xác đjnh rõ hướng thực hiện|
+|Không thể hiện tính tuần tự hay song song của tiến trình|Thể hiện tốt tính song song và tuần tự|Không thể hiện tính tuần tự hay song song|
+
+> [!question]  Thế nào là một đặc tả tốt ?
+> - Dễ hiểu với người dùng
+> - Ít điều nhập nhằng
+> - Có ít quy ước khi mô tả, đơn giản để tạo
+> - Topdown
+> - Dễ triển khai cho những pha sau của vòng đời
+
+![[Pasted image 20221203005110.png]]
+
 ### 4.5 Quản trị các yêu cầu phần mềm
+> [!check] Lợi ích
+> * Chi phí phát triển thấp hơn trong suốt vòng đời pm 
+> * Ít sai sót hơn
+> * Giảm thiểu rủi ro đối với các sản phẩm quan trọng về an toàn
+> * Giao hàng nhanh hơn
+> * Khả năng tái sử dụng 
+> * Truy xuất nguồn gốc
+> * Các yêu cầu gắn liền với các trường hợp thử nghiệm 
+
+#### Quản lý thay đổi và vấn đề phát sinh
+> [!info] Thay đổi
+> Bất cứ hđ nào thay đổi phạm vi, kết quả bàn giao, kiến trúc cơ bản, chí phí, lịch trình của một dự án.
+
+=> Cần quản lý vì thay đổi và vấn đề phát sinh là 2 lý do thường làm dự án thất bại
+
+* Giảm rủi ro dự án nhờ quy trình hiệu quả quản lý thayđổi và vấnđề
+* Các thành viên nhóm hiểu được quy trình quản lý thay đổi và vấn đề
+* Ghi chép đầy đủ về các yêu cầu thay đổi/vấn đề
+
+#### Kiểm soát nguồn thay đổi tiềm năng
+![[Pasted image 20221203005821.png]]

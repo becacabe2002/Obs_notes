@@ -140,6 +140,8 @@ public class Main{
 > [!note] static
 > Attributes and methods **belong to the class**, rather than an object.
 
+^28f918
+
 ```java
 public class Main {
   // Static method
