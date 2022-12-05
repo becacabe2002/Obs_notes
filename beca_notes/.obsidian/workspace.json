@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "20e63a219fb550a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2022.1/software_intro/Chap6.1 - Kỹ nghệ yêu cầu phần mềm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8e47c3425b976339",
             "type": "leaf",
             "state": {
@@ -37,7 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.1/computer_networking/Chap3 - Tầng liên kết dữ liệu.md",
+                "file": "HUST/2022.1/os_principles/Chap3 - Quản lý bộ nhớ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20e63a219fb550a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.1/software_intro/Chap6.1 - Kỹ nghệ yêu cầu phần mềm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de718077cd342e2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,21 +78,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "74dd1058c4e3c366",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2022.1/OOP/Java Modifiers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/2022.1/software_intro/Data Flow Diagram - DFD.md"
+                "file": "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md"
               }
             }
           }
@@ -146,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -162,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/2022.1/software_intro/Data Flow Diagram - DFD.md",
+                "file": "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/2022.1/software_intro/Data Flow Diagram - DFD.md",
+                "file": "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,17 +210,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3209c9b474c36092",
+  "active": "de718077cd342e2c",
   "lastOpenFiles": [
-    "HUST/2022.1/OOP/8. Polymorphism (Đa hình).md",
-    "HUST/2022.1/computer_networking/Chap3 - Tầng liên kết dữ liệu.md",
-    "HUST/2022.1/computer_networking/Chap2 - Tầng vật lý.md",
-    "Backend/Overview.md",
-    "HUST/2022.1/OOP/6. Aggregation and Inheritance.md",
-    "HUST/2022.1/OOP/7. Abstract Class and Interface.md",
-    "HUST/2022.1/OOP/2. UML & use case diagram.md",
     "HUST/2022.1/software_intro/Chap6.1 - Kỹ nghệ yêu cầu phần mềm.md",
-    "HUST/2022.1/software_intro/UML Activity Diagram.md",
-    "HUST/2022.1/OOP/Java Modifiers.md"
+    "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md",
+    "HUST/2022.1/software_intro/Data Flow Diagram - DFD.md",
+    "HUST/2022.1/os_principles/Chap3 - Quản lý bộ nhớ.md",
+    "HUST/2022.1/computer_networking/Chap3 - Tầng liên kết dữ liệu.md",
+    "HUST/2022.1/OOP/8. Polymorphism (Đa hình).md",
+    "HUST/2022.1/OOP/Java Modifiers.md",
+    "HUST/2022.1/OOP/2. UML & use case diagram.md",
+    "HUST/2022.1/computer_networking/Chap2 - Tầng vật lý.md",
+    "Backend/Overview.md"
   ]
 }

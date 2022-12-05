@@ -22,3 +22,7 @@
 > [!info] sơ đồ luồng dữ liệu sơ cấp
 > Khi trong sơ đồ, một tiến trình là một phép tính toán hay thao tác dữ liệu đơn giản, khi mỗi luồng dữ liệu không cần chia nhỏ nữa.
 
+* Mỗi biểu đồ DFD cũng đi kèm với các mô tả chi tiết về ý nghĩa các luồng dữ liệu và các bước thực hiện của chức năng xử lý.
+* DFD cũng cung cấp thông tin về đầu ra và đầu vào của mỗi thực thể và chính quá trình.
+
+![[Pasted image 20221205124045.png]]

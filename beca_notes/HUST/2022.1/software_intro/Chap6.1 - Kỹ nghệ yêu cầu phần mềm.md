@@ -1,4 +1,4 @@
-	## 1. Khái niệm
+## 1. Khái niệm
 >[!info] Yêu cầu phần mềm (Software requirement)
 > Mong muốn/nhu cầu: khách hàng, người dùng mong đợi.
 > 
@@ -22,6 +22,11 @@
 > [!info] Xây dựng (Elaboration) ⚒️: 
 > phân tích yêu cầu về dữ liệu, chức năng, hành vi
 >-> Hiểu rõ về yêu cầu
+>![[Pasted image 20221205143522.png]]
+
+^38d7d3
+
+
 
 > [!info] Đàm phán (Negotiation) 🤝
 > Đồng ý với một hệ thống có thể bàn giao một cách thực tế đối với cả 2 bên.
@@ -221,7 +226,7 @@
 > * Kho dữ liệu còn có thể được biểu diễn dạng
 > ![[Pasted image 20221128160558.png]]
 
-
+👉 [[Data Flow Diagram - DFD]]
 
 ![[Pasted image 20221128153222.png]]
 
