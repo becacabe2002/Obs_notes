@@ -4,83 +4,107 @@
     "type": "split",
     "children": [
       {
-        "id": "e58698268e89da53",
+        "id": "e4d9d509cd96a96c",
         "type": "tabs",
         "children": [
           {
-            "id": "8e47c3425b976339",
+            "id": "55a79a4eb17831fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.1/OOP/2. UML & use case diagram.md",
+                "file": "Backend/1_Internet/Web2. The Internet vs The Web.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e936a709c3a3f823",
+            "id": "eea590e2f9cf4e39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.1/os_principles/Chap3 - Quản lý bộ nhớ.md",
+                "file": "Books/Risk Analytics - From Concept to Deployment/Glossary.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "20e63a219fb550a7",
+            "id": "f6aa7d36fdd44c74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.1/software_intro/Chap6.1 - Kỹ nghệ yêu cầu phần mềm.md",
+                "file": "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "de718077cd342e2c",
+            "id": "8ddcb5c48454fe14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md",
+                "file": "HUST/2022.1/os_principles/Chap2.5 - Bế tắc và xử lý bế tắc.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7fa6488a8c4a4f56",
+            "id": "ca53d27b18cb4b0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.1/OOP/8. Polymorphism (Đa hình).md",
+                "file": "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3209c9b474c36092",
+            "id": "f1976dc0918bc5ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.1/software_intro/Data Flow Diagram - DFD.md",
+                "file": "HUST/2022.1/os_principles/Chap2.3 - Điều phối CPU.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25ca4b0ecde86b28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.1/computer_networking/Chap2 - Tầng vật lý.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "feb450b55dc1842d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.1/computer_networking/Chap1.4 - Kiến trúc phân tầng.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md"
+                "file": "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md"
               }
             }
           }
@@ -163,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md",
+                "file": "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,13 +204,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md",
+                "file": "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0985aeef55949f6d",
@@ -210,17 +235,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "de718077cd342e2c",
+  "active": "ca53d27b18cb4b0e",
   "lastOpenFiles": [
-    "HUST/2022.1/software_intro/Chap6.1 - Kỹ nghệ yêu cầu phần mềm.md",
-    "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md",
-    "HUST/2022.1/software_intro/Data Flow Diagram - DFD.md",
+    "HUST/2022.1/os_principles/Chap2.5 - Bế tắc và xử lý bế tắc.md",
+    "HUST/2022.1/os_principles/Chap2.4 - Tài nguyên găng và điều độ tiến trình.md",
     "HUST/2022.1/os_principles/Chap3 - Quản lý bộ nhớ.md",
+    "HUST/2022.1/os_principles/Chap2.1 - Tiến trình.md",
+    "HUST/2022.1/os_principles/Chap2.3 - Điều phối CPU.md",
     "HUST/2022.1/computer_networking/Chap3 - Tầng liên kết dữ liệu.md",
-    "HUST/2022.1/OOP/8. Polymorphism (Đa hình).md",
-    "HUST/2022.1/OOP/Java Modifiers.md",
-    "HUST/2022.1/OOP/2. UML & use case diagram.md",
-    "HUST/2022.1/computer_networking/Chap2 - Tầng vật lý.md",
-    "Backend/Overview.md"
+    "HUST/2022.1/os_principles/Chap2.2 - Luồng.md",
+    "HUST/2022.1/os_principles/Chap1 - Tổng quan.md",
+    "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md",
+    "HUST/2022.1/computer_networking/Chap2 - Tầng vật lý.md"
   ]
 }

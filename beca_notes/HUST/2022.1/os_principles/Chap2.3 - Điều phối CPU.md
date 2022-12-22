@@ -125,7 +125,7 @@
 > Mỗi TT lưu trữ thời gian của chu kỳ sử dụng CPU tiếp theo, TT có **thời gian sử dụng ngắn nhất** sẽ sở hữu CPU
 > * 2 PP:
 > 	* Không trưng dụng CPU
-> 	* Có trưng dụng CPU (***Shortest Remaining Time First***)
+> 	* Có trưng dụng CPU (***Shortest Remaining Time First*** - SRTF)
 
 ![[Pasted image 20221122052739.png]]
 

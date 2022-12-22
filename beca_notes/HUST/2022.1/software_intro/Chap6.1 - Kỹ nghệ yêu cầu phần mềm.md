@@ -26,8 +26,6 @@
 
 ^38d7d3
 
-
-
 > [!info] Đàm phán (Negotiation) 🤝
 > Đồng ý với một hệ thống có thể bàn giao một cách thực tế đối với cả 2 bên.
 
@@ -236,6 +234,29 @@
 > * Không xác định sự đồng bộ giữa các chức năng/module
 > 
 > > [!warning] Cần có buffer để ngăn chặn tình trạng mất dữ liệu
+
+> [!note] Hướng dẫn xây dựng DFD
+> * Tất cả các biểu tượng phải được gán nhãn có nghia đầy đủ
+> * Biểu đồ DFD phát triển thông qua số lượng mức các chi tiết
+> * Luôn luôn bắt đầu với một mức nội dung (level 0)
+> * Luôn luôn chỉ ra các thực thể ngoài tại mức 0
+> * Luôn luôn gán nhãn  cho hướng luồng dữ liệu
+> * Không thể hiện các thủ tục logic
+
+^eef0d4
+
+* Xem xét kịch bản người dùng để tách biệt các đối tượng dữ liệu và sử dụng một phân tích ngữ pháp để xác định "hoạt động"
+* Xác định thực thể ngoài (Các sản xuất và tiêu thụ của dữ liệu)
+* Tạo mức 0 (DFD)
+
+> [!example] Ví dụ về mức 0 DFD
+> ![[Pasted image 20221217154611.png]]
+
+> [!note]
+> * Mỗi ô tròn là đơn giá trị cho đến khi nó làm gì đó
+> * Tỷ lệ mở rộng giảm khi số lượng mức tăng
+> * Phần lớn hệ thống yêu cầu giữa 3 và 7 cấp cho một mô hình đầy đủ luồng
+> * Một mục lưu lượng dữ liệu duy nhất (mũi tên) có thể được mở rộng như cấp độ tăng (dữ liệu từ điểm cung cấp thông tin)
 
 #### Máy trạng thái - Finite State Machine
 > [!info] 
