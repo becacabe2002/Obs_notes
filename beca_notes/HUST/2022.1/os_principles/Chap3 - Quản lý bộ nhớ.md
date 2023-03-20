@@ -348,6 +348,8 @@
 > 	* ***Độ dài (Length)*** - độ dài của đoạn
 > * ***Địa chỉ truy cập*** = <`tên(số hiệu đoạn)`, `độ lệch trong đoạn`>
 
+^f33fe2
+
 > [!example] 
 > ![[Hệ Điều Hành-Chuong 3-81-88.pdf]]
 
@@ -411,12 +413,233 @@ Khi thực hiện chương trình
 > Phân phối bộ nhớ theo các đoạn bằng nhau (page)
 
 ### 2.4 Chiến lược phân trang
+> [!abstract] Nguyên tắc
+> * Chia bộ nhớ vật lý được chia thành từng khối có kích thước bằng nhau, gọi là ***frame***.
+> 	* Trang vật lý được đánh số 0,1,2 -> địa chỉ vật lý của trang
+> 	* Trang được dùng làm **đơn vị phân phối nhớ**
+> * Bộ nhớ logic (chương trình) được chia thành từng khối có kích thước bằng trang vật lý, gọi là ***page***.
+
+> [!info] Lỗi trang - Page fault
+> **Nếu trang nhớ đó chưa nằm trong bộ nhớ chính**, hiện tượng này chúng ta gọi là lỗi trang (Page fault), khối MMU sẽ báo cho hệ điều hành để hệ điều hành tiến hành nạp trang tương ứng từ bộ nhớ ngoài (ví dụ: ổ cứng) và tiến hành thực thi lại lệnh trước đó.
+
+* Khi thực hiện chương trình:
+	* Nạp trang logic từ bộ nhớ ngoài vào trang vật lý
+	* Xây dựng một ***bảng quản lý trang*** (Page Control Block - PCB) để xác định mối quan hệ giữa trang vật lý và trang logic.
+	* Mỗi phần tử của PCB ứng với một trang CT
+		* Cho biết trang vật lý chứa trang logic tương ứng.
+	* Địa chỉ truy nhập được chia thành:
+		* **Số hiệu trang - p**: chỉ số trong PCB để tìm địa chỉ cơ sở trang
+		* **Độ lệch trong trang - d**: kết hợp địa chỉ cơ sở của trang để tìm ra địa chỉ vật lý.
+
+*👉 Liên hệ tới bảng phân đoạn [[Chap3 - Quản lý bộ nhớ#^f33fe2]]*
+![[Hệ Điều Hành-Chuong 3_Reduced-105-108.pdf]]
+
+> [!note] 
+> * **Dung lượng** trang luôn là **luỹ thừa 2** ( cho phép ghép giữa số hiệu trang vật lý và độ lệch trang)
+> 	* VD: bộ nhớ n bit, kích thước trang 2^k 
+> 	![[Pasted image 20230115211834.png]]
+> * **Không cần nạp toàn bộ** trang logic vào
+> 	* Số frame phụ thuộc vào kích thước bộ nhớ, trong khi đó số page tuỳ ý
+> 	* PCB cần **Mark** để nhận biết trang đã được nạp vào bộ nhớ hay chưa
+> 		* 0 - trang chưa được lưu vào bộ nhớ vật lý
+> 		* 1 - trang đã được đưa vào 
+
+|Phân trang|Phân đoạn|
+|---|---|
+|Các modul phụ thuộc cấu trúc logic của CT|Các khối có kích thước độc lập kích thước CT </br> nhưng phụ thuộc vào phần cứng|
+
+![[Pasted image 20230115213457.png]]
+
+#### Nạp CT vào bộ nhớ
+![[Pasted image 20230115213704.png]]
+
+> [!note]
+> * Nếu đủ trang vật lý tự do -> **Nạp toàn bộ**
+> * Nếu không đủ trang vật lý tự do -> **Nạp từng phần**
+
+#### Truy nhập bộ nhớ
+
+![[Pasted image 20230115213846.png]]
+* Nạp CT:
+	* Xây dựng bảng quản lý trang và luôn giữ trong bộ nhớ
+		* **Page-table base register - PTBR** trỏ tới PCB
+		* **Page-table length register - PTLR** kích thước PCB
+* Thực hiện truy nhập
+	* Địa chỉ truy nhập được chia thành dạng <p,d>
+	* $PTBR + p * K$ = địa chỉ phần tử p của PCB trong bộ nhớ (K là kích thước 1 phần tử của PCB)
+* Kiểm tra Mp (Mark of p):
+	* Mp = 0 -> Lỗi trang, sinh ra ngắt để tiến hành nạp trang
+		* Xin trang vật lý tự do
+		* Tìm kiếm trang logic ở bộ nhớ ngoài và nạp trang
+		* Sửa lại trường địa chỉ A (address) và dấu hiệu M
+	* Mp = 1 -> trang đã tồn tại
+		* Lấy Ap  ghép với d ra địa chỉ cần tìm
+
+#### Nạp trang và thay thế trang
+> [!warning] 
+> * TH số trang vật lý dành cho CT lớn
+> 	* Thực hiện nhanh, nhưng hệ số song song giảm
+> * TH số trang vật lý dành cho CT bé
+> 	* Hệ số song song cao nhưng thực hiện chậm do hay thiếu trang
+> 
+> **=> Hiệu quả phụ thuộc nhiều vào các chiến lược nạp trang và thay thế trang**
+
+* Các chiến lược nạp trang:
+	* **Nạp tất cả** - nạp toàn bộ CT
+	* **Nạp trước** - dự báo trang cần thiết tiếp theo
+	* **Nạp theo yêu cầu** - chỉ nạp khi cần thiết
+
+* Các chiến lược thay thế trang:
+	* FIFO
+	* LRU - Least Recently Used
+	* LFU - Least Frequently Used
+
+> [!check] Ưu điểm của chiến lược phân trang
+> * Tăng tốc độ truy nhập 
+> * Không tồn tại hiện tượng phân đoạn ngoài
+> * Hệ số song song cao
+> * Dễ dàng thực hiện nhiệm vụ bảo vệ
+> * Cho phép sử dụng chung trang
+
+> [!note] Dùng chung trang - Soạn thảo văn bản 
+> ![[Pasted image 20230115232705.png]]
+> * Cần thiết trong môi trường hoạt động có sự chia sẻ -> giảm kích thước vùng nhớ cho tất cả các tiến trình
+> * Phần mã dùng chung:
+> 	* Chỉ có 1 phiên bản chia sẻ giữa các TT trong bộ nhớ
+> 	* Vấn đề nảy sinh: mã dùng chung ko đổi -> Trang dùng chung phải cùng vị trí trong không gian logic của tất cả các TT -> Cùng số hiệu trong bảng quản lý trang
+> * Phần mã và dữ liệu riêng biệt cho các TT có thể nằm ở bất cứ đầu trong bộ nhớ logic của TT
+
+> [!failure] Nhược điểm của chiến lược phân trang
+> * Tồn tại hiện tượng phân đoạn trong
+> 	* Luôn xuất hiện ở trang cuối 
+> 	* Có thể giảm kích thước trang để giảm hiện tượng phân đoạn ?
+> 		* Ko vì sẽ tăng khả năng gặp lỗi trang
+> 		* Và làm tăng kích thước của bảng quản lý trang
+> * Đòi hỏi hỗ trợ của phần cứng (chi phí lớn)
+> * Khi CT lớn, PCB có nhiều phần tử -> tốn bộ nhớ lưu trữ PCB
+> 
+> ✅Solution : Dùng ***Trang nhiều mức***
+
+> [!info] Trang nhiều mức
+> Bảng quản lý được phân trang
+> ![[Hệ Điều Hành-Chuong 3_Reduced-122-126.pdf]]
 
 ### 2.5 Chiến lược kết hợp phân đoạn - phân trạng
+> [!abstract] Nguyên tắc
+> * CT được biên tập theo chế độ **phân đoạn**
+> 	* Tạo ra bảng quản lý đoạn SCB
+> 	* Mõi phần tử của bảng quản lý đoạn ứng với 1 đoạn (<M,A,L>)
+> * Mỗi đoạn được biên tập riêng theo chế độ **phân trang**
+> 	* Tạo ra bảng quản lý trang cho từng đoạn
+> * Địa chỉ truy nhập: **<s,p,d>**
+> * Thực hiện truy nhập địa chỉ:
+> 	* $STBR + s = As$ - địa chỉ phần tử s
+> 	* Kiểm tra Ms, nạp PCBs nếu cần
+> 	* $As + p = Ap$ - Địa chỉ phần tử p của PCBs
+> 	* Kiểm tra Mp, nạp trang p nếu cần
+> 	* Ghép Ap với d ra được địa chỉ cần tìm 
+
+![[Pasted image 20230115234403.png]]
+
+![[Pasted image 20230115234521.png]]
 
 ## 3. Bộ nhớ ảo
 ### 3.1 Giới thiệu
+> [!question] Vì sao cần tới bộ nhớ ảo?
+> ![[Pasted image 20230115234942.png]]
+> * CT trong 1 không gian địa chỉ ảo có thể lớn tuỳ ý
+> * Có thể có nhiều CT cùng tồn tại -> Tăng hiệu suất sử dụng CPU
+> * Giảm yêu cầu vào/ra cho việc nạp và hoán đổi CT -> kích thước swap nhỏ hơn
+
+![[Pasted image 20230115234956.png]]
+
+> [!info]
+> * Dùng bộ nhớ thứ cấp (HardDisk) lưu trữ phần CT chưa đưa vào bộ nhớ vật lý
+> * Phân tách bộ nhớ logic của người dùng với bộ nhớ vật lý
+> * VM ánh xạ địa chỉ trong CT tới địa chỉ vật lý
+> * Cho phép thẻ ánh xạ vùng nhớ logic lớn vào bộ nhớ vật lý nhỏ
+> * Cài đặt theo:
+> 	* Phân trang
+> 	* Phân đoạn
+> 
+> ![[Pasted image 20230115235331.png]]
+
+* Nạp từng phần của trang CT vào bộ nhớ
+	* Trang của TT có thể nằm trên bộ nhớ vật lý cũng như nằm trên bộ nhớ ảo
+	* Biểu diễn nhờ 1 bit trong bảng quản lý trang (page table)
+	* Khi yêu cầu trang, trang sẽ được đưa từ bộ nhớ thứ cấp (bộ nhớ ảo) -> bộ nhớ vật lý (RAM)
+	[[Pasted image 20230115235639.png]]
+
+* Xử lý lỗi trang:
+	* Tiến hành đổi trang khi không có frames tự do
+	[[Pasted image 20230115235830.png]]
+
+> [!note] Đổi trang
+> 1. Xác định vị trí trang logic trên đĩa
+> 2. Lựa chọn trang vật lý
+> 	* Ghi ra đĩa
+> 	* Sửa lại bit valid - invalid trong page table
+> 3. Nạp trang logic vào trang vật lý được chọn
+> 4. Restart TT
+> ![[Pasted image 20230116000137.png]]
+
 ### 3.2 Các chiến lược đổi trang
+> [!note] FIFO - First In First Out
+> ![[Pasted image 20230116000300.png]]
+> 
+> > **Đưa ra trang theo thứ tự vào, trang vào sớm nhất ra đầu tiên**
+> 
+> * Hiệu quả chỉ khi CT có cấu trúc tuyến tính
+> * Kém hiệu quả khi CT theo nguyên tắc lập trình cấu trúc
+> * Đơn giản, dễ thực hiện
+> * Tăng trang vật lý, không đảm bảo giảm số lần gặp lỗi trang
+
+> [!note] OPT/MIN - Thuật toán thay thế trang tối ưu
+> ![[Pasted image 20230116000839.png]]
+> > **Đưa ra trang có lần sử dụng tiếp theo cách xa nhất**
+> 
+> * Số lần gặp lỗi trang ít nhất
+> * Khó dự báo được diễn biễn của CT
+
+> [!note] LRU - Least Recently Used
+> ![[Pasted image 20230116001124.png]]
+> 
+> > Đưa ra trang có lần sử dụng cuối cách xa nhất
+> 
+> * Hiệu quả cho chiến lược thay trang
+> * Đảm bảo giảm số lỗi trang khi tăng số trang vật lý
+> 	* Tập các trang trong bộ nhớ có n frames luôn là tập con của các trang trong bộ nhớ có n+1 frames
+> * Yêu cầu sự trợ giúp kỹ thuật để chỉ ra thời điểm truy cập cuối
+
+* Cài đặt LRU:
+	* Dùng dãy số ghi trang
+		* Truy cập tới 1 trang, cho phần tử tương ứng lên đầu
+		* Thay thế trang, cho phân tử xuống cuối dãy
+		* Thường cài đặt dưới dạng Double Linked-List (tuy vậy tốn thời gian trong việc gán con trỏ)
+	* Bộ đếm
+		* Thêm 1 trường ghi thời điểm truy nhập vào mỗi phần tử của PCB
+		* Thêm vào khối điều khiển (C.U) đồng hồ/bộ đếm
+		* Khi có yêu cầu truy nhập trang
+			* Tăng bộ đếm
+			* Chép nội dung bộ đếm vào trường thời điểm truy nhập tại phần tử tương ứng trong PCB
+		* Cần có thủ tục cập nhật PCB (ghi vào trường thời điểm) và thủ tục tìm kiếm trang có giá trị trường thời điểm nhỏ nhất
+		* Hiện tượng tràn số !?
+
+#### Các thuật toán dựa trên bộ đếm
+* Sử dụng bộ đếm (1 trường của PCB) ghi nhận số lần truy nhập tới trang
+
+> [!note] LFU - Least Frequently Used
+> > Trang có bộ đếm nhỏ nhất bị thay thế
+> 
+> * Trang được truy nhập nhiều đến -> là trang quan trọng -> hợp lý
+> * Trang được dùng nhiều, nhưng chỉ ở giai đoạn đầu (trang mới tạo) -> cần dịch bộ đếm 1 bit theo thời gian
+
+
+> [!note] MFU - Most Frequently Used
+> > Trang có bộ đếm lớn nhất bị thay thế
+> 
+> * Trang có bộ đếm nhỏ nhất có thể là trang vừa được nạp vào và chưa được sử dụng nhiều
+> -> có thể cần sử dụng trong tương lai
 
 ## 4. Quản lý bộ nhớ trong VXL họ intel
 

@@ -139,6 +139,7 @@
 > Gắn mỗi TT với **1 số hiệu ưu tiên** (Int)
 > * CPU được phân phối cho TT  có **độ ưu tiên cao nhất**
 > * SJF: độ ưu tiên gắn liền với tgian thực hiện
+> 
 > 2 PP:
 > * Trưng dụng CPU
 > * Không trưng dụng CPU

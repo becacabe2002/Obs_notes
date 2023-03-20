@@ -1,14 +1,14 @@
 [Backend Developer Roadmap: Learn to become a modern backend developer](https://roadmap.sh/backend)
 ## 1. Internet
-* [ ] [[Web1. The HTTP and the Web]]
-* [ ] [[Web2. The Internet vs The Web]]
-* [ ] [[Web3. Web pages, Websites and Web Apps]]
-* [ ] [[Web4. URIs, URLs and URNs]]
-* [ ] [[Web5. The Client Server Model]]
-* [ ] [[Web6. Web Services]]
-* [ ] [[Web7. APIs, REST and REST APIs]]
-* [ ] [[Web8. What is DNS and How it works]]
-* [ ] [[Web9. What is Caching and How it work]]
+* [[Web1. The HTTP and the Web]]
+* [[Web2. The Internet vs The Web]]
+* [[Web3. Web pages, Websites and Web Apps]]
+* [[Web4. URIs, URLs and URNs]]
+* [[Web5. The Client Server Model]]
+* [[Web6. Web Services]]
+* [[Web7. APIs, REST and REST APIs]]
+* [[Web8. What is DNS and How it works]]
+* [[Web9. What is Caching and How it work]]
 * [ ] [[Web10. What is a Proxy Server and How it works]]
 
 ## 2. Basic Frontend Knowledge

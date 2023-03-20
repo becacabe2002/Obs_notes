@@ -4,107 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "e4d9d509cd96a96c",
+        "id": "a6a79d0046e6493c",
         "type": "tabs",
         "children": [
           {
-            "id": "55a79a4eb17831fd",
+            "id": "7a62d429ddedd754",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/1_Internet/Web2. The Internet vs The Web.md",
+                "file": "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eea590e2f9cf4e39",
+            "id": "0255b7e075cff3c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Risk Analytics - From Concept to Deployment/Glossary.md",
+                "file": "Các nguồn năng lượng tái tạo.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f6aa7d36fdd44c74",
+            "id": "752349eb533760e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md",
+                "file": "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8ddcb5c48454fe14",
+            "id": "c25a6b090f403e32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.1/os_principles/Chap2.5 - Bế tắc và xử lý bế tắc.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca53d27b18cb4b0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1976dc0918bc5ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2022.1/os_principles/Chap2.3 - Điều phối CPU.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25ca4b0ecde86b28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2022.1/computer_networking/Chap2 - Tầng vật lý.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "feb450b55dc1842d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2022.1/computer_networking/Chap1.4 - Kiến trúc phân tầng.md",
+                "file": "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +86,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -162,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md"
+                "file": "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md"
               }
             }
           }
@@ -170,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 265.5110321044922
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -187,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md",
+                "file": "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md",
+                "file": "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,17 +186,67 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ca53d27b18cb4b0e",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "c25a6b090f403e32",
   "lastOpenFiles": [
-    "HUST/2022.1/os_principles/Chap2.5 - Bế tắc và xử lý bế tắc.md",
-    "HUST/2022.1/os_principles/Chap2.4 - Tài nguyên găng và điều độ tiến trình.md",
-    "HUST/2022.1/os_principles/Chap3 - Quản lý bộ nhớ.md",
-    "HUST/2022.1/os_principles/Chap2.1 - Tiến trình.md",
-    "HUST/2022.1/os_principles/Chap2.3 - Điều phối CPU.md",
-    "HUST/2022.1/computer_networking/Chap3 - Tầng liên kết dữ liệu.md",
-    "HUST/2022.1/os_principles/Chap2.2 - Luồng.md",
-    "HUST/2022.1/os_principles/Chap1 - Tổng quan.md",
-    "HUST/2022.1/computer_networking/Chap4 - Tầng liên mạng.md",
-    "HUST/2022.1/computer_networking/Chap2 - Tầng vật lý.md"
+    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Untitled.md",
+    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
+    "Các nguồn năng lượng tái tạo.md",
+    "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
+    "Interview/OOP/OOP Core Concepts.md",
+    "HUST/2022.1/OOP/3. Abstraction & Encapsulation.md",
+    "HUST/2022.2/Các hệ thống phân tán và ứng dụng",
+    "HUST/2022.2/XSTK",
+    "HUST/2022.2/Untitled.md",
+    "HUST/2022.2",
+    "HUST/2022.1/OOP/4. Some techniques in class building.md",
+    "HUST/2022.1/OOP/2. UML & use case diagram.md",
+    "HUST/2022.1/OOP/1. Intro.md",
+    "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md",
+    "HUST/2022.1/software_intro/Chap7.1 - Thiết kế phần mềm.md",
+    "HUST/2022.1/software_intro/Chap6.1 - Kỹ nghệ yêu cầu phần mềm.md",
+    "HUST/2022.1/software_intro/Chap5 - Quản lý cấu hình phần mềm.md",
+    "HUST/2022.1/software_intro/Chap4 - Quản lý dự án.md",
+    "HUST/2022.1/software_intro/Chap3 - Phương pháp Agile.md",
+    "HUST/2022.1/software_intro/Chap2 - Vòng đời phần mềm.md",
+    "HUST/2022.1/software_intro/Chap1 - Tổng quan về Công nghệ phần mềm.md",
+    "HUST/2022.1/software_intro/Chap7.2 - Thiết kế giao diện người dùng.md",
+    "HUST/2022.1/software_intro/Chap8 - Xây dựng phần mềm.md",
+    "HUST/2022.1/software_intro/Chap9 - Đảm bảo chất lượng phần mềm.md",
+    "HUST/2022.1/software_intro/Data Flow Diagram - DFD.md",
+    "HUST/2022.1/software_intro/Usecase Model and Usecase Diagram.md",
+    "HUST/2022.1/software_intro/UML Activity Diagram.md",
+    "HUST/2022.1/OOP/11. Nested Class.md",
+    "HUST/2022.1/OOP/12. Class Diagram.md",
+    "Interview/OOP",
+    "Interview",
+    "attachements/Pasted image 20221226230542.png",
+    "Công Nghệ Phần Mềm.canvas",
+    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230309172812.png",
+    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230309162823.png",
+    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230309002209.png",
+    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230309000515.png",
+    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230309000313.png",
+    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230308235921.png",
+    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230308230724.png",
+    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230308230139.png",
+    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230308230103.png",
+    "IBM DA/C1 - Intro to DA/W1/attachements",
+    "IBM DA/C1 - Intro to DA/W1",
+    "IBM DA/C1 - Intro to DA/attachements",
+    "IBM DA/C1 - Intro to DA",
+    "IBM DA",
+    "Untitled.canvas"
   ]
 }

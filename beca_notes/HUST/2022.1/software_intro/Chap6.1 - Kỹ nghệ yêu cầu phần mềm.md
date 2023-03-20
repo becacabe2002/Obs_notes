@@ -37,7 +37,7 @@
 > * Một tập các use-case
 > * Một prototype
 > 
-
+ 
 * Nhưng sẽ có thể có những thiếu sót trong quá trình đặc tả, vậy nên cần có sự đánh giá.
 
 > [!info] Đánh giá (Validation)

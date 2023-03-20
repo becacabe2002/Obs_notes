@@ -135,18 +135,18 @@
 ### Thự mục SCM (SCM Directory)
 ![[Pasted image 20221121112328.png]]
 
-> [!note]- Programmer's Directory
+> [!note] Programmer's Directory
 > * IEEE: Dynamic Library
 > * Chứa các thực thể của pm mới được tạo hoặc sửa đổi
 > * Không gian làm việc của lập trình viên chỉ do ltv kiểm soát
 
->[!note]- Master Directory
+>[!note] Master Directory
 >* IEEE: Controlled Library
 >* Quản lý, kiểm soát các thay đổi với baselines
 >* Mục nhập được kiểm soát, thường sau khi xác minh
 >* Các thay đổi phải được cho phép
 
-> [!note]- Software Repository
+> [!note] Software Repository
 > * IEEE: Static Library
 > * Lưu trữ các baseline khác nhau được phát hành để sử dụng chung
 > * Cung cấp bản sao baseline cho các tổ chức yêu cầu.
@@ -283,5 +283,78 @@
 
 ### 3.3 Đánh số phiên bản
 
+> [!note] Định danh/đánh số phiên bản
+> * Một trong những hoạt động nền tảng của quản lý cấu hình
+> * Bao gồm:
+> 	* Mô tả tên
+> 	* Đánh số
+> 	* Đánh dấu đặc trưng
+> 
+> -> Để xác định tính duy nhất của một CI, cũng như mối quan hệ của nó với các CI khác.
+
+* Một số phương pháp gán số hiệu phiên bản được dùng phổ biến
+	* Sequence-based identifiers
+	* Stage-based identifiers
+
+#### Sequence-based identifiers
+> Sử dụng các con số (có thể kết hợp cùng các chữ cái) để gán số hiệu cho các phiên bản
+
+**Công thức đánh số hiệu phiên bản:**
+```shell
+major.minor.[build[.revision]]
+major.minor.[maintenance[.build]]
+```
+* `major` - chuỗi phiên bản chính
+* `minor` - chuỗi phiên bản phụ
+* `build` - chuỗi phiên bản cấu tạo (sự khác nhau trong cùng 1 phiên bản phụ)
+* `revision` - lần sửa đổi, đánh dấu lần sửa đổi của mã nguồn
+
+![[Pasted image 20230307004309.png]]
+
+#### Stage-based identifiers
+
+```start-multi-column
+ID: ID_rpt6
+Number of Columns: 2
+Largest Column: standard
+border: off
+```
+
+Dựa trên mức độ ổn định của sản phẩm:
+* **Closebeta** - phiên bản thử nghiệm hạn chế
+* **Openbeta** - phiên bản thử nghiệm diện rộng
+* **Release Candidate** - phiên bản ứng viên
+* **Official Version** - phiên bản chính thức
+
+--- column-end ---
+
+![[Pasted image 20230307004523.png]]
+
+=== end-multi-column
+
 ## 4. Quản lý thay đổi
-![[CNPM05 - Quan ly cau hinh PM-55-67.pdf]]
+
+> [!note]
+> Đảm bảo sự phát triển của hệ thống là một quá trình được quản lý và ưu tiên dành cho những thay đổi cấp bách nhất và tiết kiệm chi phí.
+> * Phân tích chi phí và lợi ích của những thay đổi dược đề xuất
+> * Phê duyệt những thay đổi đáng giá
+> * Theo dõi những thành phần hệ thống đã được thay đổi
+
+* Mức độ phức tạp của quy trình quản lý thay đổi dựa trên sự thay đổi của dự án.
+	* Dự án nhỏ ->  có thể thực hiện các yêu cầu một cách không chính thức và nhanh chóng
+	* Dự án lớn -> thay đổi chi tiết, yêu cầu sự chấp thuận của người quản lý khác.
+
+```mermaid
+graph TD
+	o1[Nhu cầu thay đổi được công nhận] --> o2[Thay đổi yêu cầu từ người dùng]
+	o2 --> o3[Đánh giá từ nhà phát triển]
+	o3 --> o4[Báo cáo thay đổi được tạo ra]
+	o4 --> o5[Quyền kiểm soát thay đổi quyết định]
+	o5 --> o6[Yêu cầu được xếp hàng đợi để hành động]
+	o5 --> o6_1[Yêu cầu được thay đổi bị từ chối</br>Thông báo cho người dùng]
+	o6 --> o7[Phân công người SCI]
+	o7 --> o8[Kiểm tra SCI] --> o9[Tạo sự thay đổi] --> o10[Xem/Chỉnh sửa thay đổi]
+	o10 --> o11[Thiết lập một cơ sở </br> để kiểm thử] --> o12[Thực hiện các hoạt động SQA và thử nghiệm]
+	o12 --> o13[Kiểm tra thay đổi trong SCIS] --> o14[Thúc đẩy SCI để đưa vào</br>phiên bản tiếp theo]
+	o14 --> o15[Xây dựng lại phiên bản phù hợp] --> o16[Xem/Chỉnh sửa thay đổi] --> o17[Bao gồm tất cả các thay đổi trong phiên]
+```

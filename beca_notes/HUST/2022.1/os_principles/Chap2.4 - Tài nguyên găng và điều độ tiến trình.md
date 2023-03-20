@@ -185,7 +185,7 @@ signal(mutex)
 	* Hai tiến trình $P_1$ và $P_2$ thực hiện đồng thời
 		* $P_1$ chứa lệnh $S_1$, $P_2$ chứa lệnh $S_2$
 		* Yêu cầu $S_2$ được thực hiện chỉ khi $S_1$ thực hiện xong.
-	* Sử dụng đền báo `synch` được khởi tạo giá trị 0
+	* Sử dụng đèn báo `synch` được khởi tạo giá trị 0
 	* Đoạn mã cho P_1 và P_2
 ![[Pasted image 20221117131101.png]]
 

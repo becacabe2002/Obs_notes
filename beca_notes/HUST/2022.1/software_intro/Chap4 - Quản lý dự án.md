@@ -34,7 +34,7 @@
 	* Cân bằng: tgian -- chi phí -- sản phẩm
 
 ```mermaid
-graph LR
+graph TD
 	subgraph Các yếu tố
 		ob1((Giá thành)) --> ob2((Thời gian)) -->ob3((Chất lượng)) -->ob1
 	 end
@@ -172,7 +172,42 @@ graph TD
 
 #### Các pha quản lý dự án
 
-![[CNPM04 - Quan ly du an PM-28-33.pdf]]
+* Một dự án sẽ có quá trình thực thi phức tạp, với nhiều giai đoạn và quá trình
+
+* Bên thực hiện sẽ phải tuân thủ tuyệt đối vòng đời nghiệp vụ, từ việc định nghĩa, chứng minh tính khả thi, cho đến khi phân bổ lợi ích cho doanh nghiệp.
+
+* Các kĩ năng quản lý dự án là rất cần thiết từ ban đầu: 
+	* Hiểu biết rõ về các quy trình của dự án
+	* Ước tính đáng tin cậy
+	* Lập, xem xét kế hoạch dự án một cách cẩn thận
+
+* Các lĩnh vực và quy trình bổ trợ làm giúp đảm bảo lòng tin rằng dự án sẽ tạo ra một kết quả có giá trị.
+
+![[Pasted image 20230306163605.png]]
+
+> [!note] Pha *Định Nghĩ và thiết kế dự án*
+> Khái niệm, mục tiêu, cách tiếp cận và cách biện minh rằng một dự án đã được định nghĩa đúng, được đồng ý và được truyền đạt đúng.
+
+> [!note] Pha *Lập kế hoạch quản lý*
+> * Sơ lược kế hoạch quản lý tổng thể, trong đó xác định, lập dự toán và thời gian thực hiện cho các tài nguyên có sẵn, mua lại hay hợp đồng con
+> * Đánh giá lại nghiệp vụ để đảm bảo là các giả định và biện minh ban đầu vẫn đúng
+> * Xác định chi tiết và chủ định thực hiện các tiến trình quản lý.
+
+* Mỗi dự án có thể trải qua nhiều giai đoạn, mỗi giai đoạn có mục tiêu và kết quả cần đạt khác nhau.
+
+* Các giai đoạn thường yêu cầu các kỹ năng, cấu trúc và mức độ tài nguyên khác nhau, việc lập kế hoạch, ước lượng chi phí và phân bổ TN cho từng giai đoạn là bình thường.
+
+> [!note] Pha *Kết thúc dự án*
+> * Lợi ích theo kế hoạch sẽ được đánh giá và theo dõi trong suốt dự án.
+> * Tối ưu hoá lợi ích là một trong số các mục tiêu chính của người quản lý dự án.
+> * Chuyển giao công việc, quy trình, kết quả cần đạt cho các bộ phận chuyên ngành
+> * Nộp hồ sơ, tài liệu đúng hạn, đầy đủ chi tiết về hoạt động cũng như quá trình kiểm tra giám sát dự án, đây là cơ sở để bảo trì và phát triển dự án trong tương lai.
+> * Giải phóng nhân lực, thiết bị và phương tiện.
+
+> [!tip] Rà xét việc thực hiện dự án
+> * Đánh giá mức độ thành công của dự án.
+> * Xác định các mục tiêu cần cải tiến.
+> * Rút ra bài học kinh nghiệm.
 
 ### 2b. Ước lượng dự án
 #### Định nghĩa
@@ -270,19 +305,21 @@ Dự đoán dựa trên ...
 ![[Pasted image 20221107161700.png]]
 
 ### 2d. Quản lý rủi ro dự án
+
+> [!info] Rủi ro
 > - Những sự kiện có thể làm phá vỡ một dự án
 > - Những điều không chắc chắn, những khoản nợ hay những điểm yếu có thể làm cho dự án không đi theo đúng kế hoạch đã định.
 
-**Tại sao cần quản lí rủi ro**
-- Tất cả các dự án đều phụ thuộc vào rủi ro
+> [!question] Tại sao cần quản lí rủi ro
+> - Tất cả các dự án đều phụ thuộc vào rủi ro
+> - Tiến trình sẽ không đúng theo kế hoạch trong một số giai đoạn của dự án.
 
-- Tiến trình sẽ không đúng theo kế hoạch trong một số giai đoạn của dự án.
+> [!check] Lợi ích của quản lí rủi ro:
+> * giảm thiểu thiệt hại/ảnh hưởng của các sự cố không biết trước cho dự án
+> * Nâng cao xác suất thực hiện thành công dự án
+> * Tạo ra ý thức kiểm soát
+> * Giải pháp kịp thời.
 
-**Lợi ích của quản lí rủi ro**:
-* giảm thiểu thiệt hại/ảnh hưởng
-* Nâng cap xác suất thành công
-* Ý thức kiểm soát
-* Giải pháp kịp thời.
 
 ![[20221107_162157.jpg]]
 
@@ -325,6 +362,47 @@ Dự đoán dựa trên ...
 ![[Pasted image 20221107163532.png]]
 
 #### Dự phòng rủi ro
-![[CNPM04 - Quan ly du an PM-55-62.pdf]]
+
+> [!info] Phép chiếu rủi ro (Ước lượng rủi ro)
+> Đánh giá bằng hai cách:
+> * Khả năng hoặc xác suất rằng rủi ro xảy ra
+> * Hậu quả có thể xảy ra của các vấn đề liên quan với rủi ro
+
+> [!note] 4 bước dự phòng rủi ro
+> 1. Thiết lập phạm vi phản ánh khả năng của một rủi ro mà ta nhận thấy được
+> 2. Vạch ra các hậu quả của rủi ro.
+> 3. Ước tính tác động của rủi ro lên dự án và sản phẩm
+> 4. Ghi nhớ về tính chính xác toàn bộ của dự phòng rủi ro để không có hiểu lầm xảy ra.
+
+#### Xây dựng bảng rủi ro
+![[Pasted image 20230306175526.png]]
+* *Tác động* của dự án trên thang điểm từ 1 - 5:
+	* 1 = ít ảnh hưởng đến thành công của dự án
+	* 5 = tác động thảm khốc đến thành công của dự án
+* Sắp xếp bảng theo xác suất và tác động
+
+* Mức độ rủi ro tổng cộng (Risk Exposure - RE) được xác định bằng công thức:
+$$
+RE = P * C
+$$
+	- P là xác suất xảy ra đối với 1 rủi ro
+	- C là chi phí cho dự án nếu rủi ro xảy ra
+
+> [!example] Ví dụ
+
+![[Pasted image 20230306222529.png]]
+
+#### Giảm nhẹ rủi ro, giám sát, quản lý
+> [!question] Làm thế nào để ngăn ngừa rủi ro?
+
+> [!question] Những yếu tố có thể theo dõi, cho xác định khả năng của rủi ro tăng lên hay giảm xuống?
+
+> [!question] Những kế hoạch dự phòng gì cho trường hợp rủi ro trở thành hiện thực?
+
+#### Quy trình quản lý rủi ro
+Giảm thiểu tối đa ảnh hưởng của những sự cố không biết trước cho dự án bằng cách xác định và đưa ra những giải pháp tình huống trước khi có những hậu quả xấu xảy ra.
+
+![[Pasted image 20230306224144.png]]
+
 
 ![[20221107_164219.jpg]]

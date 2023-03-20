@@ -1,4 +1,4 @@
-## 1️⃣ Hệ thống/phần mềm
+ ## 1️⃣ Hệ thống/phần mềm
 Ví dụ với Hệ thống kinh doanh:
 * Phần cứng, hệ thống mạng, tài liệu
 * Phần mềm:
@@ -136,10 +136,21 @@ graph LR
 >Quy trình phát triển phần mềm gia tăng, tăng dần từng bước với chu kì phát triển ngắn (60-90 ngày)
 
 *Phân biệt với pp [[Chap3 - Phương pháp Agile#Phương pháp Agile:]]*
-*RAD is primarily **focused on prototypes** while agile is mostly focused on **breaking down the project into features** which are then delivered in various sprints over the development cycle.*
+> [!quote] *RAD is primarily **focused on prototypes** while agile is mostly focused on **breaking down the project into features** which are then delivered in various sprints over the development cycle.*
 
 * Xây dựng dựa trên **hướng thành phần** (Component-based construction) với khả năng **tái sử dụng** (reuse).
 
 * Gồm 1 số nhóm, mỗi nhóm là 1 RAD theo các pha:
 
 ![[Chap2_RAD_model.png]]
+
+### Tổng quan các mô hình
+
+| |Đặc điểm chính|Ưu điểm|Nhược điểm|Tình huống áp dụng|
+|:---:|:---|:---|:---|:---|
+|Mô hình</br>Thác nước (Waterfall)|Gồm 6 giai đoạn chính cố định </br>+ Require Analysis</br>+ System Design </br>+ Coding</br>+ Testing</br>+ Implementing</br>+ Maintenance|<br>+ Đơn giản, dễ sử dụng</br>+ Dễ quãn lý do tiến hành tuần tự từng bước</br>+ Các bước rõ ràng, hoàn thành cùng thời điểm|- Độ linh hoạt không cao </br>(Khi có sai sót sẽ khiến toàn bộ quy trình phải dừng)</br>- Khó có sản phẩm mẫu sớm </br>- Rủi ro cao và ít chắc chắn|Cho những dự án có độ phức tạp thấp, thời gian ngắn|
+|Mô hình</br>Chế thử (Prototype)|- Mô hình lặp lại 3 bước sau nhằm liên tục làm rõ, hoàn thiện sản phẩm: </br>+ Nghe khách hàng trình bày</br>+ Tạo/sửa bản mẫu</br>+ Khách kiểm tra bản mẫu|+ Đơn giản, dễ áp dụng </br>+ Độ linh động cao, có sai sót sẽ sửa được luôn</br>+ Tồn tại các phiên bản phần mềm</br>-> Quản lý dễ dàng dự hoàn thiện của sản phẩm|- Mất thời gian vì phải trao đổi và sửa chữa liên tục</br>- Không phải lúc nào cũng dễ dàng đạt được thoả thuận giữa hai bên|+ Khi chưa rõ chi tiết đầu vào/yêu cầu xử lý/yêu cầu đầu ra </br>+ Cần định nghĩa các yêu cầu rõ ràng hơn|
+|Mô hình</br>Gia tăng (Incremental)|- Chu trình lớn sẽ chia nhỏ thành từng bản khác nhau, tương ứng với những chu kì nhỏ: </br>+ Mỗi chu kỳ nhỏ (module) sẽ do nhóm nghiệp vụ đảm nhiệm</br>+ Phầm mềm sẽ được gia tăng. hoàn thiện dần theo từng bước|+ Sớm tạo ra nguyên mẫu</br>+ Độ linh hoạt cao vì đã chia nhỏ thành nhiều module</br>+ Giảm chi phí kiếm tra và ra sản phẩm</br>+ Rủi ro phát sinh dễ được kiểm soát hơn|- Cần nguồn nhân lực đồi dài và chi phí khá tốn kém vì mỗi nhóm đảm nhiệm một module riêng</br>- Việc chia module một cách hợp lí là không dễ dàng</br>- Khó modulize với các vấn đề phức tạp|+ Áp dụng với những dự án rõ ràng, đầy đủ</br>(Các yêu cầu được định nghĩa rõ ràng)</br>+ Cần nguyên mẫu sớm</br>+ Nhân lực và chi phí luôn sẵn sầng để thực hiện dự án.</br>+ Tồn tại những module có tỉ lệ lỗi cao|
+|Mô hình</br>Xoắn ốc (Spiral)|Phụ thuộc vào sự thoả hiệp của người phát triển và khách hàng.</br>Chú trọng vào quản lý rủi ro của dự án.</br> Gồm 6 giai đoạn được lặp lại để hoàn thiện sp:</br>+ Giao tiếp khách hàng</br>+ Lập kế hoạch</br>+ Phân tích rủi ro</br>+ Thực thi kỹ thuật</br>+ Xây dựng và sản xuất</br>+ Đánh giá của khách hàng|+ Rủi ro được kiểm soát tốt</br>+ Luôn nhận được phản hồi từ khách hàng (giúp làm hài lòng)</br>+ Kiểm soát tài liệu, phê duyệt chặt chẽ</br>+ Ước lượng chi phí trong từng giai đoạn đơn giản hơn|- Lãng phí nếu áp dụng vào dự án nhỏ</br>- Có thể kéo dài vô hạn do tính xoắn ốc</br>- Tồn tại nhiều giai đoạn trung gian trong quá trình hoàn thiện</br>- Sự phức tạp trong khâu phân tích rủi ro|+ ứng dụng tốt trong các dự án lớn và quan trọng</br>+ Những dự án phần mềm tiềm ẩn nhiều rủi ro</br>+ Khách hàng có yêu cầu sản phẩm liên tục được kiểm định và phê duyệt|
+|Mô hình</br>Mô hình dựa thành phần|- Gắn với những công nghệ hướng đối tượng qua việc tạo các lớp có chứa cả dữ liệu và giải thuật xử lý dữ liệu</br>Tương tự như mô hình xoắn ốc (6 giai đoạn):</br>+ Xác định thành phần ứng viên</br>+ Tìm thành phần từ thư viện</br>+ Lấy thành phần nếu có</br>+ Xây dựng thành phần nếu không có</br>+ Đặt thành phần vào thư viện</br>+ Xây dựng bước lặp thứ n của hệ thống|+ Rủi ro được kiểm soát tốt</br>+ Luôn nhận được phản hồi từ khách hàng giúp làm hài lòng khách hàng</br>+ Kiểm soát tài liệu, phê duyệt chặt chẽ</br>+ Ước lượng chi phí cho từng giai đoạn đơn giản hơn|- Lãng phí nếu áp dụng với dự án nhỏ</br>- Có thể kéo dài vô tận (tương tự Spiral)</br>- Tồn tại nhiều giai đoạn trung gian trong quá trình hoàn thiện</br>- Phân tích rủi ro rất quan trọng và khó khăn trong việc phân tích đúng|+ ứng dụng tốt trong các dự án lớn và quan trọng</br>+ Những dự án phần mềm tiềm ẩn nhiều rủi ro</br>+ Những dự án chuẩn công nghiệp với thời gian yêu cầu ngắn|
+
