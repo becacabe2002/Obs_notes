@@ -3,5 +3,6 @@
   "obsidian-kanban",
   "obsidian-admonition",
   "obsidian-latex-environments",
-  "multi-column-markdown"
+  "multi-column-markdown",
+  "obsidian-tikzjax"
 ]

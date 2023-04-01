@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "a6a79d0046e6493c",
+        "id": "61971d51f280d237",
         "type": "tabs",
         "children": [
           {
-            "id": "7a62d429ddedd754",
+            "id": "a557501c5dae5969",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0942e592a65b319b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,43 +32,19 @@
             }
           },
           {
-            "id": "0255b7e075cff3c1",
+            "id": "8a70d5f931361d8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Các nguồn năng lượng tái tạo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "752349eb533760e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c25a6b090f403e32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
+                "file": "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md"
+                "file": "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md"
               }
             }
           }
@@ -138,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
+                "file": "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
+                "file": "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,55 +186,55 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "c25a6b090f403e32",
+  "active": "8a70d5f931361d8c",
   "lastOpenFiles": [
-    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Untitled.md",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_9 - Foundations of Big Data.md",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
     "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
-    "Các nguồn năng lượng tái tạo.md",
     "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
-    "Interview/OOP/OOP Core Concepts.md",
-    "HUST/2022.1/OOP/3. Abstraction & Encapsulation.md",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/Foundations of Big Data.md",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_7 - NoSQL.md",
+    "HUST/2022.2/XSTK/attachements/Pasted image 20230327004506.png",
+    "HUST/2022.2/XSTK/attachements/Pasted image 20230327004248.png",
+    "HUST/2022.2/XSTK/attachements/Pasted image 20230327004133.png",
+    "HUST/2022.2/XSTK/attachements/Pasted image 20230327003558.png",
+    "HUST/2022.2/XSTK/attachements/Pasted image 20230327003334.png",
+    "HUST/2022.2/XSTK/attachements",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326161824.png",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326161714.png",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326154556.png",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_5 - Overview of Data Repositories.md",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_6 - RDBMS.md",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326154101.png",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326153834.png",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_1 - Overview of the Data Analyst Ecosystem.md",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_2 - Types of Data.md",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_3 - Types of File Formats.md",
+    "Untitled.md",
+    "Backend/Overview.md",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_4 - Sources of Data.md",
+    "Backend/1_Internet/Web8. What is DNS and How it works.md",
+    "Backend/1_Internet/Web7. APIs, REST and REST APIs.md",
+    "IBM DA/C1 - Intro to DA/W1/W1_2 - Key Players in the Data Ecosystem.md",
+    "IBM DA/C1 - Intro to DA/W1/W1_1 - Modern Data Ecosystem.md",
+    "IBM DA/C1 - Intro to DA/W1/W1_3 - Defining Data Analysis.md",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements",
+    "HUST/2022.2/Nhập môn trí tuệ nhân tạo/Thông tin môn học.md",
+    "HUST/2022.2/Nhập môn trí tuệ nhân tạo/IntroAI_1 - Giới thiệu về Trí tuệ nhân tạo.md",
+    "HUST/2022.2/Phân tích thiết kế hệ thống",
+    "HUST/2022.2/Quản trị phát triển phần mềm/Giới thiệu môn học.md",
+    "HUST/2022.2/Nhập môn trí tuệ nhân tạo",
+    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Untitled.md",
+    "HUST/2022.2/Nhập môn An toàn Thông tin/IntroCyber_1 - Các hệ mật mã.md",
+    "HUST/2022.2/Nhập môn An toàn Thông tin",
+    "IBM DA/C1 - Intro to DA/W1/W1_4 - Responsibilities of a DA.md",
+    "Các nguồn năng lượng tái tạo.md",
+    "HUST/2022.2/Quản trị phát triển phần mềm",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/Untitled",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem",
     "HUST/2022.2/Các hệ thống phân tán và ứng dụng",
     "HUST/2022.2/XSTK",
-    "HUST/2022.2/Untitled.md",
-    "HUST/2022.2",
-    "HUST/2022.1/OOP/4. Some techniques in class building.md",
-    "HUST/2022.1/OOP/2. UML & use case diagram.md",
-    "HUST/2022.1/OOP/1. Intro.md",
-    "HUST/2022.1/software_intro/Chap6.2 - Mô hình các yêu cầu phần mềm.md",
-    "HUST/2022.1/software_intro/Chap7.1 - Thiết kế phần mềm.md",
-    "HUST/2022.1/software_intro/Chap6.1 - Kỹ nghệ yêu cầu phần mềm.md",
-    "HUST/2022.1/software_intro/Chap5 - Quản lý cấu hình phần mềm.md",
-    "HUST/2022.1/software_intro/Chap4 - Quản lý dự án.md",
-    "HUST/2022.1/software_intro/Chap3 - Phương pháp Agile.md",
-    "HUST/2022.1/software_intro/Chap2 - Vòng đời phần mềm.md",
-    "HUST/2022.1/software_intro/Chap1 - Tổng quan về Công nghệ phần mềm.md",
-    "HUST/2022.1/software_intro/Chap7.2 - Thiết kế giao diện người dùng.md",
-    "HUST/2022.1/software_intro/Chap8 - Xây dựng phần mềm.md",
-    "HUST/2022.1/software_intro/Chap9 - Đảm bảo chất lượng phần mềm.md",
-    "HUST/2022.1/software_intro/Data Flow Diagram - DFD.md",
-    "HUST/2022.1/software_intro/Usecase Model and Usecase Diagram.md",
-    "HUST/2022.1/software_intro/UML Activity Diagram.md",
-    "HUST/2022.1/OOP/11. Nested Class.md",
-    "HUST/2022.1/OOP/12. Class Diagram.md",
-    "Interview/OOP",
-    "Interview",
-    "attachements/Pasted image 20221226230542.png",
     "Công Nghệ Phần Mềm.canvas",
-    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230309172812.png",
-    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230309162823.png",
-    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230309002209.png",
-    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230309000515.png",
-    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230309000313.png",
-    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230308235921.png",
-    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230308230724.png",
-    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230308230139.png",
-    "IBM DA/C1 - Intro to DA/W1/attachements/Pasted image 20230308230103.png",
-    "IBM DA/C1 - Intro to DA/W1/attachements",
-    "IBM DA/C1 - Intro to DA/W1",
-    "IBM DA/C1 - Intro to DA/attachements",
-    "IBM DA/C1 - Intro to DA",
-    "IBM DA",
     "Untitled.canvas"
   ]
 }
