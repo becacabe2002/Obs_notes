@@ -4,47 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "61971d51f280d237",
+        "id": "5a1b2093ef2067d6",
         "type": "tabs",
         "children": [
           {
-            "id": "a557501c5dae5969",
+            "id": "0cb9e4da85828127",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
-                "mode": "source",
-                "source": false
+                "file": "Backend/Spring Framework/Spring Core/Spring Core.canvas",
+                "viewState": {
+                  "x": 186.78718367658345,
+                  "y": -503.44678639488194,
+                  "zoom": -1.06
+                }
               }
             }
           },
           {
-            "id": "0942e592a65b319b",
+            "id": "6cee148f6b174b28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a70d5f931361d8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
+                "file": "Backend/Spring Framework/Spring Core/Spring Container Tasks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md"
+                "file": "Backend/Spring Framework/Spring Core/Spring Container Tasks.md"
               }
             }
           }
@@ -110,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922
+    "width": 265.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -126,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
+                "file": "Backend/Spring Framework/Spring Core/Spring Container Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
+                "file": "Backend/Spring Framework/Spring Core/Spring Container Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,12 +178,32 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "8a70d5f931361d8c",
+  "active": "6cee148f6b174b28",
   "lastOpenFiles": [
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_9 - Foundations of Big Data.md",
+    "Backend/Spring Framework/Spring Core/Spring Core.canvas",
+    "Backend/Spring Framework/Spring Core/Spring Container Tasks.md",
+    "Backend/Spring Framework/Spring Core/Types of Dependency Injection.md",
+    "DI Configuration Approaches.md",
+    "Backend/Spring Framework/Spring Core/Autowiring.md",
+    "Backend/Spring Framework/Spring Boot Token based Authentication with Spring Security & JWT.md",
+    "Backend/Spring Framework/Untitled.md",
+    "Backend/Spring Framework/Spring Core",
+    "Untitled 1.canvas",
+    "Untitled Kanban.md",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
-    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
     "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
+    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Chap 1 - Tổng quan và kiến trúc hệ Phân tán.md",
+    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Untitled.md",
+    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
+    "Backend/Spring Framework/attachements/Pasted image 20230402163241.png",
+    "Backend/Spring Framework/attachements/Pasted image 20230402163111.png",
+    "Backend/Spring Framework/attachements/Pasted image 20230402163037.png",
+    "Backend/1_Internet/Web7. APIs, REST and REST APIs.md",
+    "Backend/1_Internet/Web4. URIs, URLs and URNs.md",
+    "Backend/Spring Framework/attachements/Pasted image 20230402154828.png",
+    "Backend/Spring Framework/attachements",
+    "Backend/Spring Framework",
+    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_9 - Foundations of Big Data.md",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/Foundations of Big Data.md",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_7 - NoSQL.md",
     "HUST/2022.2/XSTK/attachements/Pasted image 20230327004506.png",
@@ -201,40 +213,20 @@
     "HUST/2022.2/XSTK/attachements/Pasted image 20230327003334.png",
     "HUST/2022.2/XSTK/attachements",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326161824.png",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326161714.png",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326154556.png",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_5 - Overview of Data Repositories.md",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_6 - RDBMS.md",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326154101.png",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326153834.png",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_1 - Overview of the Data Analyst Ecosystem.md",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_2 - Types of Data.md",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_3 - Types of File Formats.md",
     "Untitled.md",
     "Backend/Overview.md",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_4 - Sources of Data.md",
-    "Backend/1_Internet/Web8. What is DNS and How it works.md",
-    "Backend/1_Internet/Web7. APIs, REST and REST APIs.md",
-    "IBM DA/C1 - Intro to DA/W1/W1_2 - Key Players in the Data Ecosystem.md",
-    "IBM DA/C1 - Intro to DA/W1/W1_1 - Modern Data Ecosystem.md",
-    "IBM DA/C1 - Intro to DA/W1/W1_3 - Defining Data Analysis.md",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements",
-    "HUST/2022.2/Nhập môn trí tuệ nhân tạo/Thông tin môn học.md",
-    "HUST/2022.2/Nhập môn trí tuệ nhân tạo/IntroAI_1 - Giới thiệu về Trí tuệ nhân tạo.md",
     "HUST/2022.2/Phân tích thiết kế hệ thống",
-    "HUST/2022.2/Quản trị phát triển phần mềm/Giới thiệu môn học.md",
     "HUST/2022.2/Nhập môn trí tuệ nhân tạo",
-    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Untitled.md",
-    "HUST/2022.2/Nhập môn An toàn Thông tin/IntroCyber_1 - Các hệ mật mã.md",
     "HUST/2022.2/Nhập môn An toàn Thông tin",
-    "IBM DA/C1 - Intro to DA/W1/W1_4 - Responsibilities of a DA.md",
-    "Các nguồn năng lượng tái tạo.md",
     "HUST/2022.2/Quản trị phát triển phần mềm",
     "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/Untitled",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem",
-    "HUST/2022.2/Các hệ thống phân tán và ứng dụng",
-    "HUST/2022.2/XSTK",
-    "Công Nghệ Phần Mềm.canvas",
-    "Untitled.canvas"
+    "Công Nghệ Phần Mềm.canvas"
   ]
 }

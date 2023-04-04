@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"type":"file","file":"Backend/Spring Framework/Spring Core/Types of Dependency Injection.md","id":"bb5506122e19c14f","x":-1300,"y":-1030,"width":670,"height":390},
+		{"type":"text","text":"> [!info] Dependency Injection of Spring\n> through the Inversion of Control (IoC) container.\n> * It creates objs and injects their dependencies **base on their configuration**.\n\n=> **By separating the object creation and configuration from their use, Spring enables greater flexibility, reusability and maintainability of code.**\n","id":"5ccf2350fe0a7054","x":-1258,"y":-380,"width":460,"height":280},
+		{"type":"text","text":"|Annotation|Usage|\n|:---:|:---|\n|**`@Component`**|*mark a class as a Spring Component*. </br> When the component scan is performed, Spring will detect the classes.|\n|**`@Autowired`**|*inject a bean dependency into a class.*</br> When a bean with a matching type is found in the Sprin container, it will be injected into the annotated  field or constructor param.|\n|**`@Qualifier`**|*specify the bean name to be injected* when there are multiple beans of same type are defined in the container.|\n|**`@Value`**|*inject a value into a field, constructor argument or method parameter.*</br> The value can be retrieved from properties files,system properties, env vars or any other Spring bean.|\n|**`@Configuration`**|*mark a class ass a configuration class.*</br> Configuration classes define the bean definitions and are used with in DI|\n|**`@rBean`**|*declare a method that provides a bean definition.*</b> When the method is called, Spring will create an instance of the returned object and register it as a bean in the container.|\n","id":"0c52e62cdaf4e99d","x":-2220,"y":-600,"width":800,"height":477},
+		{"type":"file","file":"DI Configuration Approaches.md","id":"25a48c36f0e1c641","x":-2080,"y":-40,"width":600,"height":400},
+		{"type":"text","text":"## Autowiring\n\n> [!info] Autowiring\n> Technique for automatically wiring dependencies between Spring-managed beans.\n> -> Letting Spring handle the process of creating and injecting dependencies.\n\n* When a bean is marked with the `@Autowired`, Spring will automatically look for other beans that match the type of the marked field, and injected them if found.\n* If there is a class with a dependency on another bean, annotate field or constructor with `@Autowired` and Spring will take care of the rest.","id":"9e641ffb6cabba2b","x":-2120,"y":-940,"width":620,"height":260},
+		{"type":"text","text":"> [!info] Dependency\n> The relationship between two software components, where one component depends on the other to function properly.\n\n* **Code-level dependencies** \nEx: func <- func\n* **Library-level dependencies**\nEx: component <- third-party lib\n* **system-level dependencies** \nEx: ","id":"814d64a91d93c036","x":-1400,"y":480,"width":470,"height":280},
+		{"type":"text","text":"# *Dependency Injection*","id":"123579f2c7babcdd","x":-930,"y":105,"width":456,"height":110,"color":"4"},
+		{"type":"text","text":"## Spring Container (IoC container)\n> [!note]\n> Responsible for managing the lifecycle of Beans.\n> It creates and manages these beans and provides them to other parts of the application when they are needed.\n\n* The container archieves this by relying on a **set of metadata** \n\t* Configuration files\n\t* Annotations\n\t  ...\n\tthat define how the beans class, dependencies and any initialization or destruction methods.\n\n","id":"5a0a22c7d16349ea","x":-492,"y":-700,"width":520,"height":320},
+		{"id":"303e6fffb1e91f1c","x":-432,"y":-1280,"width":727,"height":500,"type":"file","file":"Backend/Spring Framework/Spring Core/Spring Container Tasks.md"},
+		{"type":"text","text":"# *Aspect-Oriented* Programming","id":"ebfc11a771925644","x":540,"y":145,"width":430,"height":120,"color":"4"},
+		{"type":"text","text":"# *Spring Beans*\n","id":"de944415fad907ae","x":-220,"y":165,"width":330,"height":80,"color":"4"},
+		{"type":"text","text":"## Spring Beans \n\n> [!info] Bean (Spring)\n> An object that managed by the Spring IoC container.\n> * It is an instance of a Java class that is configured in the Spring containers so that it can be **instantiated**, **assembled** and **managed** by the container.","id":"1ef2609025e3e762","x":-420,"y":435,"width":480,"height":280},
+		{"type":"text","text":"## Spring Inversion of Control (IoC)\n> core feature of the Spring framework that provides a mechanism for managing the creation and lifecycle of Beans and their dependencies in a loosely coupled way.\n\n-> Better code maintainability, testability and extensibility, make it easy to  manage complex applications and to swap out components without affecting the rest of the application.","id":"20625dc05bcd2b61","x":-500,"y":-280,"width":500,"height":249},
+		{"type":"text","text":"# *Spring Data*\n","id":"a5ca8e5dcd359f5a","x":1655,"y":310,"width":310,"height":100,"color":"4"},
+		{"type":"text","text":"# *Spring MVC*","id":"cf57a8e43c44e1d8","x":1225,"y":320,"width":260,"height":90,"color":"4"},
+		{"type":"text","text":"# *Spring Security*","id":"826af958668aa4aa","x":2160,"y":310,"width":340,"height":100,"color":"4"}
+	],
+	"edges":[
+		{"id":"808cb126c08fe249","fromNode":"123579f2c7babcdd","fromSide":"bottom","toNode":"814d64a91d93c036","toSide":"top"},
+		{"id":"7c7887649e229fb4","fromNode":"123579f2c7babcdd","fromSide":"left","toNode":"5ccf2350fe0a7054","toSide":"bottom"},
+		{"id":"32120908b1df5b8f","fromNode":"5ccf2350fe0a7054","fromSide":"top","toNode":"bb5506122e19c14f","toSide":"bottom"},
+		{"id":"dace35707714ba58","fromNode":"5ccf2350fe0a7054","fromSide":"left","toNode":"25a48c36f0e1c641","toSide":"right"},
+		{"id":"54670d179a3460c6","fromNode":"5ccf2350fe0a7054","fromSide":"left","toNode":"0c52e62cdaf4e99d","toSide":"right"},
+		{"id":"4c5eb7fd493594db","fromNode":"0c52e62cdaf4e99d","fromSide":"top","toNode":"9e641ffb6cabba2b","toSide":"bottom"},
+		{"id":"1f9087f38d5b8232","fromNode":"25a48c36f0e1c641","fromSide":"top","toNode":"0c52e62cdaf4e99d","toSide":"bottom"},
+		{"id":"be6c18d943162378","fromNode":"9e641ffb6cabba2b","fromSide":"right","toNode":"bb5506122e19c14f","toSide":"left"},
+		{"id":"88c7878f15908074","fromNode":"123579f2c7babcdd","fromSide":"right","toNode":"de944415fad907ae","toSide":"left"},
+		{"id":"9fd82402ef269264","fromNode":"de944415fad907ae","fromSide":"right","toNode":"ebfc11a771925644","toSide":"left"},
+		{"id":"f9985ed405f01973","fromNode":"ebfc11a771925644","fromSide":"right","toNode":"cf57a8e43c44e1d8","toSide":"left"},
+		{"id":"08a1d36b81af4964","fromNode":"cf57a8e43c44e1d8","fromSide":"right","toNode":"a5ca8e5dcd359f5a","toSide":"left"},
+		{"id":"64dde5c3c119d526","fromNode":"a5ca8e5dcd359f5a","fromSide":"right","toNode":"826af958668aa4aa","toSide":"left"},
+		{"id":"d0946c71db1a8746","fromNode":"de944415fad907ae","fromSide":"bottom","toNode":"1ef2609025e3e762","toSide":"top"},
+		{"id":"798aa927f24b80c1","fromNode":"20625dc05bcd2b61","fromSide":"top","toNode":"5a0a22c7d16349ea","toSide":"bottom"},
+		{"id":"fc341448f55eeb45","fromNode":"5a0a22c7d16349ea","fromSide":"top","toNode":"303e6fffb1e91f1c","toSide":"bottom"},
+		{"id":"7793d85023d42c70","fromNode":"de944415fad907ae","fromSide":"top","toNode":"20625dc05bcd2b61","toSide":"bottom"}
+	]
+}

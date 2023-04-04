@@ -277,8 +277,30 @@ Từ công thức xs có điều kiện, ta có được công thức nhân xs
 > * Sự kiện A xảy ra
 > * hoặc sự kiện A không xảy ra
 > 
-> Xác suất xảy ra sự kiện A trong mỗi phép thử luôn bằng p.
+> **Xác suất** xảy ra sự kiện A trong **mỗi phép thử** luôn bằng **p**.
 
 > [!note] Công thức Bernoulli
 > #xstk_fomula 
 > Xác  suất để sự kiện A xuất hiện đúng k lần trong n phép thử của dãy phép thử Bernoulli
+> $$
+> p_n(k) = C^k_n*p^k*q^{n-k}
+> $$
+> * với $q = 1 - p; k = \overline{1,n}$
+
+> [!example] Ví dụ về ct Bernoulli
+> *Xác suất thành công của một thí nghiệm sinh hóa là 40%. Một nhóm gồm 9 sinh viên tiến hành cùng thí nghiệm trên độc lập với nhau. Tìm xác suất để:*
+> * *Có đúng 6 thí nghiệm thành công*
+> * *Có ít nhất 1 thí nghiệm thành công*
+> -- **Giải**--
+> A: thí nghiệm sinh hóa thành công -> $P(A) = 0.4 = p; q = 1-p = 0.6$ 
+> a. Có 6 thí nghiệm thành công: 
+> $$
+> p_9(6)= C^6_9 * p^6 * q^3 \approx 0.07432
+> $$
+> b. B: có ít nhất 1 thí nghiệm thành công
+> -> $\overline{B}$: không có thí nghiệm nào thành công
+> $$
+> => P(B) = 1 - P(\overline{B}) = 1 - 0.6^9 = ....
+> $$
+
+## V. Công thức xác suất đầy đủ và công thức Bayes
