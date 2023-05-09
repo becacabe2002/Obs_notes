@@ -4,38 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "5a1b2093ef2067d6",
+        "id": "67a6c901a0743692",
         "type": "tabs",
         "children": [
           {
-            "id": "0cb9e4da85828127",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Backend/Spring Framework/Spring Core/Spring Core.canvas",
-                "viewState": {
-                  "x": 186.78718367658345,
-                  "y": -503.44678639488194,
-                  "zoom": -1.06
-                }
-              }
-            }
-          },
-          {
-            "id": "6cee148f6b174b28",
+            "id": "79fc825c32682d45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Spring Framework/Spring Core/Spring Container Tasks.md",
+                "file": "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab45dc97fab62f67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53720ddc9c52d99d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.2/Intro_AI/IntroAI_5 - TimkiemCoDoiThu.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/Spring Framework/Spring Core/Spring Container Tasks.md"
+                "file": "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md"
               }
             }
           }
@@ -118,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/Spring Framework/Spring Core/Spring Container Tasks.md",
+                "file": "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/Spring Framework/Spring Core/Spring Container Tasks.md",
+                "file": "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,58 +183,59 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "6cee148f6b174b28",
+  "active": "79fc825c32682d45",
   "lastOpenFiles": [
-    "Backend/Spring Framework/Spring Core/Spring Core.canvas",
-    "Backend/Spring Framework/Spring Core/Spring Container Tasks.md",
-    "Backend/Spring Framework/Spring Core/Types of Dependency Injection.md",
-    "DI Configuration Approaches.md",
-    "Backend/Spring Framework/Spring Core/Autowiring.md",
-    "Backend/Spring Framework/Spring Boot Token based Authentication with Spring Security & JWT.md",
-    "Backend/Spring Framework/Untitled.md",
-    "Backend/Spring Framework/Spring Core",
-    "Untitled 1.canvas",
-    "Untitled Kanban.md",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_8 - Data Marts, Data Lakes, Data Pipelines, ETL.md",
     "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
-    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Chap 1 - Tổng quan và kiến trúc hệ Phân tán.md",
-    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Untitled.md",
-    "HUST/2022.2/Các hệ thống phân tán và ứng dụng/Ghi chú môn học.md",
-    "Backend/Spring Framework/attachements/Pasted image 20230402163241.png",
-    "Backend/Spring Framework/attachements/Pasted image 20230402163111.png",
-    "Backend/Spring Framework/attachements/Pasted image 20230402163037.png",
-    "Backend/1_Internet/Web7. APIs, REST and REST APIs.md",
-    "Backend/1_Internet/Web4. URIs, URLs and URNs.md",
-    "Backend/Spring Framework/attachements/Pasted image 20230402154828.png",
-    "Backend/Spring Framework/attachements",
-    "Backend/Spring Framework",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_9 - Foundations of Big Data.md",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/Foundations of Big Data.md",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_7 - NoSQL.md",
-    "HUST/2022.2/XSTK/attachements/Pasted image 20230327004506.png",
-    "HUST/2022.2/XSTK/attachements/Pasted image 20230327004248.png",
-    "HUST/2022.2/XSTK/attachements/Pasted image 20230327004133.png",
-    "HUST/2022.2/XSTK/attachements/Pasted image 20230327003558.png",
-    "HUST/2022.2/XSTK/attachements/Pasted image 20230327003334.png",
-    "HUST/2022.2/XSTK/attachements",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements/Pasted image 20230326161824.png",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_5 - Overview of Data Repositories.md",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_6 - RDBMS.md",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_1 - Overview of the Data Analyst Ecosystem.md",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_2 - Types of Data.md",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_3 - Types of File Formats.md",
-    "Untitled.md",
+    "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
+    "HUST/2022.2/Prj_II/Prepare for Report II.md",
+    "HUST/2022.2/Intro_AI/IntroAI_5 - TimkiemCoDoiThu.md",
+    "HUST/2022.2/Prj_II/attachements/Pasted image 20230502131251.png",
+    "HUST/2022.2/Prj_II/Prepare for Report I.md",
+    "HUST/2022.2/Intro_CyberSec/Assignment 2 Report - Trivium.md",
+    "HUST/2022.2/Intro_CyberSec/attachements/Pasted image 20230502123336.png",
+    "HUST/2022.2/Intro_CyberSec/attachements/Pasted image 20230502103244.png",
+    "HUST/2022.2/Intro_CyberSec/attachements/Pasted image 20230502103207.png",
+    "HUST/2022.2/Intro_CyberSec/attachements",
+    "HUST/2022.2/Intro_AI/IntroAI_6 - ThoaManRangBuoc.md",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230501001718.png",
+    "HUST/2022.2/Intro_AI/IntroAI_4 - TimkiemVoiTrithucBoSung.md",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230430235817.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230430235745.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230430235502.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230430235247.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230430234733.png",
+    "HUST/2022.2/Intro_AI/IntroAI_3 - Giải quyết vấn đề (tìm kiếm).md",
+    "HUST/2022.2/Intro_AI/IntroAI_1 - Giới thiệu về Trí tuệ nhân tạo.md",
+    "HUST/2022.2/Intro_AI/IntroAI_2 - TacTu.md",
+    "HUST/2022.2/Distributed_System/Chap2 _ TienTrinhTraoDoiThongTin.md",
+    "HUST/2022.2/Distributed_System/Chap 1 - TongQuanKienTruc.md",
+    "Backend/_Internet/Web9. What is Caching and How it work.md",
+    "HUST/2022.2/Prj_II/Prepare for Report I.html",
+    "Backend/Microservices/Intro to Microservice.md",
+    "Backend/Microservices/attachements",
+    "Backend/basic_FE/CSS overview.md",
+    "Backend/Microservices",
+    "Backend/basic_FE/JavaScript overview.md",
+    "Backend/basic_FE/HTML overview.md",
     "Backend/Overview.md",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/W2_4 - Sources of Data.md",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/attachements",
-    "HUST/2022.2/Phân tích thiết kế hệ thống",
-    "HUST/2022.2/Nhập môn trí tuệ nhân tạo",
-    "HUST/2022.2/Nhập môn An toàn Thông tin",
-    "HUST/2022.2/Quản trị phát triển phần mềm",
-    "IBM DA/C1 - Intro to DA/W2 - the Data Ecosystem/Untitled",
+    "Backend/Caching/Cache Stampede.md",
+    "Backend/Tools.md",
+    "Backend/_Internet/Web1. The HTTP and the Web.md",
+    "Backend/Caching/Caching Strategies.md",
+    "HUST/2022.1/computer_networking/Chap3 - Tầng liên kết dữ liệu.md",
+    "HUST/2022.1/computer_networking/Chap2 - Tầng vật lý.md",
+    "Backend/Caching/attachements",
+    "Backend/Caching",
+    "HUST/2022.2/Prj_II/attachements",
+    "Untitled 1.canvas",
+    "Backend/Spring Framework/Spring Core/Spring Core.canvas",
+    "HUST/2022.2/Prj_II",
+    "HUST/2022.2/Intro_AI/attachements",
+    "Backend/Spring Framework/Spring Core",
     "Công Nghệ Phần Mềm.canvas"
   ]
 }

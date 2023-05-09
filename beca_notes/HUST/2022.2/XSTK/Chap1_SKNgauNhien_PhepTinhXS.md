@@ -304,3 +304,33 @@ Từ công thức xs có điều kiện, ta có được công thức nhân xs
 > $$
 
 ## V. Công thức xác suất đầy đủ và công thức Bayes
+![[Pasted image 20230416232235.png]]
+
+> [!info] Nhóm đầy đủ
+> Nhóm các sự kiện $A_1,A_2, ..., A_n (n \geq 2)$ của một phép thử được gọi là **Nhóm đầy đủ** nếu thỏa mãn 2 điều kiện:
+> * $A_iA_j = \emptyset$  $\forall i != j$
+> * $A_1+A_2+...+A_n = \Omega$ (không gian mẫu)
+> 
+> Tính chất: $P(A_1) + P(A_2)+...+P(A_n) = 1$ 
+
+Ví dụ: với 2 sự kiện A, B thì nhóm đầy đủ: {$AB, A\overline{B}, \overline{A}B, \overline{AB}$}.
+
+> [!note] Công thức xác suất đầy đủ
+> #xstk_fomula 
+> Giả sử  $A_1,A_2, ..., A_n$ là một nhóm đầy đủ các sự kiện. Xét sự kiện H sao cho H chỉ xảy ra khi một trong các sự kiện  $A_1,A_2, ..., A_n$ xảy ra. Nói cách khác, H xảy ra thì một sự kiện $A_i$ nào đó xảy ra. Khi đó, có công thức xác suất đầy đủ:
+> $$
+> P(H) = \sum^{n}_{i = 1}P(A_i).P(H|A_i)
+> $$
+
+* Trong công thức xác suất đầy đủ, H là sự kiện kết quả, còn các sự kiện $A_i \text{ } i = \overline{1,n}$ là các sự kiện nguyên nhân. 
+	* Khi biết nguyên nhân nào xảy ra -> xác định đuợc xác suất xảy ra H.
+* Giờ biết đuợc kết quả xảy ra H, muốn tính xác suất để nguyên nhân thứ i xảy ra (ngược lại)
+	* $P(A_i)$ - **xác suất tiên nghiệm**
+	* $P(A_i|H)$ - **xác suất hậu nghiệm**
+
+> [!note] Công thức Bayes
+> #xstk_fomula 
+> $$
+> P(A_i|H) = \frac{P(A_i)P(H|A_i)}{\sum^n_{j = 1}P(A_j).P(H|A_j)} \text{ với i = 1,2,...,n}
+> $$
+

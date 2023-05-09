@@ -4,5 +4,6 @@
   "obsidian-admonition",
   "obsidian-latex-environments",
   "multi-column-markdown",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "webpage-html-export"
 ]

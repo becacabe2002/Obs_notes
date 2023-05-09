@@ -1,9 +1,9 @@
 {
-  "accentColor": "#89b6a5",
+  "accentColor": "#6c32c3",
   "cssTheme": "",
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "monospaceFontFamily": "Consolas",
-  "baseFontSize": 17,
-  "theme": "moonstone"
+  "baseFontSize": 18,
+  "theme": "obsidian"
 }
