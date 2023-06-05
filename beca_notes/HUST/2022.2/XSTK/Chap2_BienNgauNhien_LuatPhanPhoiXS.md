@@ -262,6 +262,7 @@ Khi đó: $X \sim N(\mu,\sigma^2)$ ($\mu = np, \sigma^2 = np(1-p)$)
 
 ### 3.4 Phân phối mũ
 > [!info] PP mũ
+> #xstk_fomula 
 > Biến ngẫu nhiên X tuân theo pp mũ với tham số $\lambda > 0$ nếu có hàm mật độ xác suất có dạng:
 > * $f(x) = \lambda e ^{- \lambda x}$ với $x >0$
 > * $f(x) = 0$ với $x \leq 0$
@@ -271,3 +272,15 @@ Khi đó: $X \sim N(\mu,\sigma^2)$ ($\mu = np, \sigma^2 = np(1-p)$)
 Các tham số đặc trưng:
 * $EX = \frac{1}{\lambda}$
 * $VX = \frac{1}{\lambda^2}$
+
+> [!note] Tính chất: không nhớ
+> * Nếu một biến ngẫu nhiên T có pp mũ, xác suất điều kiện phải thỏa mãn 
+> $$
+> P(T > s + t|T> t) = P(T>s) \text{ for all s, t > 0}
+> $$
+
+*Ví dụ: Ta cần đợi 10 phút nữa trước khi cú điện thoại tiếp theo được gọi đến, biết rằng ta đã đợi 30p. Không khác gì ta cần đợi 10 phút nữa cho đến khi cú điện thoại tiếp theo được gọi đến, biết rằng ta vừa bắt đầu quá trình đợi.*
+
+> [!note] Bổ sung
+> ![[Pasted image 20230523233755.png]]
+

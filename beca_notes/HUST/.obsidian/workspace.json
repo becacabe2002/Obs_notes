@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "a422f2dd7b683232",
+    "type": "split",
+    "children": [
+      {
+        "id": "553d55afb9722274",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2575bc721c52cce3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022.2/Intro_AI/IntroAI_3 - Giải quyết vấn đề (tìm kiếm).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a9ea1381b50d246",
+    "type": "split",
+    "children": [
+      {
+        "id": "00c000a0176c0626",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a431ab72ca0f79ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "73f381f81a64ec67",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20016880255f3748",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f62563e0bca96d93",
+    "type": "split",
+    "children": [
+      {
+        "id": "7250570d8496dc76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bd865626b8e5ccc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022.2/Intro_AI/IntroAI_3 - Giải quyết vấn đề (tìm kiếm).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d5969f314e4259a2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2022.2/Intro_AI/IntroAI_3 - Giải quyết vấn đề (tìm kiếm).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cfc862256a23317e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0d76682715f6c3c5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2022.2/Intro_AI/IntroAI_3 - Giải quyết vấn đề (tìm kiếm).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a431ab72ca0f79ce",
+  "lastOpenFiles": [
+    "2022.2/Intro_AI/IntroAI_2 - TacTu.md",
+    "2022.2/Intro_AI/IntroAI_1 - Giới thiệu về Trí tuệ nhân tạo.md"
+  ]
+}

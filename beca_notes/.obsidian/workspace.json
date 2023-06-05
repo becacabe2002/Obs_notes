@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "ab45dc97fab62f67",
+            "id": "96a54bd99d40ff38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53720ddc9c52d99d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2022.2/Intro_AI/IntroAI_5 - TimkiemCoDoiThu.md",
+                "file": "HUST/2022.2/Intro_AI/IntroAI_6 - ThoaManRangBuoc.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "đầy đủ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,6 +74,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "908b9bb2c3c1c210",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -109,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922,
-    "collapsed": true
+    "width": 265.5110321044922
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -187,29 +182,32 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "79fc825c32682d45",
+  "active": "f56e9bb44bb16698",
   "lastOpenFiles": [
+    "HUST/2022.2/Intro_AI/IntroAI_9 - LogicDinhDe.md",
+    "HUST/2022.2/Intro_AI/IntroAI_8 - BieuDienTriThuc.md",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230604183307.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230604164201.png",
+    "HUST/2022.2/Intro_AI/IntroAI_6 - ThoaManRangBuoc.md",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230602090507.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230602083512.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230602082720.png",
     "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
     "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
-    "HUST/2022.2/Prj_II/Prepare for Report II.md",
-    "HUST/2022.2/Intro_AI/IntroAI_5 - TimkiemCoDoiThu.md",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230502131251.png",
+    "HUST/2022.2/XSTK/attachements/Pasted image 20230523233755.png",
+    "HUST/2022.2/Software_Dev_Management/Bài tập lớn.md",
     "HUST/2022.2/Prj_II/Prepare for Report I.md",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230512090728.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230512075857.png",
+    "HUST/2022.2/Intro_AI/IntroAI_1 - Giới thiệu về Trí tuệ nhân tạo.md",
+    "HUST/2022.2/Intro_AI/IntroAI_5 - TimkiemCoDoiThu.md",
+    "HUST/2022.2/Prj_II/Prepare for Report II.md",
+    "HUST/2022.2/Prj_II/attachements/Pasted image 20230502131251.png",
     "HUST/2022.2/Intro_CyberSec/Assignment 2 Report - Trivium.md",
     "HUST/2022.2/Intro_CyberSec/attachements/Pasted image 20230502123336.png",
-    "HUST/2022.2/Intro_CyberSec/attachements/Pasted image 20230502103244.png",
-    "HUST/2022.2/Intro_CyberSec/attachements/Pasted image 20230502103207.png",
     "HUST/2022.2/Intro_CyberSec/attachements",
-    "HUST/2022.2/Intro_AI/IntroAI_6 - ThoaManRangBuoc.md",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230501001718.png",
     "HUST/2022.2/Intro_AI/IntroAI_4 - TimkiemVoiTrithucBoSung.md",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230430235817.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230430235745.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230430235502.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230430235247.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230430234733.png",
     "HUST/2022.2/Intro_AI/IntroAI_3 - Giải quyết vấn đề (tìm kiếm).md",
-    "HUST/2022.2/Intro_AI/IntroAI_1 - Giới thiệu về Trí tuệ nhân tạo.md",
     "HUST/2022.2/Intro_AI/IntroAI_2 - TacTu.md",
     "HUST/2022.2/Distributed_System/Chap2 _ TienTrinhTraoDoiThongTin.md",
     "HUST/2022.2/Distributed_System/Chap 1 - TongQuanKienTruc.md",
@@ -226,8 +224,6 @@
     "Backend/Tools.md",
     "Backend/_Internet/Web1. The HTTP and the Web.md",
     "Backend/Caching/Caching Strategies.md",
-    "HUST/2022.1/computer_networking/Chap3 - Tầng liên kết dữ liệu.md",
-    "HUST/2022.1/computer_networking/Chap2 - Tầng vật lý.md",
     "Backend/Caching/attachements",
     "Backend/Caching",
     "HUST/2022.2/Prj_II/attachements",
