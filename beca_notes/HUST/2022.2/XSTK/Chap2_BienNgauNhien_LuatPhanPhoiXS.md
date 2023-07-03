@@ -232,12 +232,15 @@ Với $X \sim N(0;1)$ ($\mu = 0, \sigma = 1$) -> PP chuẩn tắc (hay chuẩn h
 
 > [!note] Phân phối chuẩn tổng quát
 > #xstk_fomula 
-> Nếu  $X \sim N(\mu;\sigma^2)$
+> Nếu  $X \sim N(\mu;\sigma^2)$ $(Z = \frac{X - \mu}{\sigma} \sim N(0;1))$
 > * $P(X < a) = 0,5 + \phi(\frac{a - \mu}{\sigma})$
 > 
 > * $P(X > a) = 0,5 - \phi(\frac{a - \mu}{\sigma})$
 > * $P(a \leq X < b) = \phi(\frac{b - \mu}{\sigma})- \phi(\frac{a - \mu}{\sigma})$
 > * $P(|X - \mu| < \varepsilon) = 2\phi(\frac{\varepsilon}{\sigma})$
+
+Hình ảnh minh họa cho tính đối xứng của pp chuẩn
+![[Pasted image 20230606214458.png]]
 
 ![[Pasted image 20230430164642.png]]
 
@@ -284,3 +287,27 @@ Các tham số đặc trưng:
 > [!note] Bổ sung
 > ![[Pasted image 20230523233755.png]]
 
+### 3.5 Phân phối Khi bình phương
+> [!info] PP Khi bình phương
+> Giả sử $X_i,(i =1,2,3,...n)$ là các biến ngẫu nhiên độc lập cùng phân phối chuẩn tắc. Biến ngẫu nhiên $Y = \sum ^n _{i =1}X_i^2$ được gọi là tuân theo phân phối Khi bình phương với n bậc tự do. ($Y\sim \chi^2(n)$)
+
+Các tham số đặc trưng:
+* $EY = n$
+* $VY = 2n$
+
+### 3.6 Phân phối Student
+> [!info] PP Student
+> #xstk_fomula 
+> Giả sử $X \sim N(0;1)$ và $Y\sim \chi^2(n)$ là hai biến ngẫu nhiên độc lập. Khi đó:
+> $$
+> T = \frac{X}{\sqrt{\frac{Y}{n}}}
+> $$
+> được gọi là tuân theo phân phối Student với n bậc tự do. ($T\sim T(n)$)
+
+Các tham số đặc trưng:
+* $ET = 0$
+* $VT = \frac{n}{n-2}$
+
+> [!caution] Về việc sử dụng pp Student
+> * PP Student có cùng dạng và tính đối xứng như pp chuẩn nhưng nó phản ánh tính biến đổi của phân phối sâu sắc hơn. PP chuẩn không thể dùng để xấp xỉ phân phối khi mẫu có kích thước nhỏ. Trong TH này, ta sử dụng pp Student.
+> * Khi bậc tự do n tăng lên (n > 30) thì phân phối Student tiến nhanh về phân phối chuẩn. Do đó khi n > 30 thì ta có thể dùng phân phối chuẩn thay cho phân phối Student.

@@ -4,28 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "67a6c901a0743692",
+        "id": "0708b33d90687c13",
         "type": "tabs",
         "children": [
           {
-            "id": "79fc825c32682d45",
+            "id": "3541fe597d9fd09a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
+                "file": "Interview/Prep_list.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "96a54bd99d40ff38",
+            "id": "106604258504440b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.2/Intro_AI/IntroAI_6 - ThoaManRangBuoc.md",
+                "file": "HUST/2022.2/XSTK/Chap5_KiemDinhGiaThuyet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "030cc54d063760c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2022.2/XSTK/Chap4_ThongKe_UocLuongThamSo.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "đầy đủ",
+                "query": "Bayes",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md"
+                "file": "Interview/Prep_list.md"
               }
             }
           }
@@ -121,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
+                "file": "Interview/Prep_list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
+                "file": "Interview/Prep_list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,46 +196,45 @@
   },
   "active": "f56e9bb44bb16698",
   "lastOpenFiles": [
-    "HUST/2022.2/Intro_AI/IntroAI_9 - LogicDinhDe.md",
-    "HUST/2022.2/Intro_AI/IntroAI_8 - BieuDienTriThuc.md",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230604183307.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230604164201.png",
-    "HUST/2022.2/Intro_AI/IntroAI_6 - ThoaManRangBuoc.md",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230602090507.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230602083512.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230602082720.png",
-    "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
+    "HUST/2022.2/Intro_AI/IntroAI_14 - NaiveBayes.md",
+    "HUST/2022.2/Intro_AI/IntroAI_13 - kNearstNeighbors.md",
+    "HUST/2022.2/XSTK/Chap5_KiemDinhGiaThuyet.md",
+    "HUST/2022.2/XSTK/attachements/Pasted image 20230703102137.png",
     "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
-    "HUST/2022.2/XSTK/attachements/Pasted image 20230523233755.png",
+    "HUST/2022.2/XSTK/Chap4_ThongKe_UocLuongThamSo.md",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702214839.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702211409.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702205810.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702190148.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702181314.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702181134.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702181046.png",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702164122.png",
+    "HUST/2022.2/Intro_AI/IntroAI_12 - HocMay.md",
+    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702142827.png",
+    "HUST/2022.2/Intro_AI/IntroAI_11 - LogicViTu.md",
+    "Interview/Prep_list.md",
+    "HUST/2022.2/Intro_AI/IntroAI_10 - LogicDinhDe_P2.md",
+    "HUST/2022.2/Intro_AI/IntroAI_9 - LogicDinhDe_P1.md",
+    "Interview/OOP/OOP Core Concepts.md",
+    "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
+    "HUST/2022.1/software_intro/Chap3 - Phương pháp Agile.md",
+    "HUST/2022.2/Distributed_System/Ghi chú môn học.md",
+    "HUST/2022.2/Intro_AI/IntroAI_6 - ThoaManRangBuoc.md",
+    "HUST/2022.2/Intro_AI/IntroAI_8 - BieuDienTriThuc.md",
+    "HUST/2022.2/Intro_AI/IntroAI_4 - TimkiemVoiTrithucBoSung.md",
     "HUST/2022.2/Software_Dev_Management/Bài tập lớn.md",
     "HUST/2022.2/Prj_II/Prepare for Report I.md",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230512090728.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230512075857.png",
     "HUST/2022.2/Intro_AI/IntroAI_1 - Giới thiệu về Trí tuệ nhân tạo.md",
     "HUST/2022.2/Intro_AI/IntroAI_5 - TimkiemCoDoiThu.md",
     "HUST/2022.2/Prj_II/Prepare for Report II.md",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230502131251.png",
     "HUST/2022.2/Intro_CyberSec/Assignment 2 Report - Trivium.md",
-    "HUST/2022.2/Intro_CyberSec/attachements/Pasted image 20230502123336.png",
     "HUST/2022.2/Intro_CyberSec/attachements",
-    "HUST/2022.2/Intro_AI/IntroAI_4 - TimkiemVoiTrithucBoSung.md",
     "HUST/2022.2/Intro_AI/IntroAI_3 - Giải quyết vấn đề (tìm kiếm).md",
     "HUST/2022.2/Intro_AI/IntroAI_2 - TacTu.md",
-    "HUST/2022.2/Distributed_System/Chap2 _ TienTrinhTraoDoiThongTin.md",
-    "HUST/2022.2/Distributed_System/Chap 1 - TongQuanKienTruc.md",
-    "Backend/_Internet/Web9. What is Caching and How it work.md",
     "HUST/2022.2/Prj_II/Prepare for Report I.html",
-    "Backend/Microservices/Intro to Microservice.md",
     "Backend/Microservices/attachements",
-    "Backend/basic_FE/CSS overview.md",
     "Backend/Microservices",
-    "Backend/basic_FE/JavaScript overview.md",
-    "Backend/basic_FE/HTML overview.md",
-    "Backend/Overview.md",
-    "Backend/Caching/Cache Stampede.md",
-    "Backend/Tools.md",
-    "Backend/_Internet/Web1. The HTTP and the Web.md",
-    "Backend/Caching/Caching Strategies.md",
     "Backend/Caching/attachements",
     "Backend/Caching",
     "HUST/2022.2/Prj_II/attachements",
