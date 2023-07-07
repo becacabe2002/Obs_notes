@@ -4,46 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "0708b33d90687c13",
+        "id": "d681112ba4de67d3",
         "type": "tabs",
         "children": [
           {
-            "id": "3541fe597d9fd09a",
+            "id": "7a0c5f7d2b9c0de0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Prep_list.md",
+                "file": "HUST/2022.2/Prj_II/Giải thích cấu trúc.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "106604258504440b",
+            "id": "a58fcf6235dab47b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.2/XSTK/Chap5_KiemDinhGiaThuyet.md",
+                "file": "HUST/2022.2/Prj_II/Prepare for Report II.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "030cc54d063760c1",
+            "id": "5c4984fbaf6c231b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.2/XSTK/Chap4_ThongKe_UocLuongThamSo.md",
+                "file": "HUST/2022.2/Prj_II/Prepare for Report I.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Prep_list.md"
+                "file": "HUST/2022.2/Prj_II/Prepare for Report II.md"
               }
             }
           }
@@ -117,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922
+    "width": 265.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -133,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Prep_list.md",
+                "file": "HUST/2022.2/Prj_II/Prepare for Report II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Prep_list.md",
+                "file": "HUST/2022.2/Prj_II/Prepare for Report II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,8 +196,22 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "f56e9bb44bb16698",
+  "active": "a58fcf6235dab47b",
   "lastOpenFiles": [
+    "HUST/2022.2/Prj_II/Giải thích cấu trúc.md",
+    "HUST/2022.2/Prj_II/Prepare for Report I.md",
+    "HUST/2022.2/Prj_II/Prepare for Report II.md",
+    "HUST/2022.2/Intro_CyberSec/Midterm Prep.md",
+    "HUST/2022.2/Intro_CyberSec/attachements/Pasted image 20230705165944.png",
+    "HUST/2022.2/Intro_CyberSec/attachements/Pasted image 20230705155751.png",
+    "HUST/2022.2/Intro_CyberSec/attachements/Pasted image 20230705154136.png",
+    "HUST/2022.2/Intro_CyberSec/attachements/bai6.jpg",
+    "Interview/languages/Go.md",
+    "Interview/languages/attachements/Pasted image 20230703205623.png",
+    "Interview/languages/attachements",
+    "Interview/Languages.md",
+    "Interview/languages",
+    "Interview/Prep_list.md",
     "HUST/2022.2/Intro_AI/IntroAI_14 - NaiveBayes.md",
     "HUST/2022.2/Intro_AI/IntroAI_13 - kNearstNeighbors.md",
     "HUST/2022.2/XSTK/Chap5_KiemDinhGiaThuyet.md",
@@ -206,14 +222,8 @@
     "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702211409.png",
     "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702205810.png",
     "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702190148.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702181314.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702181134.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702181046.png",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702164122.png",
     "HUST/2022.2/Intro_AI/IntroAI_12 - HocMay.md",
-    "HUST/2022.2/Intro_AI/attachements/Pasted image 20230702142827.png",
     "HUST/2022.2/Intro_AI/IntroAI_11 - LogicViTu.md",
-    "Interview/Prep_list.md",
     "HUST/2022.2/Intro_AI/IntroAI_10 - LogicDinhDe_P2.md",
     "HUST/2022.2/Intro_AI/IntroAI_9 - LogicDinhDe_P1.md",
     "Interview/OOP/OOP Core Concepts.md",
@@ -224,14 +234,9 @@
     "HUST/2022.2/Intro_AI/IntroAI_8 - BieuDienTriThuc.md",
     "HUST/2022.2/Intro_AI/IntroAI_4 - TimkiemVoiTrithucBoSung.md",
     "HUST/2022.2/Software_Dev_Management/Bài tập lớn.md",
-    "HUST/2022.2/Prj_II/Prepare for Report I.md",
     "HUST/2022.2/Intro_AI/IntroAI_1 - Giới thiệu về Trí tuệ nhân tạo.md",
     "HUST/2022.2/Intro_AI/IntroAI_5 - TimkiemCoDoiThu.md",
-    "HUST/2022.2/Prj_II/Prepare for Report II.md",
-    "HUST/2022.2/Intro_CyberSec/Assignment 2 Report - Trivium.md",
     "HUST/2022.2/Intro_CyberSec/attachements",
-    "HUST/2022.2/Intro_AI/IntroAI_3 - Giải quyết vấn đề (tìm kiếm).md",
-    "HUST/2022.2/Intro_AI/IntroAI_2 - TacTu.md",
     "HUST/2022.2/Prj_II/Prepare for Report I.html",
     "Backend/Microservices/attachements",
     "Backend/Microservices",
@@ -241,8 +246,6 @@
     "Untitled 1.canvas",
     "Backend/Spring Framework/Spring Core/Spring Core.canvas",
     "HUST/2022.2/Prj_II",
-    "HUST/2022.2/Intro_AI/attachements",
-    "Backend/Spring Framework/Spring Core",
     "Công Nghệ Phần Mềm.canvas"
   ]
 }
