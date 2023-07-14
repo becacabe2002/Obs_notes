@@ -9,6 +9,7 @@ Real - Time Data Analysis Application
 	* Apache Spark
 		* Spark Streaming - an extension of Spark
 	* Apache Hadoop: Single Node Hadoop Deployment
+	* Apache Hive
 	* Python
 	* MySQL
 	* Cassandra
