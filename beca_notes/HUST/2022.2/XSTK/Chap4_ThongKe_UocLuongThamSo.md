@@ -127,7 +127,7 @@ $$
 > $$
 > * Mẫu ngẫu nhiên ($X_1, X_2, ..., X_n$) có mẫu cụ thể ($x_1, x_2, ..., x_n$) thì $s^2$ nhận giá trị:
 >  $$
-> s^2 = 1/n \sum^n_{i = 1} (x_i - \overline{x})^2
+> s^2 = 1/(n-1) \sum^n_{i = 1} (x_i - \overline{x})^2
 >  $$
 >  s^2 được gọi là **Phương sai mẫu hiệu chỉnh**
 >  * s là **độ lệch chuẩn mẫu hiệu chỉnh**

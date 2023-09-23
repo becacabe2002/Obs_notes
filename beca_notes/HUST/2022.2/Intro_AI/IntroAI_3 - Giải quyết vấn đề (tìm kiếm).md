@@ -301,7 +301,7 @@ def DFS(N, A, n_0, GOAL)
 > [!warning] Vấn đề
 > Nếu tất cả các lời giải (các nút đích) nằm ở độ sâu lớn hơn giới hạn độ sâu D, thì giải thuật DLS thất bại (ko tìm được lời giải)
 
-#### IDS - tìm kiếm sâu dần
+#### Iterative deepening search (IDS) - tìm kiếm sâu dần
 * Áp dụng giải thuật DFS đối với giới hạn độ sâu D = 0
 * Nếu thất bại, tiếp tục áp dụng giải thuật DFS với D = 1
 * Nếu tiếp tục thất bại, tiếp tục áp dụng giải thuật DFS với D tăng dần cho đến khi:
@@ -324,3 +324,4 @@ Với  độ sâu d = 5, hệ số phân nhánh b = 10. Số lượng các nút 
 * DLS = 111,111
 * IDS = 123,456
 -> Lãng phí: (123,456 - 111,111)/111,111 = 11%
+

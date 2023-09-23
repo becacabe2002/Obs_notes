@@ -59,7 +59,7 @@ VD: HUST_Student(Tuan)
 > 	* $(\exists x \exists y) \equiv (\exists y \exists x)$
 > * Mỗi lượng tử logic  có thể được biểu diễn bằng lượng từ kia:
 > 	* $(\forall x : Thich(x, Kem)) \equiv (\neg \exists x: \neg Thich(x,Kem))$ 
-> 	* $(\exists x: Thich(x,Kem)) \equiv (\neg \forall x \neg Thich(x, Kem))$
+> 	* $(\exists x: Thich(x,Kem)) \equiv (\neg \forall x: \neg Thich(x, Kem))$
 
 ![[Pasted image 20230613025243.png]]
 

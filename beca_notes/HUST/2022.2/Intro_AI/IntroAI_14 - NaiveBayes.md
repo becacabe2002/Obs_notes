@@ -87,3 +87,38 @@ $$
 > 		* Tính giá trị xác suất xảy ra của giá trị thuộc tính đó đối với một phân lớp $c_i: P(x_j|c_i)$
 > 
 > * **Giai đoạn phân lớp (classification phase)**: đối với một ví dụ mới
+
+### Vấn đề của phân loại Naive Bayes
+> [!warning] Vấn đề 1
+> Nếu **không có ví dụ nào gắn với phân lớp $c_i$ có giá trị thuộc tính $x_j$**  $(P(x_j|x_i)) = 0$, dẫn đến: $P(c_i).\Pi^n_{j=1} P(x_j|c_i)=0$    
+
+> [!check] Sử dụng pp Bayes để ước lượng $P(x_j|c_i)$
+> $$
+> P(x_j|c_i) = \frac{n(c_i, x_j) + mp}{n(c_i) + m}
+> $$
+
+- $n(c_i)$ - số lượng các ví dụ học gắn với phân lớp $c_i$
+- $n(c_i,x_j)$ - số lượng các ví dụ học gắn với phân lớp $c_i$ có giá trị thuộc tính $x_j$
+- $p$ - ước lượng đối với giá trị xác suất $P(x_j|c_i)$ (Các ước lượng đồng mức: p = 1/k nếu thuộc tính f_j có k giá trị)
+- $m$ - một hệ số (trọng số), bổ sung cho $n(c_i)$ các ví dụ thực sự được quan sát với thêm m mẫu ví dụ với ước lượng p
+
+> [!warning] Vấn đề 2
+> Giới hạn về độ chính xác trong tính toán của máy tính
+> * $P(x_j|c_i) <1$ đối với mọi giá trị thuộc tính $x_j$ và phân lớp $c_i$
+> * Vì vậy, khi số lượng các giá trị thuộc tính là rất lớn:
+> $$
+> lim_{n\rightarrow \infty} (\Pi ^n_{j = 1} P(x_j|c_i)) = 0
+> $$
+
+> [!check] Sử dụng hàm Loogarit cho các giá trị xác suất
+> $$
+> C_{NB} = arg _{c_i \in C}max(log[P(c_i).\Pi ^n _{j = 1} P(x_j | c_i)])
+> $$
+> $$
+> = arg _{c_i \in C}max(logP(c_i) + \Pi ^n _{j = 1} logP(z_j | c_i))
+> $$
+
+### Phân loại văn bản bằng Naive Bayes
+
+![[Pasted image 20230722232429.png]]
+![[Pasted image 20230722232434.png]]

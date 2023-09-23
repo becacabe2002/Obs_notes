@@ -215,7 +215,7 @@ Với $X \sim N(0;1)$ ($\mu = 0, \sigma = 1$) -> PP chuẩn tắc (hay chuẩn h
 > #xstk_fomula 
 > * **Hàm mật độ xác suất (hàm mật độ Gauss)**:
 > $$
-> \varphi(x) = \frac{1}{\sqrt{2\pi}}* e^{- 1/2*x^2}
+> \varphi(x) = \frac{1}{\sqrt{2\pi}}* e^{- \frac{1}{2}*x^2}
 > $$
 > * **Hàm Laplace**: (để tính xác suất)
 > $$

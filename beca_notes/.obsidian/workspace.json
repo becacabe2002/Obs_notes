@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "d681112ba4de67d3",
+        "id": "65d4fc8dc3820781",
         "type": "tabs",
         "children": [
           {
-            "id": "7a0c5f7d2b9c0de0",
+            "id": "59c705fd72b3e732",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.2/Prj_II/Giải thích cấu trúc.md",
+                "file": "Backend/Microservices/3b_APIGatewayAuthentication.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a58fcf6235dab47b",
+            "id": "1b2b660695fe34a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2022.2/Prj_II/Prepare for Report II.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7fcbea9eb22c792",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2022.2/Prj_II/Prepare for Report I.md",
+                "file": "Backend/Database/Saga Pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,6 +44,7 @@
       {
         "id": "6726d76cb158ef36",
         "type": "tabs",
+        "dimension": 68.87254901960785,
         "children": [
           {
             "id": "f56e9bb44bb16698",
@@ -73,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Bayes",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,6 +92,7 @@
       {
         "id": "077cc7c46907b096",
         "type": "tabs",
+        "dimension": 31.127450980392158,
         "children": [
           {
             "id": "356e4c7443db1b40",
@@ -110,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/2022.2/Prj_II/Prepare for Report II.md"
+                "file": "Backend/Database/Saga Pattern.md"
               }
             }
           }
@@ -118,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922,
-    "collapsed": true
+    "width": 265.5110321044922
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -135,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/2022.2/Prj_II/Prepare for Report II.md",
+                "file": "Backend/Database/Saga Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,9 +141,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/2022.2/Prj_II/Prepare for Report II.md",
+                "file": "Backend/Database/Saga Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "54b68f5e230b0d7c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -196,55 +195,55 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "a58fcf6235dab47b",
+  "active": "1b2b660695fe34a3",
   "lastOpenFiles": [
-    "HUST/2022.2/Prj_II/Prepare for Report I.md",
+    "Backend/Microservices/3b_APIGatewayAuthentication.md",
+    "Backend/Database/Saga Pattern.md",
+    "Backend/Database/ACID Transaction.md",
+    "Backend/Microservices/attachements/Pasted image 20230923213755.png",
+    "Backend/Microservices/3_Authentication_Authorization.md",
+    "Backend/Microservices/attachements/Pasted image 20230923213411.png",
+    "Backend/Microservices/attachements/Pasted image 20230923213353.png",
+    "Backend/Microservices/attachements/Pasted image 20230923212632.png",
+    "Backend/Microservices/attachements/Pasted image 20230923212601.png",
+    "Backend/Microservices/attachements/Pasted image 20230923211900.png",
+    "Backend/Microservices/attachements/Pasted image 20230923174232.png",
+    "Backend/Microservices/attachements/Pasted image 20230923173916.png",
+    "Backend/Microservices/2_DataConsistency.md",
+    "Backend/Database/API Composition.md",
+    "Backend/Database/Command Query Responsibility Segregation.md",
+    "Backend/Database/CAP Theory.md",
+    "Backend/Microservices/attachements/Pasted image 20230923170257.png",
+    "Backend/Microservices/attachements/Pasted image 20230923165444.png",
+    "Backend/Database",
+    "Backend/Microservices/1_Inter-serviceCommunication.md",
+    "Backend/Messaging/Kafka.md",
+    "Backend/Messaging",
     "HUST/2022.2/Prj_II/Giải thích cấu trúc.md",
-    "HUST/2022.2/Prj_II/Prepare for Report II.md",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230711160659.png",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230711155634.png",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230711145642.png",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230711013942.png",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230710173059.png",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230710061914.png",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230709221213.png",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230709221102.png",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230709212714.png",
-    "HUST/2022.2/Prj_II/attachements/Pasted image 20230709211737.png",
-    "HUST/2022.2/Intro_CyberSec/Midterm Prep.md",
-    "Interview/languages/Go.md",
-    "Interview/languages/attachements",
-    "Interview/Languages.md",
-    "Interview/languages",
-    "Interview/Prep_list.md",
-    "HUST/2022.2/Intro_AI/IntroAI_14 - NaiveBayes.md",
-    "HUST/2022.2/Intro_AI/IntroAI_13 - kNearstNeighbors.md",
-    "HUST/2022.2/XSTK/Chap5_KiemDinhGiaThuyet.md",
-    "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
-    "HUST/2022.2/XSTK/Chap4_ThongKe_UocLuongThamSo.md",
-    "HUST/2022.2/Intro_AI/IntroAI_12 - HocMay.md",
-    "HUST/2022.2/Intro_AI/IntroAI_11 - LogicViTu.md",
-    "HUST/2022.2/Intro_AI/IntroAI_10 - LogicDinhDe_P2.md",
-    "HUST/2022.2/Intro_AI/IntroAI_9 - LogicDinhDe_P1.md",
-    "Interview/OOP/OOP Core Concepts.md",
-    "HUST/2022.2/XSTK/Chap1_SKNgauNhien_PhepTinhXS.md",
-    "HUST/2022.1/software_intro/Chap3 - Phương pháp Agile.md",
-    "HUST/2022.2/Distributed_System/Ghi chú môn học.md",
-    "HUST/2022.2/Intro_AI/IntroAI_6 - ThoaManRangBuoc.md",
-    "HUST/2022.2/Intro_AI/IntroAI_8 - BieuDienTriThuc.md",
-    "HUST/2022.2/Intro_AI/IntroAI_4 - TimkiemVoiTrithucBoSung.md",
-    "HUST/2022.2/Software_Dev_Management/Bài tập lớn.md",
-    "HUST/2022.2/Intro_AI/IntroAI_1 - Giới thiệu về Trí tuệ nhân tạo.md",
-    "HUST/2022.2/Intro_CyberSec/attachements",
-    "HUST/2022.2/Prj_II/Prepare for Report I.html",
     "Backend/Microservices/attachements",
-    "Backend/Microservices",
-    "Backend/Caching/attachements",
-    "Backend/Caching",
-    "HUST/2022.2/Prj_II/attachements",
+    "Backend/Microservices/0_General.md",
+    "Backend/Microservices/Intro to Microservice.md",
+    "HUST/2023.1/UX_UI/1_Intro.md",
+    "HUST/2023.1/UX_UI/Note.md",
+    "Android - Kotlin/Index.md",
+    "HUST/2023.1/UX_UI",
+    "Prompt for ChatGPT.md",
+    "Untitled.md",
+    "HUST/2023.1/PTTK_PM/1_QuyTrinhPhatTrienPM.md",
+    "Android - Kotlin",
+    "HUST/2023.1/PTTK_PM/Note.md",
+    "HUST/2023.1/SoftwareQualityAssurance/II_SoftwareMetrics.md",
+    "HUST/2023.1/PTTK_PM",
+    "HUST/2023.1/SoftwareQualityAssurance/attachements",
+    "HUST/2023.1/SoftwareQualityAssurance/I_Introduction.md",
+    "HUST/2023.1/SoftwareQualityAssurance/Note.md",
+    "HUST/2023.1/SoftwareQualityAssurance",
+    "HUST/2023.1",
+    "Backend/Spring Framework/Spring Boot Token based Authentication with Spring Security & JWT.md",
+    "Backend/Tools.md",
+    "Data Structures & Algorithms/Algorithms/Sorting",
     "Untitled 1.canvas",
     "Backend/Spring Framework/Spring Core/Spring Core.canvas",
-    "HUST/2022.2/Prj_II",
     "Công Nghệ Phần Mềm.canvas"
   ]
 }

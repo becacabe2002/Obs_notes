@@ -1,9 +1,9 @@
 {
-  "accentColor": "#2eb298",
-  "cssTheme": "",
-  "interfaceFontFamily": "",
-  "textFontFamily": "",
+  "accentColor": "#a1ccd1",
+  "cssTheme": "Catppuccin",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "Iosevka",
   "monospaceFontFamily": "Consolas",
   "baseFontSize": 18,
-  "theme": "moonstone"
+  "theme": "obsidian"
 }

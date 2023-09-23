@@ -68,6 +68,10 @@
 > 	* Mỗi giai đoạn bao gồm việc nhận thức của tác tử và hành động mà nó thực hiện
 > 	* Ở mỗi giai đoạn, việc lựa chọn hành động để thực hiện chỉ phụ thuộc vào giai đoạn đó (ko phụ thuộc vào các giai đoạn khác)
 
+> [!note] Môi trường Tĩnh - động
+> * Môi trường không thay đổi trong khi tác tử cân nhắc (nên xem đưa ra hành động nào)
+> * **Môi trường bán động**: môi trường mà khi thời gian trôi qua thì nó ko thay đổi, nhưng hiệu quả hoạt động của tác tử thì thay đổi.
+
 > [!note] Môi trường rời rạc - liên tục
 > Tập các nhận thức và các hành động là hữu hạn, được định nghĩa phân biệt rõ ràng.
 
@@ -182,3 +186,4 @@ return action
 	* Dự đoán được ác kế hoạch của một số toán tử khác.
 	* Tính toán ảnh hưởng của các kế hoạch của các tác tử khác đối với kế hoạch của nội tại.
 	* Quyết định hành động tối ưu với dự đoán ảnh hưởng này.
+

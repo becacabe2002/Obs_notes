@@ -189,7 +189,82 @@ Kiến trúc điển hình của một hệ thống suy diễn dựa trên luậ
 * Biểu diễn một khung:
 ![[Pasted image 20230604183307.png]]
 
+### Khung đơn
+* Có thuộc tính đặc biệt **INSTANCE-OFF** và giá trị của thuộc tính đặc biệt này là tên của một khung tổng quát (generic frame)
+```shell
+(toronto  % sử dụng chữ thường cho các khung đơn 
+<:INSTANCE-OF CanadianCity>
+<:Province ontario> 
+<:Population 4.5M> 
+…)
+```
+### Khung tổng quát
+* có thể có một thuộc tính đặc biệt **IS-A** mà giá trị của thuộc tính đặc biệt này là tên của một khung tổng quát khác.
+
+```shell
+(CanadianCity             % sử dụng tên bắt đầu chữ hoa cho khung tổng quát
+<:IS-A City>
+<:Province CanadianProvince> <:Country canada>
+…)
+```
+### Suy diễn với khung
+* Các thuộc tính (slots) trong các khung tổng quát có thể được gắn (liên kết) với các thủ tục để thực hiện và điều khiển việc suy diễn.
+* Có 2 kiểu thủ tục: **IF-NEEDED** và **IF-ADDED**
+* Thủ tục **IF-NEEDED**
+	* Được thực hiện khi không có giá trị cần thiết được gán cho một thuộc tính (no slot filler)
+VD:
+```shell
+(Table
+<:Clearance [IF-NEEDED computeClearance]>
+…)
+```
+`computeClearance` là một thủ tục để tính toán (xác định) mức độ sạch sẽ của cái bàn.
+
+### Tính kế thừa của Khung
+* Các thủ tục và các giá trị thuộc tính của một khung tổng quát hơn sẽ được áp dụng (kế thừa) bởi một khung cụ thể hơn, thông qua cơ chế kế thừa.
+
+VD:
+```shell
+(CoffeeTable
+<:IS-A Table> 
+...) 
+(MahoganyCoffeeTable 
+<:IS-A CoffeeTable> 
+...)
+```
+
+### Suy diễn với Khung
+* Quá trình suy diễn trong pp biểu diễn bằng khung:
+	1. Người dùng khởi tạo một khung (tương đương với việc khai báo sự tồn tại của một đối tượng hay một tình huống)
+	2. Các gia trị của các thuộc tính sẽ được kế thừa (từ các khung tổng quát hơn)
+	3. Các thủ tục **IF-ADDED** sẽ được thực hiện. Việc này có thể sẽ dẫn đến việc khởi tạo của các khung khác, và việc gán giá trị của các thuộc tính.
+
+* Nếu người dùng hoặc thủ tục yêu cầu việc gán giá trị cho một thuộc tính, thì:
+	* Nếu có giá trị cho thuộc tính, thì giá trị sẽ được gán
+	* Nếu ko, thủ tục **IF-NEEDED** sẽ được thực hiện
+
+> [!check] Ưu điểm
+> * Kết hợp được cả tri thức khai báo (declarative knowledge) và tri thức thủ tục (procedural knowledge) trong cùng một phương pháp biểu diễn
+> * Các khung được tổ chức có cấu trúc phân cấp, cho phép dễ dàng phân loại (phân lớp) tri thức
+> * Cấu trúc phân cấp các khung cho phép giảm bớt sự phức tạp (và chi phí) trong quá trình xây dựng cơ sở tri thức
+> * Cho phép thiết lập các ràng buộc đối với các giá trị được gán cho các thuộc tính (ví dụ: ràng buộc giá trị nhập vào phải nằm trong một khoảng giá trị cụ thể)
+> * Cho phép lưu giữ các giá trị mặc định (sử dụng thuộc tính đặc biệt IS-A, các giá trị của các thuộc tính của một khung tổng quát hơn được sử dụng để gán cho các thuộc tính của một khung cụ thể hơn)
+
+> [!failure] Nhược điểm
+> * Trong quá trình thiết kế cấu trúc phân cấp của các khung, cần rất để ý đến sự hợp lý của việc phân loại (các khung)
+> * Có thể gặp vấn đề chi phí cao cho việc thiết kế các thủ tục (IF- ADDED và IF-NEEDED) – Quá nhiều công sức dành cho việc thiết kế các thủ tục phù hợp, thay vì tập trung vào việc kiểm tra cấu trúc và nội dung của các khung
+> * Quá trình khai thác các khung có thể không hiệu quả, vì không có phương pháp hiệu quả để lưu trữ dữ liệu (của các khung) trong máy tính
+
 ## III. Biểu diễn bằng Mạng ngữ nghĩa (Semantic networks)
+> **Mạng ngữ nghĩa** - pp biểu diễn ngữ nghĩa dựa trên đồ thị
+
+* Bao gồm một tập các nút (nodes) và các liên kết (links)
+	* Các nút - khái niệm, hành động hoặc đối tượng trong lĩnh vực bài toán đang xét
+	* Các liên kết - các mối quan hệ giữa các khái niệm, được gán nhãn và có chiều giữa các nút
+
+* Quá trình suy diễn được thực hiện thông qua cơ chế lan truyền (2 kiểu liên kết):
+	* Tác động
+	* Kế thừa
 
 ## IV. Biểu diễn bằng Ontology
 
