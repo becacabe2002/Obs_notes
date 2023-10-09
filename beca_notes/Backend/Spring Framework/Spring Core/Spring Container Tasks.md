@@ -1,4 +1,3 @@
-
 ## Creating Objects
 > Container is responsible for creating obj based on the configuration metadata provided to it.
 

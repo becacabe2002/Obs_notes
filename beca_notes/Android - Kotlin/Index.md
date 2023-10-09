@@ -5,7 +5,6 @@
 - Concept of 'view state' in UI based programs
 - User drives the program vs program drives the user
 
-
 ## Android Concepts
 - [ ] Android **Activity Lifecycle**
 - [ ] Android **Components**: Activity, Service, Receivers, Providers

@@ -6,17 +6,17 @@
 * Nếu **TRANSACTION** thành công, các dữ liệu được thay đổi sẽ được lưu lại trong csdl
 * Ngược lại, nếu **TRANSACTION** không thành công và được hoàn lại, các thay đổi về dữ liệu sẽ bị xoá (hoàn trả lại về trạng thái trước đó)
 
-## I. Đặc tính của transaction
-Gồm 4 đặc tính:
-- ***Tính nguyên tử*** - đảm bảo tất các phép toán trong phần tử làm việc đều hoàn thành. Nếu không, transaction sẽ bị huỷ bỏ tại điểm xảy ra lỗi và tất cả các phép toán được thực hiện lúc trước được hoàn trả về trạng thái ban đầu.
+## I. Đặc tính ACID của transaction
+Gồm 4 đặc tính: (ACID)
+- ***Tính nguyên tử*** (Atomicity) - đảm bảo tất các phép toán trong phần tử làm việc đều hoàn thành. Nếu không, transaction sẽ bị huỷ bỏ tại điểm xảy ra lỗi và tất cả các phép toán được thực hiện lúc trước được hoàn trả về trạng thái ban đầu.
 
-- ***Sự nhất quán*** - đảm bảo là csdl thay đổi đúng các trạng thái khi transaction được cam kết thành công.
+- ***Sự nhất quán*** (Consistency) - đảm bảo là csdl thay đổi đúng các trạng thái khi transaction được cam kết thành công.
 
-- ***Cô lập*** - cho phép các transaction được thực hiện một cách độc lập và minh bạch với nhau
+- ***Cô lập*** (Isolation) - cho phép các transaction được thực hiện một cách độc lập và minh bạch với nhau
 
-- ***Sự bền chắc*** - đảm bảo là kết quả hoặc ảnh hưởng của một committed transaction được bảo toàn kể cả khi hệ thống có phát sinh lỗi 
+- ***Sự bền chắc*** (Durability) - đảm bảo là kết quả hoặc ảnh hưởng của một committed transaction được bảo toàn kể cả khi hệ thống có phát sinh lỗi 
 
-👉 <mark style='background: #D3D3D3'>Dành cho mục đích phục hồi, hệ thống cần phải theo dõi thời điểm transaction **bắt đầu**, **chấm dứt** và **cam kết** hoặc **huỷ bỏ**.</mark>
+👉 <mark style='background: #D3D3D3'>Dành cho mục đích phục hồi, hệ thống cần phải theo dõi thời điểm transaction <b>bắt đầu</b>, <b>chấm dứt</b> và <b>cam kết</b> hoặc <b>huỷ bỏ</b>.</mark>
 
 ## II. Xử lý transaction
 

@@ -4,35 +4,82 @@
     "type": "split",
     "children": [
       {
-        "id": "65d4fc8dc3820781",
+        "id": "13830b75ee8cc2d6",
         "type": "tabs",
         "children": [
           {
-            "id": "59c705fd72b3e732",
+            "id": "5656e4d4bfde833a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Microservices/3b_APIGatewayAuthentication.md",
+                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1b2b660695fe34a3",
+            "id": "093d4067c4ce9834",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Database/Saga Pattern.md",
+                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Pay Order_.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12040ca21af23cd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Order_.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08cbcb91921e113e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2023.1/PTTK_PM/1_QuyTrinhPhatTrienPM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5d23acf0f7526c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2023.1/Project3/week3/Problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f991568cc9897f79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2023.1/Project3/Syllabus.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/Database/Saga Pattern.md"
+                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md"
               }
             }
           }
@@ -108,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922
+    "width": 265.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -124,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/Database/Saga Pattern.md",
+                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/Database/Saga Pattern.md",
+                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,9 +204,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "cd0b63161ffef01a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "0985aeef55949f6d",
@@ -192,58 +248,59 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "webpage-html-export:Export Vault to HTML": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1b2b660695fe34a3",
+  "active": "5656e4d4bfde833a",
   "lastOpenFiles": [
-    "Backend/Microservices/3b_APIGatewayAuthentication.md",
-    "Backend/Database/Saga Pattern.md",
-    "Backend/Database/ACID Transaction.md",
-    "Backend/Microservices/attachements/Pasted image 20230923213755.png",
-    "Backend/Microservices/3_Authentication_Authorization.md",
-    "Backend/Microservices/attachements/Pasted image 20230923213411.png",
-    "Backend/Microservices/attachements/Pasted image 20230923213353.png",
-    "Backend/Microservices/attachements/Pasted image 20230923212632.png",
-    "Backend/Microservices/attachements/Pasted image 20230923212601.png",
-    "Backend/Microservices/attachements/Pasted image 20230923211900.png",
-    "Backend/Microservices/attachements/Pasted image 20230923174232.png",
-    "Backend/Microservices/attachements/Pasted image 20230923173916.png",
-    "Backend/Microservices/2_DataConsistency.md",
-    "Backend/Database/API Composition.md",
-    "Backend/Database/Command Query Responsibility Segregation.md",
-    "Backend/Database/CAP Theory.md",
-    "Backend/Microservices/attachements/Pasted image 20230923170257.png",
-    "Backend/Microservices/attachements/Pasted image 20230923165444.png",
-    "Backend/Database",
-    "Backend/Microservices/1_Inter-serviceCommunication.md",
-    "Backend/Messaging/Kafka.md",
-    "Backend/Messaging",
-    "HUST/2022.2/Prj_II/Giải thích cấu trúc.md",
-    "Backend/Microservices/attachements",
-    "Backend/Microservices/0_General.md",
-    "Backend/Microservices/Intro to Microservice.md",
-    "HUST/2023.1/UX_UI/1_Intro.md",
-    "HUST/2023.1/UX_UI/Note.md",
-    "Android - Kotlin/Index.md",
-    "HUST/2023.1/UX_UI",
-    "Prompt for ChatGPT.md",
-    "Untitled.md",
+    "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Pay Order_.md",
+    "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Order_.md",
+    "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md",
+    "HUST/2023.1/PTTK_PM/Assignment/attachements/Call Place Rush Order.png",
+    "HUST/2023.1/PTTK_PM/Assignment/attachements/Place Order (new).png",
+    "HUST/2023.1/PTTK_PM/Assignment/attachements/Pay Order (new).png",
+    "HUST/2023.1/PTTK_PM/Assignment/attachements",
+    "HUST/2023.1/Project3/week3/Problems.md",
     "HUST/2023.1/PTTK_PM/1_QuyTrinhPhatTrienPM.md",
-    "Android - Kotlin",
+    "HUST/2023.1/PTTK_PM/3_RequirementModelingWithUC.md",
+    "HUST/2023.1/PTTK_PM/attachements/diagram-export-10_8_2023, 9_56_38 AM.png",
+    "HUST/2023.1/PTTK_PM/attachements/Pasted image 20230924221000.png",
     "HUST/2023.1/PTTK_PM/Note.md",
+    "HUST/2023.1/VP/VP6/DELF PREP/PO/Sample Conversation.md",
+    "HUST/2023.1/Project3/week3/15 articles.md",
+    "HUST/2023.1/VP/VP6/DELF PREP/PO",
+    "HUST/2023.1/VP/VP6/DELF PREP",
+    "HUST/2023.1/VP/VP6",
+    "HUST/2023.1/VP",
+    "HUST/2023.1/Untitled.md",
+    "Skills/Do a research/3_Take notes for Research Papers.md",
+    "HUST/2023.1/Project3/Syllabus.md",
+    "HUST/2023.1/Project3/week3",
+    "Skills/Do a research/1_Searching for quality research papers.md",
+    "HUST/2023.1/Project3",
+    "Skills/Do a research/_Strategies for doing research.md",
+    "Skills/Do a research/2_Quick scan a research article.md",
+    "Skills/Personal project/How to structure a personal project.md",
+    "Skills/Personal project",
+    "HUST/2023.1/VP/VP7/Exemple de sujet à L'examen écrit de Mi-semestre.md",
+    "Skills/Do a research",
+    "Skills",
+    "HUST/2023.1/VP/VP7/w3/Rédiger un commentaire des documents non-textuels.md",
+    "HUST/2023.1/VP/VP7/w3/attachements/MicrosoftTeams-image.png",
+    "HUST/2023.1/VP/VP7/PLAN DE L'EXPOSÉ - GROUPE 7.md",
     "HUST/2023.1/SoftwareQualityAssurance/II_SoftwareMetrics.md",
-    "HUST/2023.1/PTTK_PM",
-    "HUST/2023.1/SoftwareQualityAssurance/attachements",
-    "HUST/2023.1/SoftwareQualityAssurance/I_Introduction.md",
-    "HUST/2023.1/SoftwareQualityAssurance/Note.md",
-    "HUST/2023.1/SoftwareQualityAssurance",
-    "HUST/2023.1",
-    "Backend/Spring Framework/Spring Boot Token based Authentication with Spring Security & JWT.md",
-    "Backend/Tools.md",
-    "Data Structures & Algorithms/Algorithms/Sorting",
-    "Untitled 1.canvas",
+    "Big Data/About Big Data/Concepts.md",
+    "HUST/2022.2/Prj_II/Prepare for Report I.md",
+    "HUST/2022.2/Prj_II/Prepare for Report II.md",
+    "HUST/2023.1/UX_UI/2_YeuToConNguoi-MayTinh_TrongHeTuongTac.md",
+    "HUST/2023.1/VP/VP7/Types de plan.md",
+    "Backend/Database/attachements/Pasted image 20230924161206.png",
+    "Backend/Database/attachements/Pasted image 20230924160838.png",
+    "Backend/Database/attachements/Pasted image 20230924160000.png",
+    "Backend/Database/attachements/Pasted image 20230924155827.png",
     "Backend/Spring Framework/Spring Core/Spring Core.canvas",
+    "Untitled 1.canvas",
     "Công Nghệ Phần Mềm.canvas"
   ]
 }

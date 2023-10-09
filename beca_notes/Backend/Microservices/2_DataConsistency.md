@@ -9,7 +9,7 @@
 
 ## Shared Database
 * Một db được chia sẻ cho nhiều services.
-* Các services được tự do truy cập các bảng của nhau để đảm bảo [[ACID Transaction]]
+* Các services được tự do truy cập các bảng của nhau để đảm bảo [[C9 (old)- TRANSACTION#I. Đặc tính ACID của transaction]]
 ![[Pasted image 20230923165444.png]]
 
 > [!check] Lợi ích
