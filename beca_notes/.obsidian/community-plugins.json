@@ -6,5 +6,7 @@
   "multi-column-markdown",
   "obsidian-tikzjax",
   "webpage-html-export",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "image-converter",
+  "obsidian-timeline"
 ]

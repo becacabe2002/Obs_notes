@@ -43,9 +43,9 @@ không có
 | --- | ----------------- | ----------------- | -------- | ---------------- | -------------------------- |
 | 1   | Tên người nhận    |                   | Có       |                  | Ngo Minh Tu                |
 | 2   | SĐT               |                   | Có       | 10 số            | 0987654321                 |
-| 3   | Quận              | Chọn từ danh sách | Có       |                  | Hanoi                      |
+| 3   | Thành phố         | Chọn từ danh sách | Có       |                  | Hanoi                      |
 | 4   | Địa chỉ           |                   | Có       |                  | số 9, ngõ X, Phố Y, Quận Z |
-| 5   | Chỉ dẫn giao hàng |                   | Không    |                  |                            | 
+| 5   | Chỉ dẫn giao hàng |                   | Không    |                  |                            |
 
 ## 9. Dữ liệu đầu ra
 | No  | Trường dữ liệu     | Mô tả                                                                           | Hình thái hiển thị                                           | Ex                              |

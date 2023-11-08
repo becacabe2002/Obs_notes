@@ -4,11 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "13830b75ee8cc2d6",
+        "id": "a5bd7a7fae8cef66",
         "type": "tabs",
         "children": [
           {
-            "id": "5656e4d4bfde833a",
+            "id": "cdb7bfbaad663cc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2023.1/Project3/Week7/Unified Solution Framework for multi-attribute vehicle routing problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb81252470a9f183",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2023.1/Project3/week4/Variants of VRP and applied Algos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b066018e7d7bc53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Skills/Do a research/2_Quick scan a research article.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad70693d0f9e5fb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2023.1/VP/VP7/PLAN DE L'EXPOSÉ - GROUPE 7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f2060f07d2110d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,66 +68,19 @@
             }
           },
           {
-            "id": "093d4067c4ce9834",
+            "id": "78cdb54f82af4f3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Pay Order_.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12040ca21af23cd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Order_.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08cbcb91921e113e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2023.1/PTTK_PM/1_QuyTrinhPhatTrienPM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5d23acf0f7526c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2023.1/Project3/week3/Problems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f991568cc9897f79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/2023.1/Project3/Syllabus.md",
+                "file": "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md"
+                "file": "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md"
               }
             }
           }
@@ -172,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md",
+                "file": "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md",
+                "file": "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,57 +249,58 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
-      "webpage-html-export:Export Vault to HTML": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "5656e4d4bfde833a",
+  "active": "78cdb54f82af4f3c",
   "lastOpenFiles": [
-    "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Pay Order_.md",
-    "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Order_.md",
-    "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md",
-    "HUST/2023.1/PTTK_PM/Assignment/attachements/Call Place Rush Order.png",
-    "HUST/2023.1/PTTK_PM/Assignment/attachements/Place Order (new).png",
-    "HUST/2023.1/PTTK_PM/Assignment/attachements/Pay Order (new).png",
-    "HUST/2023.1/PTTK_PM/Assignment/attachements",
-    "HUST/2023.1/Project3/week3/Problems.md",
-    "HUST/2023.1/PTTK_PM/1_QuyTrinhPhatTrienPM.md",
-    "HUST/2023.1/PTTK_PM/3_RequirementModelingWithUC.md",
-    "HUST/2023.1/PTTK_PM/attachements/diagram-export-10_8_2023, 9_56_38 AM.png",
-    "HUST/2023.1/PTTK_PM/attachements/Pasted image 20230924221000.png",
-    "HUST/2023.1/PTTK_PM/Note.md",
-    "HUST/2023.1/VP/VP6/DELF PREP/PO/Sample Conversation.md",
-    "HUST/2023.1/Project3/week3/15 articles.md",
-    "HUST/2023.1/VP/VP6/DELF PREP/PO",
-    "HUST/2023.1/VP/VP6/DELF PREP",
-    "HUST/2023.1/VP/VP6",
-    "HUST/2023.1/VP",
-    "HUST/2023.1/Untitled.md",
-    "Skills/Do a research/3_Take notes for Research Papers.md",
+    "HUST/2023.1/Project3/Week7/Unified Solution Framework for multi-attribute vehicle routing problems.md",
     "HUST/2023.1/Project3/Syllabus.md",
-    "HUST/2023.1/Project3/week3",
-    "Skills/Do a research/1_Searching for quality research papers.md",
-    "HUST/2023.1/Project3",
-    "Skills/Do a research/_Strategies for doing research.md",
+    "HUST/2023.1/Project3/week4/Variants of VRP and applied Algos.md",
+    "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md",
+    "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md",
+    "HUST/2023.1/Project3/week5/Rich VRP Taxonomy.md",
+    "HUST/2023.1/Project3/week5/attachements/Rich VRP Taxonomy-20231101024359643.webp",
     "Skills/Do a research/2_Quick scan a research article.md",
-    "Skills/Personal project/How to structure a personal project.md",
-    "Skills/Personal project",
-    "HUST/2023.1/VP/VP7/Exemple de sujet à L'examen écrit de Mi-semestre.md",
-    "Skills/Do a research",
-    "Skills",
-    "HUST/2023.1/VP/VP7/w3/Rédiger un commentaire des documents non-textuels.md",
-    "HUST/2023.1/VP/VP7/w3/attachements/MicrosoftTeams-image.png",
+    "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Order_.md",
     "HUST/2023.1/VP/VP7/PLAN DE L'EXPOSÉ - GROUPE 7.md",
-    "HUST/2023.1/SoftwareQualityAssurance/II_SoftwareMetrics.md",
-    "Big Data/About Big Data/Concepts.md",
-    "HUST/2022.2/Prj_II/Prepare for Report I.md",
-    "HUST/2022.2/Prj_II/Prepare for Report II.md",
-    "HUST/2023.1/UX_UI/2_YeuToConNguoi-MayTinh_TrongHeTuongTac.md",
+    "HUST/2023.1/VP/CN/Week 6 - Internet.md",
+    "HUST/2023.1/VP/CN/Week 5.md",
+    "HUST/2023.1/VP/CN/Week 4.md",
+    "HUST/2023.1/VP/VP7/Exemple de sujet à L'examen écrit de Mi-semestre.md",
     "HUST/2023.1/VP/VP7/Types de plan.md",
-    "Backend/Database/attachements/Pasted image 20230924161206.png",
-    "Backend/Database/attachements/Pasted image 20230924160838.png",
-    "Backend/Database/attachements/Pasted image 20230924160000.png",
-    "Backend/Database/attachements/Pasted image 20230924155827.png",
+    "HUST/2023.1/VP/VP6/DELF PREP/CE/Rédiger un article de journal.md",
+    "HUST/2023.1/VP/VP6/Note 23_10_2023.md",
+    "HUST/2023.1/UX_UI/6_PhanTichNhiemVu.md",
+    "HUST/2023.1/Project3/Week7",
+    "HUST/2023.1/Project3/Untitled.md",
+    "HUST/2023.1/Project3/week5/attachements",
+    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231031154057084.webp",
+    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231031150929857.webp",
+    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231031143326042.webp",
+    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231031093607960.webp",
+    "HUST/2023.1/PTTK_PM/7_DataModeling.md",
+    "HUST/2023.1/PTTK_PM/5_IdentifyDesignElements.md",
+    "HUST/2023.1/PTTK_PM/6_InterfaceDesign.md",
+    "HUST/2023.1/TiengPhapChuyenNganh/Chuẩn bị Thuyết Trình GK.md",
+    "HUST/2023.1/TiengPhapChuyenNganh/W2.md",
+    "HUST/2023.1/TiengPhapChuyenNganh/ntitled",
+    "HUST/2023.1/VP/VP6/DELF PREP/CE",
+    "HUST/2023.1/Project3/week5",
+    "HUST/2023.1/SoftwareQualityAssurance/I_Introduction.md",
+    "Study Abroad/Note gặp mặt 19_10_2023.md",
+    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231023073429812.webp",
+    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231023064157934.webp",
+    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231023061106506.webp",
+    "HUST/2023.1/SoftwareQualityAssurance/Note.md",
+    "HUST/2023.1/PTTK_PM/attachements/6_InterfaceDesign-20231022092551640.webp",
+    "HUST/2023.1/PTTK_PM/attachements/5_IdentifyDesignElements-20231022084146505.webp",
+    "Study Abroad/attachements",
+    "Study Abroad",
+    "HUST/2022.2/XSTK.zip",
+    "HUST/2022.2/XSTK.7z",
+    "HUST/2023.1/Project3/week4/attachements",
     "Backend/Spring Framework/Spring Core/Spring Core.canvas",
     "Untitled 1.canvas",
     "Công Nghệ Phần Mềm.canvas"
