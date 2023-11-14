@@ -19,6 +19,8 @@ V                     |
 * Blackbox testing - Functional Testing
 * Whitebox testing - Integration Testing
 
+---
+***Control flow Testing***
 ## Path Testing
 
 ![[V_WhiteBoxTesting-20231023061106506.webp]]
@@ -128,7 +130,7 @@ $P = ((a >b) \lor C) \land p(x)$
 * Với mỗi p $\in$ P và mỗi major clause $c_i\in C_p$, chọn minor clauses $c_j$ (i $\neq$ j) sao cho c_i xác định p.
 * Test Requirement có 2 yêu cầu cho $c_i$. c_i = T và c_i = F.
 
-Ex:
+Ex0:
 với $p = a \vee b$, có 4 yêu cầu trong TR, 2 cho a và 2 cho b.
 * b cần False để a xác định p và ngược lại
 
@@ -142,13 +144,34 @@ Có bảng
 
 -> có 3 tổ hợp (a,b) = (T,F), (F,T),(F,F)
 
-Ex:
+Ex1:
 ![[V_WhiteBoxTesting-20231031143326042.webp]]
 
-Ex: cho $P= a \land (b \lor c)$, nếu coi a là AC -> cần gán giá trị nào cho b và c?
+Ex2: cho $P= a \land (b \lor c)$, nếu coi a là AC -> cần gán giá trị nào cho b và c?
 * Giá trị của b và c sao cho khi thay đổi giá trị của a, giá trị của P cũng thay đổi
 -> $(b \lor c) = T$, khi đó giá trị của P được xác định bởi a
 Có thể gán b = 1, c = 1
+
+Ex3:
+P = f (c_1, c_2, ..., c_k)
+Mệnh đề c_i là mệnh đề chính: P = P(c_i)
+	-> Phải xác định các gtrị cụ thể của các mệnh đề phụ, $\forall c_j$ (j != i).
+Với ACC, $\forall c_i$ là mệnh đề chính, cần xét hai TH:
+* TC1: c_i = T
+* TC2: c_j = F
+Với $P = a \vee b$
+	Để a là mệnh đề chính: b = F -> có hai TC: (T,F);(F,F)
+	Tương tự, với b là mệnh đề chính -> có hai TC: (F,F);(F,T)
+	-> Có 3 TC thỏa mãn ACC: (T,F);(F,T);(F,F)
+
+Ex4:
+$P = c_1 \wedge c_2 \wedge c_3 \wedge c_4$ 
+c_1 - credit completed > 30
+c_2 - cummulative GPA > 2.0
+c_3 - fulltime status
+c_4 - termed GPA > 2.0
+Đưa ra tập TC thỏa mãn ACC(P)
+
 
 > [!note] Phát biểu ACC
 > với mỗi predicate **p** và mỗi major clause **c** của p, chọn minor clauses sao cho c xác định p. 
@@ -166,11 +189,11 @@ Có thể gán b = 1, c = 1
 > * Correlated active clause coverage (CACC)
 > * Restricted active clause coverage (RACC)
 
-#### 👉 **GENERAL ACTIVE CLAUSE COVERAGE** (GACC)
+### 👉 **GENERAL ACTIVE CLAUSE COVERAGE** (GACC)
 Với ví dụ: $P= a \land (b \lor c)$
-* Với mỗi clause c, chọn giá trị cho minor clauses sao cho c xác định P
-* clause c được xét ở hai giá trị đúng, sai
-* Các minor clause không cần phải giống nhau trong TH c đúng lẫn trong TH c sai.
+* Với mỗi clause c_i, chọn giá trị cho minor clauses c_j sao cho c_i xác định P
+* clause c_i được xét ở hai giá trị đúng, sai
+* Các minor clause c_j không cần phải giống nhau trong TH c_i đúng lẫn trong TH c_i sai.
 
 ![[V_WhiteBoxTesting-20231031150929857.webp|562]]
 
@@ -194,20 +217,67 @@ Ex: P = a <-> b
 * Test case T = {(a=T, b=T), (a=F,b=F)} satisfy GACC, but not PC, all both cases, P = T
 * Test case T = {(a=T, b=F), (a=F,b=T)} satisfy GACC too, but not PC either, all both cases, P = F
 
-#### **CORRELATED ACTIVE CLAUSE COVERAGE (CACC)** (tương quan)
-* Bổ sung thêm: các giá trị chọn cho Minor clause phải là đúng cho cho 1 giá trị của Major clause và sai cho cái còn lại 
+### **CORRELATED ACTIVE CLAUSE COVERAGE (CACC)** (tương quan)
+* Bổ sung thêm: các giá trị chọn cho Minor clause c_j phải khiến cho P đúng với một giá trị của major clause c_i và sai cho giá trị còn lại.
 $$
 P(c_i = true) != P(c_i=false)
 $$
+
+* c_j không cần phải giống nhau (tương tự GACC)
 Ex:
 ![[V_WhiteBoxTesting-20231031154057084.webp]]
+
+-> Chọn 1 trong các cặp 1,2,3 + 5,6,7
 
 > [!note]
 > CACC bao hàm GACC, từ đó bao hàm CC và cũng như PC
 
-#### 👉 **RESTRICTED ACTIVE CLAUSE COVERAGE (RACC)**
+Ex: tìm các test case thỏa mãn GACC, CACC
+![[V_WhiteBoxTesting-20231108164414735.webp]]
+* Coi a là c_i, có b <-> c cần phải = true để a là major clause -> chọn row 1, 4, 5, 8
+	* Chọn cặp lấy mỗi bên 1 thành phần để tạo thành các cặp thỏa mãn GACC (1,5), (1,8), (4,5), (4,8)
+	* Chọn cặp (4,8), (1,5) để thỏa mãn CACC
+
+### 👉 **RESTRICTED ACTIVE CLAUSE COVERAGE (RACC)**
 * Thỏa mãn CACC
 $$
 \forall c_j, c_j(c_i=true) = c_j(c_i=false)
 $$
 * Mệnh đề phụ phải giữ nguyên giá trị khi mệnh đề chính thay đổi giá trị
+* Là một phiên bản nghiêm ngặt hơn của CACC
+
+> [!note] 
+> RACC bao hàm cả CACC, GACC, CC và PC
+
+> [!warning] RACC thường dẫn tới các test requirements bất khả thi
+
+Ex:
+Với $b\vee c = P$ (ko áp dụng tiêu chí phụ)
+Với $P = a \wedge (b \vee c)$ -> áp dụng tiêu chí phụ
+
+Minor Clause được lựa chọn thỏa mãn *(1)* hoặc *(2)*
+*(1)*: $\forall c_j: c_j(c_i = T) = c_j (c_i = F)$
+
+*(2)*: $\forall c_j: c_j(c_i = T) != c_j(c_i = F)$
+
+* Chọn a là major clause <-> $b\vee c = True$
+-> ACC(a): (b,c) $\in$ {(T,F);(F,T);(T,T)}
+-> {1,2,3} x{5,6,7} -> có 9 cặp thỏa mãn
+Để GACC(a) ->:
+	b(a = T) = b(a = F) hoặc b(a = T) != b(a = F)
+	c(a = T) = c(a = F) hoặc c(a = T) != c(a = F)
+-> chọn các cặp {1,5};{2,6};{3,7} và {2,7};{3,6} (5 trường hợp)
+
+
+* Chọn b làm major clause, a = true để b xác định
+	GACC(b) <-> ACC(b), có c là minor clause: $\forall c$ (cả c = T và c = F)
+	GACC(c) <-> ACC(c), có b là minor clause: $\forall b$ (cả b = T và b = F)
+-> cần các tiêu chí phụ để giảm số trường hợp TC
+CACC: chọn minor clause sao cho P đúng với 1 giá trị main clause và sai với giá trị còn lại -> {2, 4} và {3,4}
+
+### Logical Operators in Source Code
+![[V_WhiteBoxTesting-20231108170131234.webp]]
+
+---
+***Data Flow Testing***
+
