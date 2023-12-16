@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cdb7bfbaad663cc9",
+            "id": "c6af2bc8f32aad3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "fb81252470a9f183",
+            "id": "e834a3062d8e3983",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2023.1/Project3/week4/Variants of VRP and applied Algos.md",
+                "file": "HUST/2023.1/Project3/week3/Transportation Risk Assessment.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,19 +44,67 @@
             }
           },
           {
-            "id": "2b066018e7d7bc53",
+            "id": "047199ac45287676",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Do a research/2_Quick scan a research article.md",
+                "file": "HUST/2023.1/Project3/week4/Variants of VRP and applied Algos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0a879bc3f25df28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.2_DEingLifecycle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b1dd9cdd917a68c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2023.1/SoftwareQualityAssurance/IV_BlackBoxTesting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e4052e06fe3e2e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.2_DEingLifecycle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7cc09112ce745804",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2023.1/PLĐC/Lesson_3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -124,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/2023.1/Project3/week5/Rich VRP Taxonomy.md"
+                "file": "HUST/2023.1/PLĐC/Lesson_3.md"
               }
             }
           }
@@ -132,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922,
-    "collapsed": true
+    "width": 265.5110321044922
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -149,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/2023.1/Project3/week5/Rich VRP Taxonomy.md",
+                "file": "HUST/2023.1/PLĐC/Lesson_3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/2023.1/Project3/week5/Rich VRP Taxonomy.md",
+                "file": "HUST/2023.1/PLĐC/Lesson_3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,53 +276,55 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "ccd52d10f5975b4c",
+  "active": "7cc09112ce745804",
   "lastOpenFiles": [
-    "HUST/2023.1/Project3/week4/Variants of VRP and applied Algos.md",
+    "HUST/2023.1/PLĐC/Lesson_4.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.2_DEingLifecycle.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/_Index.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/2.3_Ingestion.md",
+    "HUST/2023.1/PTTK_PM/11_DesignConcepts.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/2.2a_Storage.md",
+    "HUST/2023.1/PTUD_TBGD/Index.md",
     "HUST/2023.1/Project3/Week7/Unified Solution Framework for multi-attribute vehicle routing problems.md",
+    "HUST/2023.1/SoftwareQualityAssurance/IV_BlackBoxTesting.md",
+    "HUST/2023.1/SoftwareQualityAssurance/attachements/IV_BlackBoxTesting-20231211094118981.webp",
+    "HUST/2023.1/Project3/week4/Variants of VRP and applied Algos.md",
+    "HUST/2023.1/PLĐC/Lesson_2.md",
+    "HUST/2023.1/PLĐC/Lesson_3.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.2b_MajorUndercurrentsAcrossTheDEingLifecycle.md",
+    "HUST/2023.1/Project3/week3/Transportation Risk Assessment.md",
     "HUST/2023.1/Project3/week5/Rich VRP Taxonomy.md",
-    "Skills/Do a research/2_Quick scan a research article.md",
-    "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md",
-    "HUST/2023.1/VP/VP7/PLAN DE L'EXPOSÉ - GROUPE 7.md",
-    "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Rush Order_.md",
-    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231108170131234.webp",
-    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231108164414735.webp",
-    "HUST/2023.1/Project3/Syllabus.md",
-    "HUST/2023.1/Project3/week5/attachements/Rich VRP Taxonomy-20231101024359643.webp",
-    "HUST/2023.1/PTTK_PM/Assignment/Đặc tả Use case _Place Order_.md",
-    "HUST/2023.1/VP/CN/Week 6 - Internet.md",
-    "HUST/2023.1/VP/CN/Week 5.md",
-    "HUST/2023.1/VP/CN/Week 4.md",
-    "HUST/2023.1/VP/VP7/Exemple de sujet à L'examen écrit de Mi-semestre.md",
-    "HUST/2023.1/VP/VP7/Types de plan.md",
-    "HUST/2023.1/VP/VP6/DELF PREP/CE/Rédiger un article de journal.md",
-    "HUST/2023.1/VP/VP6/Note 23_10_2023.md",
-    "HUST/2023.1/UX_UI/6_PhanTichNhiemVu.md",
-    "HUST/2023.1/Project3/Week7",
-    "HUST/2023.1/Project3/Untitled.md",
-    "HUST/2023.1/Project3/week5/attachements",
-    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231031154057084.webp",
-    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231031150929857.webp",
-    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231031143326042.webp",
-    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231031093607960.webp",
-    "HUST/2023.1/PTTK_PM/7_DataModeling.md",
-    "HUST/2023.1/PTTK_PM/5_IdentifyDesignElements.md",
-    "HUST/2023.1/PTTK_PM/6_InterfaceDesign.md",
-    "HUST/2023.1/TiengPhapChuyenNganh/Chuẩn bị Thuyết Trình GK.md",
-    "HUST/2023.1/TiengPhapChuyenNganh/W2.md",
-    "HUST/2023.1/TiengPhapChuyenNganh/ntitled",
-    "HUST/2023.1/VP/VP6/DELF PREP/CE",
-    "HUST/2023.1/Project3/week5",
-    "HUST/2023.1/SoftwareQualityAssurance/I_Introduction.md",
-    "Study Abroad/Note gặp mặt 19_10_2023.md",
-    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231023073429812.webp",
-    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231023064157934.webp",
-    "HUST/2023.1/SoftwareQualityAssurance/attachements/V_WhiteBoxTesting-20231023061106506.webp",
-    "Study Abroad/attachements",
-    "Study Abroad",
-    "HUST/2022.2/XSTK.zip",
-    "HUST/2022.2/XSTK.7z",
-    "HUST/2023.1/Project3/week4/attachements",
+    "HUST/2023.1/PLĐC/_Index.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/1.2b_MajorUndercurrentsAcrossTheDEingLifecycle-20231208100813277.webp",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.1_DEDescribed.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.3_DesigningGoodDataArchitecture.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/2.1_DataGenerationInSourceSystems.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/B - The Data Engineering Lifecycle in Depth",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/2_DEingLifecycle-20231208030231608.webp",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/2_DEingLifecycle-20231208025624967.webp",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/2_DEingLifecycle-20231208015350577.webp",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/1_DEDescribed-20231207171505039.webp",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/1_DEDescribed-20231207170355718.webp",
+    "Books/Risk Analytics - From Concept to Deployment/Glossary.md",
+    "Books/Risk Analytics - From Concept to Deployment/Summary.md",
+    "Python/Advanced Python/3. Metaclasses & How Classes really work.md",
+    "Python/Advanced Python/2. Dunder_Magic Methods & The Python Data Model.md",
+    "Python/Advanced Python/1. Overview of Python - How it works.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/1_DEDescribed-20231207140339429.webp",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/1_DEDescribed-20231207134706648.webp",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/1_DEDescribed-20231207134535937.webp",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks",
+    "HUST/2023.1/Project3/Week9/Mindmap.canvas",
+    "HUST/2022.2/Intro_AI/IntroAI_3 - Giải quyết vấn đề (tìm kiếm).md",
+    "HUST/2022.2/Intro_AI/IntroAI_1 - Giới thiệu về Trí tuệ nhân tạo.md",
+    "HUST/2023.1/PTUD_TBGD",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering",
+    "Books/DE",
+    "Delf B1 - Chị Ánh/CO tự luyện",
+    "Delf B1 - Chị Ánh",
+    "HUST/2023.1/PLĐC",
+    "HUST/2023.1/Project3/Week10",
     "Backend/Spring Framework/Spring Core/Spring Core.canvas",
     "Untitled 1.canvas",
     "Công Nghệ Phần Mềm.canvas"

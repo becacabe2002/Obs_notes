@@ -280,4 +280,84 @@ CACC: chọn minor clause sao cho P đúng với 1 giá trị main clause và sa
 
 ---
 ***Data Flow Testing***
+> [!tip] Goal
+> Ensure values are computed and used correctly by considering how data accessed and modified.
 
+> [!abstract] Date Flow Test Coverage Criteria
+> * All-defs coverage
+> * All-uses coverage
+> * All-DU-Paths coverage
+> * All-p-uses/some-c-uses coverage
+> * All-c-uses/some-p-uses coverage
+> * All-p-uses coverage
+> * All-c-uses coverage
+
+$P = G(V,E)$
+V: nodes -> definition/use
+E: edges -> variables
+
+* Variable is **defined** whenever its value is modified.
+	```python
+	y = 20 # assign
+	read(y) # input statement
+	update(x, &y) # call-by-reference parameter
+	```
+
+* Variable is **used** whenever its value is read.
+	```python
+	y = x + 17 # y is defined, x is used
+	y = sqrt(x) 
+	```
+
+* Variable use: ***p-use*** and ***c-use***
+	* p-use (predicate-use): use in the predicate of a branch statement
+	* c-use (computation-use): any other usage
+
+```java
+if (x > 0) { // p-use of x
+	print(y); // c-use of y
+}
+```
+
+* a variable can be also used and then re-defined in a single statement when it appears. 
+	Ex: y = y + x
+	increment(&y)
+
+> [!info] Definition-Clear-Path
+> * A path is definition-clear to a variable v *if it has no variable re-definition of v on this path*.
+
+> [!info] Complete-Path
+> * A path is complete if the initial node of this path is a *entry node* and its final node is an exit node
+
+> [!info] Definition-Use Pair (DU-pair)
+> Is a pair (d,u) such that:
+> * **d** is a node defining v
+> * u is a node or edge using v
+> 	* When it is a p-use of v, u is an out-going edge of the predicate statement
+> * There is a def-clear path of v from d to u
+> ![[V_WhiteBoxTesting-20231202174652558.webp|480]]
+> 
+
+
+> [!note] All-Defs Coverage
+> For every var *v*, at least **one def-clear path** from every definition of v to at least one c-use/p-use of v must be covered.
+
+
+> [!note] All-Uses Coverage
+> For every var *v*, at least **one def-clear path** from every def of v  to every c-use/p-use (all outgoing edges of the predicate statement) of v must be covered.
+
+* All du-pairs covered.
+
+* A path is **simple** if all edges within the path are **distinct**
+* A path is **loop-free** if all nodes within the path are **distinct**
+
+> [!info] DU-Path
+> A Path $<n_1, n_2, ...,n_j, n_k>$ is a **DU-Path** to var *v*, if *v* is defined at node **n1** and either:
+> * have **c-use** of v at node $n_k$ and the rest is a **def-clear simple** path.
+> * have **p-use** of v at edge $<n_j, n_k>$ and the rest is a **def-clear loop-free** path
+
+* ***All DU-Paths Coverage***: for every var v, every du-path from every def of v to every c-use and every p-use of v must be covered.
+Ex:
+![[V_WhiteBoxTesting-20231202180753301.webp]]
+## Summary
+![[V_WhiteBoxTesting-20231202180648150.webp|785]]
