@@ -1,16 +1,16 @@
 {
   "settings": {
-    "migrated": 3,
+    "migrated": 4,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasHouseChimney",
+      "FasServer",
       "FasA",
       "FasTrowelBricks",
-      "FasUser",
-      "FasListCheck",
-      "FasMobileScreen"
+      "FasUser"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -24,7 +24,8 @@
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
-    "iconsInNotesEnabled": true
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
   },
   "Backend": "FasServer",
   "Big Data": "FasCloud",
@@ -36,5 +37,6 @@
   "HUST/2023.1/PTUD_TBGD": "FasMobileScreen",
   "HUST/2023.1/SoftwareQualityAssurance": "FasListCheck",
   "HUST/2023.1/UX_UI": "FasUser",
-  "Books/DE/BEG1 - Fundamentals of Data Engineering": "FasTrowelBricks"
+  "Books/DE/BEG1 - Fundamentals of Data Engineering": "FasTrowelBricks",
+  "Z_Self Hosted": "FasHouseChimney"
 }

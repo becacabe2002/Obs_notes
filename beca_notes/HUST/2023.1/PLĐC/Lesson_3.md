@@ -12,6 +12,9 @@
     * **Y tế**:
     * Khoa học công nghệ:
     * Môi trường:
+    * Thể dục thể thao:
+    * Giáo dục:
+    * Văn hóa:
 * _**Chức năng đối ngoại**_:
 
 ### Đặc điểm:

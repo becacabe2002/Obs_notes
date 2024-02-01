@@ -1,5 +1,5 @@
 ## 1. Mã Use case
-UC0040
+UC0041
 ## 2. Giới thiệu
 Use case mô tả quá trình đặt hàng chuyển phát nhanh của người dùng
 
@@ -7,7 +7,7 @@ Use case mô tả quá trình đặt hàng chuyển phát nhanh của người d
 Khách hàng
 
 ## 4. Tiền điều kiện
-không có
+Người dùng chọn hình thức giao hàng nhanh trong Delivery Form
 
 ### 5. Luồng sự kiện chính (Thành công)
 1. *Khách hàng chọn Giao hàng nhanh*

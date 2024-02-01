@@ -88,7 +88,7 @@ Ex: $(a=b) ∨ C ∧ p(x)$ bao gồm 3 mệnh đề
 ![[V_WhiteBoxTesting-20231031093607960.webp]]
 
 ==**Sẽ kiểm tra cả Predicate và các clauses riêng lẻ**==
-
+Với mỗi Clause c, c cần được đánh giá là đúng và sai ít nhất 1 lần
 ### Predicate Coverage (PC) >< Clause Coverage (CC)
 * PC không phải lúc nào cũng kiểm tra tất cả các mệnh đề.
 * CC không phải lúc nào cũng đảm bảo PC
