@@ -1,0 +1,2 @@
+- Không học unite 4
+- Sau 8 tuần, học xong Unit 1,2 -> Thi GK 3 kĩ năng

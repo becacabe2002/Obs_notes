@@ -7,7 +7,10 @@ Parce que:
 - Tương tự comme
 
 Puisque:
-* Nguyên nhân được người trong hội thoại đều biết
+* Nguyên nhân được người trong hội thoại đều biết, hiển nhiên
+
+Comme:
+* Nguyên nhân đã biết nhưng mang tính logic
 
 Étant donné que, vu que: đứng giữa câu, trang trọng hơn, chắc chắn về nguyên nhân hơn.
 
@@ -18,7 +21,7 @@ Sous prétexte que:
 Non que, ce n'est pas que + subjonctif (phủ định nguyên nhân)
 
 ### La coordination
-car
+car: thuờng dùng trong văn viết, ko trả lời cho câu hỏi “Pourquoi?”
 
 en effet
 

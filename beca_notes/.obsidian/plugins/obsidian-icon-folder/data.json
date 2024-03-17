@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🇫🇷",
       "FasHouseChimney",
       "FasServer",
       "FasA",
-      "FasTrowelBricks",
-      "FasUser"
+      "FasTrowelBricks"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,5 +38,6 @@
   "HUST/2023.1/SoftwareQualityAssurance": "FasListCheck",
   "HUST/2023.1/UX_UI": "FasUser",
   "Books/DE/BEG1 - Fundamentals of Data Engineering": "FasTrowelBricks",
-  "Z_Self Hosted": "FasHouseChimney"
+  "Z_Self Hosted": "FasHouseChimney",
+  "Francais": "🇫🇷"
 }

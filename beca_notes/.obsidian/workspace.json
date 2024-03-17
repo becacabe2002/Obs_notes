@@ -13,25 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2023.1/PTTK_PM/S.O.L.I.D principles.md",
+                "file": "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.2b_MajorUndercurrentsAcrossTheDEingLifecycle.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7fa8f848e258db97",
+            "id": "79dce9ec01ad12ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2023.1/PTTK_PM/11_DesignConcepts.md",
+                "file": "HUST/2023.2/VP8/Unit_I/UnitI_Note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65e1ad2c8ba6a142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/2023.2/VP8/Unit_I/Les Cles de l'Argumentation _ Dégager une problématique.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a78ee6b27baaae1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Viettel/VtNet Documents/Lakehouse _ New Generation of Open Platforms.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "airflow",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,8 +111,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "077cc7c46907b096",
@@ -100,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/2023.1/PTTK_PM/S.O.L.I.D principles.md"
+                "file": "Viettel/VtNet Documents/Lakehouse _ New Generation of Open Platforms.md"
               }
             }
           }
@@ -108,8 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922,
-    "collapsed": true
+    "width": 402
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -125,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/2023.1/PTTK_PM/S.O.L.I.D principles.md",
+                "file": "Viettel/VtNet Documents/Lakehouse _ New Generation of Open Platforms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/2023.1/PTTK_PM/S.O.L.I.D principles.md",
+                "file": "Viettel/VtNet Documents/Lakehouse _ New Generation of Open Platforms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,14 +226,50 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "webpage-html-export:Export Vault to HTML": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0dfe650f3781c9ac",
+  "active": "9a78ee6b27baaae1",
   "lastOpenFiles": [
+    "HUST/2023.2/VP8/Unit_I/Les Cles de l'Argumentation _ Dégager une problématique.md",
+    "HUST/2023.2/VP8/Unit_I/UnitI_PO.md",
+    "Untitled.md",
+    "HUST/2023.2/VP8/Unit_I/UnitI_Note.md",
+    "HUST/2023.2/VP8/Unit_I",
+    "HUST/2023.2/VP8/Untitled.md",
+    "Viettel/VtNet Documents/Lakehouse _ New Generation of Open Platforms.md",
+    "Viettel/VtNet Documents/attachements/Lakehouse _ New Generation of Open Platforms-20240311233818537.webp",
+    "Viettel/VtNet Documents/attachements",
+    "Data 101/3 Data Architecture Generations.md",
+    "Viettel/Untitled.md",
+    "Viettel/VtNet Documents",
+    "Viettel",
+    "Data 101/ACID Transaction.md",
+    "Database/DB with SQL Server/W7 - VIEW.md",
+    "Database/DB with SQL Server/W8 - INDEX (Clusterd,Non-clustered index).md",
+    "Database/DB with SQL Server/W8 - INDEX.md",
+    "Database/More on DB Theory/Indexes and how they work.md",
+    "HUST/2023.2/CNXH/Chương I. Nhập môn CNXHKH.md",
+    "HUST/2023.2/CNXH/_Intro.md",
+    "HUST/2023.2/NN&PPD/_Intro.md",
+    "HUST/2023.2/CNXH",
+    "HUST/2023.2/Untitled.md",
+    "HUST/2023.2/NN&PPD",
+    "HUST/2023.2/VP8/Index.md",
+    "HUST/2023.2/VP8",
+    "HUST/2023.2",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.2b_MajorUndercurrentsAcrossTheDEingLifecycle.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/_Index.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.2_DEingLifecycle.md",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/1.2_DEingLifecycle-20240220101914058.webp",
+    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.3_DesigningGoodDataArchitecture.md",
     "HUST/2023.1/PTTK_PM/11_DesignConcepts.md",
-    "HUST/2023.1/PTTK_PM/S.O.L.I.D principles.md",
+    "Francais/Séance  16. Edu - EO.md",
+    "Big Data/About Big Data/Concepts.md",
+    "Data 101",
+    "Francais",
+    "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
     "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130235906326.webp",
     "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130235834771.webp",
     "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130235809955.webp",
@@ -218,44 +277,9 @@
     "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130235715171.webp",
     "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130232247076.webp",
     "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130230430943.webp",
-    "HUST/2023.1/PTTK_PM/S.O.L.I.D.md",
-    "Untitled.md",
-    "HUST/2023.1/PTTK_PM/Note.md",
-    "HUST/2023.1/PTTK_PM/1_QuyTrinhPhatTrienPM.md",
-    "HUST/2022.1/OOP/2. UML & use case diagram.md",
-    "HUST/2022.1/OOP/4. Some techniques in class building.md",
-    "HUST/2023.1/PTTK_PM/4_Architectural Design.md",
-    "HUST/2023.1/PTTK_PM/5_IdentifyDesignElements.md",
-    "HUST/2023.1/PTTK_PM/6_InterfaceDesign.md",
-    "HUST/2023.1/PTTK_PM/8_DataModeling.md",
-    "HUST/2023.1/PTTK_PM/10_UnitTest.md",
-    "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md",
-    "HUST/2023.1/PTTK_PM/3_RequirementModelingWithUC.md",
-    "HUST/2023.1/PTTK_PM/7_ClassDesign.md",
-    "HUST/2023.1/PLĐC/_Index.md",
-    "HUST/2023.1/Project3/week3/Transportation Risk Assessment.md",
-    "HUST/2023.1/Project3/week5/Rich VRP Taxonomy.md",
-    "HUST/2023.1/Project3/week4/Variants of VRP and applied Algos.md",
-    "HUST/2023.1/Project3/Final Report - Project 3 - 20205226.md",
-    "HUST/2023.1/Project3/Week7/Unified Solution Framework for multi-attribute vehicle routing problems.md",
     "HUST/2023.1/Project3/attachements/Final Report - Project 3 - 20205226-20240128142624587.webp",
-    "HUST/2023.1/PLĐC/Lesson_2.md",
-    "HUST/2023.1/VP/CN/Chuẩn bị thi cuối kì.md",
-    "HUST/2023.1/VP/CN/Week13.md",
     "Backend/Spring Framework/Spring Core/Spring Core.canvas",
-    "Z_Self Hosted",
-    "HUST/2023.1/Project3/attachements/Chuẩn bị báo cáo-20240109175512443.webp",
-    "HUST/2023.1/Project3/attachements/Chuẩn bị báo cáo-20240109175505530.webp",
-    "HUST/2023.1/Project3/attachements",
-    "Books/DE/BEG1 - Fundamentals of Data Engineering/B - The Data Engineering Lifecycle in Depth",
-    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements",
-    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks",
     "HUST/2023.1/Project3/Week9/Mindmap.canvas",
-    "HUST/2023.1/PTUD_TBGD",
-    "Books/DE/BEG1 - Fundamentals of Data Engineering",
-    "Books/DE",
-    "Delf B1 - Chị Ánh/CO tự luyện",
-    "Delf B1 - Chị Ánh",
     "Untitled 1.canvas",
     "Công Nghệ Phần Mềm.canvas"
   ]
