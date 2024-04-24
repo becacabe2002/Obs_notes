@@ -8,55 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0dfe650f3781c9ac",
+            "id": "690b203619bdf94e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.2b_MajorUndercurrentsAcrossTheDEingLifecycle.md",
+                "file": "HUST/2023.2/VP8/Unit_III/23_04_2024.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "79dce9ec01ad12ab",
+            "id": "08c751a4df133894",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2023.2/VP8/Unit_I/UnitI_Note.md",
+                "file": "HUST/2023.2/VP8/Unit_III/UnitIII_Note - Travailler.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "65e1ad2c8ba6a142",
+            "id": "87ba6e84f3a9cc1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/2023.2/VP8/Unit_I/Les Cles de l'Argumentation _ Dégager une problématique.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a78ee6b27baaae1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Viettel/VtNet Documents/Lakehouse _ New Generation of Open Platforms.md",
+                "file": "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Viettel/VtNet Documents/Lakehouse _ New Generation of Open Platforms.md"
+                "file": "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md"
               }
             }
           }
@@ -132,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402
+    "width": 402,
+    "collapsed": true
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -148,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Viettel/VtNet Documents/Lakehouse _ New Generation of Open Platforms.md",
+                "file": "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Viettel/VtNet Documents/Lakehouse _ New Generation of Open Platforms.md",
+                "file": "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,6 +207,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -230,54 +220,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9a78ee6b27baaae1",
+  "active": "87ba6e84f3a9cc1d",
   "lastOpenFiles": [
-    "HUST/2023.2/VP8/Unit_I/Les Cles de l'Argumentation _ Dégager une problématique.md",
-    "HUST/2023.2/VP8/Unit_I/UnitI_PO.md",
-    "Untitled.md",
+    "HUST/2023.2/VP8/Unit_III/UnitIII_Note - Travailler.md",
+    "HUST/2023.2/VP8/Unit_III/23_04_2024.md",
     "HUST/2023.2/VP8/Unit_I/UnitI_Note.md",
-    "HUST/2023.2/VP8/Unit_I",
-    "HUST/2023.2/VP8/Untitled.md",
-    "Viettel/VtNet Documents/Lakehouse _ New Generation of Open Platforms.md",
-    "Viettel/VtNet Documents/attachements/Lakehouse _ New Generation of Open Platforms-20240311233818537.webp",
-    "Viettel/VtNet Documents/attachements",
-    "Data 101/3 Data Architecture Generations.md",
-    "Viettel/Untitled.md",
-    "Viettel/VtNet Documents",
-    "Viettel",
-    "Data 101/ACID Transaction.md",
-    "Database/DB with SQL Server/W7 - VIEW.md",
-    "Database/DB with SQL Server/W8 - INDEX (Clusterd,Non-clustered index).md",
-    "Database/DB with SQL Server/W8 - INDEX.md",
-    "Database/More on DB Theory/Indexes and how they work.md",
-    "HUST/2023.2/CNXH/Chương I. Nhập môn CNXHKH.md",
-    "HUST/2023.2/CNXH/_Intro.md",
-    "HUST/2023.2/NN&PPD/_Intro.md",
-    "HUST/2023.2/CNXH",
-    "HUST/2023.2/Untitled.md",
-    "HUST/2023.2/NN&PPD",
-    "HUST/2023.2/VP8/Index.md",
-    "HUST/2023.2/VP8",
-    "HUST/2023.2",
-    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.2b_MajorUndercurrentsAcrossTheDEingLifecycle.md",
-    "Books/DE/BEG1 - Fundamentals of Data Engineering/_Index.md",
-    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.2_DEingLifecycle.md",
-    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/attachements/1.2_DEingLifecycle-20240220101914058.webp",
-    "Books/DE/BEG1 - Fundamentals of Data Engineering/A - Foundation and Building Blocks/1.3_DesigningGoodDataArchitecture.md",
-    "HUST/2023.1/PTTK_PM/11_DesignConcepts.md",
+    "HUST/2023.2/VP8/Unit_III",
+    "Francais/Séance 19.2 Environnement - EE.md",
+    "Francais/Séance 21. Technologie - EE.md",
+    "Francais/Séance 20. Technologie - EO.md",
+    "Francais/attachements/Séance 20. Technologie - EO-20240419105444281.webp",
+    "Francais/attachements/Séance 20. Technologie - EO-20240419105245042.webp",
+    "Francais/attachements",
+    "Francais/Séance 19.1 Environnement - EO.md",
     "Francais/Séance  16. Edu - EO.md",
-    "Big Data/About Big Data/Concepts.md",
-    "Data 101",
-    "Francais",
-    "HUST/2022.2/XSTK/Chap2_BienNgauNhien_LuatPhanPhoiXS.md",
-    "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130235906326.webp",
-    "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130235834771.webp",
-    "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130235809955.webp",
-    "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130235734710.webp",
-    "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130235715171.webp",
-    "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130232247076.webp",
-    "HUST/2023.1/PTTK_PM/attachements/11_DesignConcepts-20240130230430943.webp",
-    "HUST/2023.1/Project3/attachements/Final Report - Project 3 - 20205226-20240128142624587.webp",
+    "Francais/Séance 17. Educ - EE.md",
+    "Francais/Séance 18.2 Travail - EE.md",
+    "Francais/Séance 18.1 Travail - EO.md",
+    "HUST/2023.2/VP8/Unit_I/UnitI_PO.md",
+    "HUST/2023.2/VP8/Unit_I/Les Cles de l'Argumentation _ Dégager une problématique.md",
+    "HUST/2023.2/VP8/Unit_II/UnitII_Note.md",
+    "HUST/2023.2/VP8/Index.md",
+    "Python/Advanced Python/1. Overview of Python - How it works.md",
+    "Data 101/Data Analyst",
+    "Python/Advanced Python/4. Decorators.md",
+    "Python/Advanced Python/5. Generators.md",
+    "Python/Advanced Python/3. Metaclasses & How Classes really work.md",
+    "Python/Advanced Python/2. Dunder_Magic Methods & The Python Data Model.md",
+    "Computer Networking/Subnet Mask.md",
+    "Francais/Untitled",
+    "Computer Networking/attachements/Subnet Mask-20240325012126628.webp",
+    "Computer Networking/attachements/Subnet Mask-20240325011116547.webp",
+    "Computer Networking/attachements/Subnet Mask-20240325010710686.webp",
+    "Computer Networking/attachements/Subnet Mask-20240325004548067.webp",
+    "Computer Networking/attachements/Subnet Mask-20240325004251697.webp",
+    "Computer Networking/attachements/Subnet Mask-20240325003352830.webp",
+    "Computer Networking/attachements/Subnet Mask-20240325002001308.webp",
+    "Computer Networking/attachements/Subnet Mask-20240325001957421.webp",
+    "Computer Networking/Modem vs Router.md",
+    "Computer Networking/Virtual Private Network - VPN.md",
+    "Computer Networking/Proxy _ Reverse Proxy.md",
+    "Computer Networking/Network Ports.md",
+    "Computer Networking/attachements",
+    "Computer Networking",
+    "Data 101/Data Engineering/Steps of Dimensional Modeling.md",
+    "HUST/2023.2/VP8/Unit_II",
+    "Data 101/Data Engineering/attachements",
+    "Data 101/Data Engineering",
+    "HUST/2023.2/VP8/Unit_I",
     "Backend/Spring Framework/Spring Core/Spring Core.canvas",
     "HUST/2023.1/Project3/Week9/Mindmap.canvas",
     "Untitled 1.canvas",
