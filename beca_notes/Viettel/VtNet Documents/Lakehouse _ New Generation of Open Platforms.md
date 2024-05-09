@@ -49,4 +49,11 @@
 
 ![[Lakehouse _ New Generation of Open Platforms-20240311233818537.webp]]
 
+* Data Lakehouse is the combination of  low-cost storage in an open format which can be accessed in many ways (Data Lake) and powerful management and optimization features (Data Warehouse)
+
+> [!warning] 
+> Support for direct access ~ give up some aspects of data independence.
+
+* Lakehouses are suitable for cloud env, where  compute part and storage part are seperated.
+
 

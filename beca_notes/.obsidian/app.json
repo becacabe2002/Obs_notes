@@ -17,5 +17,5 @@
     "downscalePercent": 80
   },
   "showInlineTitle": true,
-  "spellcheck": false
+  "spellcheck": true
 }
