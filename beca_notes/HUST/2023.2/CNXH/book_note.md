@@ -14,7 +14,7 @@ Sách có hai phần:
 
 ---
 **Capo** (hay *kapos*) là những tù nhân đặc biệt, được sử dụng để thay thế các nhân sự SS trong việc quản lý các trại tập trung. Họ được hưởng lợi ích hơn hẳn các tù nhân khác, nhưng 1 số còn thể hiện sự hung bạo hơn cả những quản giáo SS.
----
 
+---
 
 
