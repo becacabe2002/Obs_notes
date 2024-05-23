@@ -83,11 +83,14 @@
             "id": "520b45354b49e688",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "HUST/2023.2/NN&PPD/chap1.md",
-                "mode": "source",
-                "source": false
+                "file": "data_101/Complete System.canvas",
+                "viewState": {
+                  "x": 2789.8047194143683,
+                  "y": 975.8616084944069,
+                  "zoom": -0.8000000000000002
+                }
               }
             }
           }
@@ -160,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/2023.2/NN&PPD/chap1.md"
+                "file": "data_101/Complete System.canvas"
               }
             }
           }
@@ -168,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402
+    "width": 402,
+    "collapsed": true
   },
   "right": {
     "id": "d605ba660c0bb7ae",
@@ -184,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/2023.2/NN&PPD/chap1.md",
+                "file": "data_101/Complete System.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/2023.2/NN&PPD/chap1.md",
+                "file": "data_101/Complete System.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,22 +272,28 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "f56e9bb44bb16698",
+  "active": "520b45354b49e688",
   "lastOpenFiles": [
-    "HUST/2023.2/NN&PPD/attachements/chap1-20240514142730779.webp",
-    "HUST/2023.2/NN&PPD/attachements/chap1-20240514142634992.webp",
-    "HUST/2023.2/NN&PPD/attachements/chap1-20240514142535307.webp",
-    "HUST/2023.2/NN&PPD/attachements/chap1-20240514135647055.webp",
-    "HUST/2023.2/NN&PPD/attachements/chap1-20240514135141621.webp",
-    "HUST/2023.2/NN&PPD/attachements/chap1-20240514133836581.webp",
+    "data_101/imgs/Jupyter_logo.svg",
+    "data_101/imgs/Apache Superset.png",
+    "data_101/imgs/ckan.png",
+    "data_101/imgs/Trino.png",
+    "data_101/imgs/Clickhouse.png",
+    "data_101/imgs/Apache Hive.png",
+    "data_101/imgs/512px-Apache_Hive_logo.svg.png",
+    "data_101/imgs/user.png",
+    "data_101/imgs/Apache Spark.png",
+    "data_101/imgs/Delta Lake.png",
+    "data_101/imgs/MinIO.png",
+    "data_101/Complete System.canvas",
+    "data_101/imgs",
+    "Francais/Séance 17. Educ - EE.md",
     "HUST/2023.2/NN&PPD/chap2.md",
     "HUST/2023.2/NN&PPD/chap1.md",
-    "HUST/2023.2/NN&PPD/attachements/chap1-20240514131521734.webp",
     "HUST/2023.2/NN&PPD/attachements",
     "HUST/2023.2/VP8/Unit_III/07-05-2024.md",
     "HUST/2023.2/CNXH/mid_term.md",
     "HUST/2023.2/CNXH/getnf.tmp",
-    "Francais/Séance 17. Educ - EE.md",
     "HUST/2022.2/Prj_II/Giải thích cấu trúc.md",
     "HUST/2023.2/NN&PPD/_Intro.md",
     "Francais/Séance 18.2 Travail - EE.md",
@@ -305,17 +315,12 @@
     "HUST/2023.1/SoftwareQualityAssurance/IV_BlackBoxTesting.md",
     "HUST/2023.1/SoftwareQualityAssurance/V_WhiteBoxTesting.md",
     "HUST/2023.2/VP8/Unit_III",
-    "Francais/attachements/Séance 20. Technologie - EO-20240419105444281.webp",
-    "Francais/attachements/Séance 20. Technologie - EO-20240419105245042.webp",
     "Francais/attachements",
     "data_101/Data Analyst",
     "Francais/Untitled",
-    "Computer Networking/attachements/Subnet Mask-20240325012126628.webp",
-    "Computer Networking/attachements/Subnet Mask-20240325011116547.webp",
     "Computer Networking/attachements",
     "Computer Networking",
     "HUST/2023.2/VP8/Unit_II",
-    "data_101/data_engineering/attachements",
     "Backend/Spring Framework/Spring Core/Spring Core.canvas",
     "HUST/2023.1/Project3/Week9/Mindmap.canvas",
     "Untitled 1.canvas",

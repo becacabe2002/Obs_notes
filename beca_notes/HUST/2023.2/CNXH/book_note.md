@@ -17,4 +17,5 @@ Sách có hai phần:
 
 ---
 
+* Những tù nhân chỉ được coi như những con số.
 
