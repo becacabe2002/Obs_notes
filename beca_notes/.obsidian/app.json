@@ -10,7 +10,7 @@
   "strictLineBreaks": false,
   "foldIndent": true,
   "pdfExportSettings": {
-    "includeName": true,
+    "includeName": false,
     "pageSize": "A4",
     "landscape": false,
     "margin": "2",
