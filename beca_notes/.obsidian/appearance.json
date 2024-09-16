@@ -1,9 +1,9 @@
 {
   "accentColor": "#a1ccd1",
-  "cssTheme": "Catppuccin",
+  "cssTheme": "Tokyo Night Storm",
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
   "textFontFamily": "Iosevka",
   "monospaceFontFamily": "Consolas",
   "baseFontSize": 21,
-  "theme": "moonstone"
+  "theme": "obsidian"
 }
