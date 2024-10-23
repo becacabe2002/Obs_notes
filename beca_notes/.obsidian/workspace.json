@@ -4,22 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "2fc3d2e234897237",
+        "id": "ca51c2f637ed9fe6",
         "type": "tabs",
         "children": [
           {
-            "id": "36fe7003d9fb2d04",
+            "id": "220c858df8808592",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/Cai_thien/lsd/Note.md",
+                "file": "HUST/Cai_thien/dstt/Chap3/3.1 Vector Space.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "3.1 Vector Space"
+            }
+          },
+          {
+            "id": "64f88ca9a899192c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/Cai_thien/dstt/Chap 2/2.3 Matrix with Systems of Linear Equations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.3 Matrix with Systems of Linear Equations"
+            }
+          },
+          {
+            "id": "6df9ba6013c08b4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/Cai_thien/dstt/Chap 2/2.1 Matrix, determinant.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.1 Matrix, determinant"
+            }
+          },
+          {
+            "id": "a0dfbe98c5cd8b7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUST/do_an/Practical-Rcm-Sys.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Practical-Rcm-Sys"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -40,7 +85,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -55,7 +102,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -63,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -71,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -87,15 +140,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/Cai_thien/lsd/Note.md"
-              }
+                "file": "HUST/do_an/Practical-Rcm-Sys.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Practical-Rcm-Sys"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 402,
+    "width": 305.51103591918945,
     "collapsed": true
   },
   "right": {
@@ -112,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/Cai_thien/lsd/Note.md",
+                "file": "HUST/do_an/Practical-Rcm-Sys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +175,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Practical-Rcm-Sys"
             }
           },
           {
@@ -129,10 +186,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/Cai_thien/lsd/Note.md",
+                "file": "HUST/do_an/Practical-Rcm-Sys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Practical-Rcm-Sys"
             }
           },
           {
@@ -144,7 +203,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -152,7 +213,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -170,7 +233,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           }
         ]
@@ -196,55 +261,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "36fe7003d9fb2d04",
+  "active": "a0dfbe98c5cd8b7a",
   "lastOpenFiles": [
-    "HUST/Cai_thien/ktct/Note.md",
+    "HUST/do_an/Rcm-Sys-Handbook.md",
+    "HUST/do_an/Recommendation System - Note 1.md",
+    "HUST/do_an/Practical-Rcm-Sys.md",
+    "HUST/Cai_thien/dstt/Chap3/3.1 Vector Space.md",
+    "HUST/Cai_thien/dstt/Chap 2/2.4 Rank of matrix.md",
+    "HUST/Cai_thien/dstt/Chap3",
+    "HUST/Cai_thien/dstt/Chap 2/Untitled",
+    "HUST/Cai_thien/dstt/Untitled.md",
+    "HUST/Cai_thien/dstt/Chap 2/2.3 Matrix with Systems of Linear Equations.md",
+    "HUST/Cai_thien/dstt/Chap 2/2.1 Matrix, determinant.md",
+    "HUST/Cai_thien/dstt/Chap 2/2.2 Matrix Polynomial, Inverse of a matrix.md",
+    "HUST/Cai_thien/lsd/Chap 2.md",
     "HUST/Cai_thien/lsd/Note.md",
+    "HUST/do_an/attachements/Recommendation System - Note 1-20241004020013604.webp",
+    "HUST/do_an/attachements/Recommendation System - Note 1-20241004002958245.webp",
+    "HUST/do_an/attachements/Recommendation System - Note 1-20241004002856393.webp",
+    "HUST/do_an/attachements",
+    "HUST/do_an",
+    "Untitled.md",
+    "Machine Learning/Linear Regression.md",
+    "HUST/Cai_thien/dstt/Chap 2",
+    "HUST/Cai_thien/dstt",
+    "HUST/Cai_thien/Untitled.md",
+    "Machine Learning/_Index.md",
+    "Machine Learning",
+    "HUST/Cai_thien/ktct/Note.md",
     "HUST/Cai_thien/lsd",
     "HUST/Cai_thien/ktct/attachements/Note-20240909073712032.webp",
     "HUST/Cai_thien/ktct/attachements/Note-20240909071925248.webp",
     "HUST/Cai_thien/ktct/attachements",
     "HUST/Cai_thien/ktct",
-    "HUST/Cai_thien",
     "data_101/Build a Data Platform with open-source tools.md",
     "HUST/2023.2/NN&PPD/chap1.md",
     "data_101/data_engineering/Storage/Delta Lake table format.md",
     "data_101/data_engineering/Storage/Configure_PostgreSQL as Metastore for Apache Hive.md",
     "data_101/data_engineering/metadata/Untitled.md",
-    "data_101/data_engineering/metadata",
     "HUST/2023.2/VP8/final_prep.md",
     "data_101/Complete System.canvas",
     "data_101/Data Dictionary.md",
-    "data_101/data_engineering/Storage",
     "HUST/2022.2/Distributed_System/Ghi chú môn học.md",
     "HUST/2022.2/Distributed_System/Chap2 _ TienTrinhTraoDoiThongTin.md",
     "HUST/2022.2/Distributed_System/Chap 1 - TongQuanKienTruc.md",
-    "Francais/Séance 16.1 Education - Vocabulaire.md",
-    "Francais/Séance 16.3 Education - EE.md",
-    "Francais/Séance 18.2 Environnement - EO.md",
-    "Francais/Séance 18.3 Environnement - EE.md",
-    "Francais/Séance 19.2 Technologie - EO.md",
-    "Francais/Séance 20.1 Loisirs - Vocabulaires.md",
-    "Francais/Séance 19.3 Technologie - EE.md",
-    "Francais/Séance 19.1 Technologie - Vocabulaire.md",
-    "Francais/Séance 18.1 Environnement - Vocabulaire.md",
-    "Francais/Séance 17.1 Travail - Vocabulaire.md",
-    "Francais/Séance 17.3 Travail - EE.md",
-    "Francais/Séance 17.2 Travail - EO.md",
-    "Francais/Séance  16.2 Edu - EO.md",
-    "HUST/2023.2/VP9/final_prep.md",
     "HUST/2023.2/VP8/UnitV/attachements/28_05_2024-20240528135413279.webp",
-    "HUST/2023.2/VP8/UnitV/attachements",
-    "HUST/2023.2/VP9",
     "data_101/imgs/Jupyter_logo.svg",
     "data_101/imgs/Apache Superset.png",
     "data_101/imgs/ckan.png",
     "data_101/imgs/Trino.png",
-    "data_101/imgs/Clickhouse.png",
-    "data_101/imgs/Apache Hive.png",
-    "data_101/imgs/512px-Apache_Hive_logo.svg.png",
-    "data_101/imgs",
-    "HUST/2023.2/NN&PPD/attachements",
     "Backend/Spring Framework/Spring Core/Spring Core.canvas",
     "HUST/2023.1/Project3/Week9/Mindmap.canvas",
     "Untitled 1.canvas",
