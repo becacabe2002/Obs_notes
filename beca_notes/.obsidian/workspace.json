@@ -8,63 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "220c858df8808592",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/Cai_thien/dstt/Chap3/3.1 Vector Space.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3.1 Vector Space"
-            }
-          },
-          {
-            "id": "64f88ca9a899192c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/Cai_thien/dstt/Chap 2/2.3 Matrix with Systems of Linear Equations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.3 Matrix with Systems of Linear Equations"
-            }
-          },
-          {
-            "id": "6df9ba6013c08b4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUST/Cai_thien/dstt/Chap 2/2.1 Matrix, determinant.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.1 Matrix, determinant"
-            }
-          },
-          {
             "id": "a0dfbe98c5cd8b7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUST/do_an/Practical-Rcm-Sys.md",
+                "file": "HUST/do_an/Evaluating a Recommender System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practical-Rcm-Sys"
+              "title": "Evaluating a Recommender System"
+            }
+          },
+          {
+            "id": "a1d547b98ba053bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Linear Regression.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear Regression"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,10 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HUST/do_an/Practical-Rcm-Sys.md"
+                "file": "HUST/do_an/Evaluating a Recommender System.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Practical-Rcm-Sys"
+              "title": "Outline of Evaluating a Recommender System"
             }
           }
         ]
@@ -167,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HUST/do_an/Practical-Rcm-Sys.md",
+                "file": "HUST/do_an/Evaluating a Recommender System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Practical-Rcm-Sys"
+              "title": "Backlinks for Evaluating a Recommender System"
             }
           },
           {
@@ -186,12 +157,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HUST/do_an/Practical-Rcm-Sys.md",
+                "file": "HUST/do_an/Evaluating a Recommender System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Practical-Rcm-Sys"
+              "title": "Outgoing links from Evaluating a Recommender System"
             }
           },
           {
@@ -263,16 +234,18 @@
   },
   "active": "a0dfbe98c5cd8b7a",
   "lastOpenFiles": [
+    "HUST/do_an/Practical-Rcm-Sys.md",
+    "Machine Learning/Linear Regression.md",
+    "HUST/do_an/Evaluating a Recommender System.md",
+    "HUST/Cai_thien/dstt/Chap3/3.1 Vector Space.md",
+    "HUST/Cai_thien/dstt/Chap 2/2.3 Matrix with Systems of Linear Equations.md",
+    "HUST/Cai_thien/dstt/Chap 2/2.1 Matrix, determinant.md",
     "HUST/do_an/Rcm-Sys-Handbook.md",
     "HUST/do_an/Recommendation System - Note 1.md",
-    "HUST/do_an/Practical-Rcm-Sys.md",
-    "HUST/Cai_thien/dstt/Chap3/3.1 Vector Space.md",
     "HUST/Cai_thien/dstt/Chap 2/2.4 Rank of matrix.md",
     "HUST/Cai_thien/dstt/Chap3",
     "HUST/Cai_thien/dstt/Chap 2/Untitled",
     "HUST/Cai_thien/dstt/Untitled.md",
-    "HUST/Cai_thien/dstt/Chap 2/2.3 Matrix with Systems of Linear Equations.md",
-    "HUST/Cai_thien/dstt/Chap 2/2.1 Matrix, determinant.md",
     "HUST/Cai_thien/dstt/Chap 2/2.2 Matrix Polynomial, Inverse of a matrix.md",
     "HUST/Cai_thien/lsd/Chap 2.md",
     "HUST/Cai_thien/lsd/Note.md",
@@ -282,7 +255,6 @@
     "HUST/do_an/attachements",
     "HUST/do_an",
     "Untitled.md",
-    "Machine Learning/Linear Regression.md",
     "HUST/Cai_thien/dstt/Chap 2",
     "HUST/Cai_thien/dstt",
     "HUST/Cai_thien/Untitled.md",
@@ -304,7 +276,6 @@
     "data_101/Data Dictionary.md",
     "HUST/2022.2/Distributed_System/Ghi chú môn học.md",
     "HUST/2022.2/Distributed_System/Chap2 _ TienTrinhTraoDoiThongTin.md",
-    "HUST/2022.2/Distributed_System/Chap 1 - TongQuanKienTruc.md",
     "HUST/2023.2/VP8/UnitV/attachements/28_05_2024-20240528135413279.webp",
     "data_101/imgs/Jupyter_logo.svg",
     "data_101/imgs/Apache Superset.png",
