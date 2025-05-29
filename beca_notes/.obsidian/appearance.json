@@ -1,9 +1,9 @@
 {
   "accentColor": "#a1ccd1",
   "cssTheme": "Tokyo Night Storm",
-  "interfaceFontFamily": "JetBrainsMono Nerd Font",
-  "textFontFamily": "Iosevka",
-  "monospaceFontFamily": "Consolas",
-  "baseFontSize": 21,
+  "interfaceFontFamily": "FiraCode Nerd Font",
+  "textFontFamily": "FiraCode Nerd Font",
+  "monospaceFontFamily": "FiraCode Nerd Font Mono",
+  "baseFontSize": 16,
   "theme": "obsidian"
 }
