@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "51e26ad8243a64df",
+        "id": "77655e14f744398d",
         "type": "tabs",
         "children": [
           {
-            "id": "5fdefdfc99cf1635",
+            "id": "8cf5ad5ccc351f60",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Oulu/1st Semester/1.1 Period/Towards Data Mining/Lecture 2 - Data ethics, security and privacy, open data, data management and databases.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lecture 2 - Data ethics, security and privacy, open data, data management and databases"
             }
           }
         ]
@@ -29,7 +33,7 @@
       {
         "id": "6726d76cb158ef36",
         "type": "tabs",
-        "dimension": 61.42668428005285,
+        "dimension": 61.42668428005284,
         "children": [
           {
             "id": "f56e9bb44bb16698",
@@ -67,8 +71,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -86,7 +90,7 @@
       {
         "id": "077cc7c46907b096",
         "type": "tabs",
-        "dimension": 38.57331571994716,
+        "dimension": 38.57331571994715,
         "children": [
           {
             "id": "356e4c7443db1b40",
@@ -94,12 +98,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Oulu/1st Semester/1.1 Period/Towards Data Mining/Lecture 2 - Data ethics, security and privacy, open data, data management and databases.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Lecture 2 - Data ethics, security and privacy, open data, data management and databases"
             }
           }
         ]
@@ -169,8 +174,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -187,7 +192,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -202,6 +209,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -212,16 +220,29 @@
       "audio-recorder:Start/stop recording": false,
       "webpage-html-export:Export Vault to HTML": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "5fdefdfc99cf1635",
+  "active": "8cf5ad5ccc351f60",
   "lastOpenFiles": [
-    "Prompt for ChatGPT.md",
+    "Oulu/1st Semester/1.1 Period/Software Platforms and Ecosystems/Lecture 3 - Software Ecosytems.md",
+    "Oulu/1st Semester/1.1 Period/Towards Data Mining/Lecture 2 - Data ethics, security and privacy, open data, data management and databases.md",
+    "Oulu/1st Semester/1.1 Period/Towards Data Mining",
+    "Oulu/1st Semester/1.1 Period/Software Platforms and Ecosystems/Lecture 2 - Software platforms, 2-sided markets and network effects.md",
+    "Oulu/1st Semester/1.1 Period/Software Platforms and Ecosystems/Course Info.md",
+    "Oulu/1st Semester/1.1 Period/Preparatory Course for MSc student/Untitled.md",
+    "Oulu/1st Semester/1.1 Period/Preparatory Course for MSc student",
+    "Oulu/1st Semester/1.1 Period/Software Platforms and Ecosystems/attachements/image.png",
+    "Oulu/1st Semester/1.1 Period/Software Platforms and Ecosystems/attachements",
     "Untitled.md",
+    "Untitled 1.md",
+    "Oulu/1st Semester/1.1 Period/Software Platforms and Ecosystems",
+    "Oulu/1st Semester/1.1 Period",
+    "Oulu/1st Semester",
+    "Oulu",
+    "Prompt for ChatGPT.md",
     "Francais/Séance 16.1 Education - Vocabulaire.md",
     "Database/Theory of DB/C6 (old)- AN TOÀN VÀ TOÀN VẸN THÔNG TIN.md",
     "Database/Theory of DB/C5 (old)- TỐI ƯU HOÁ CÂU TRUY VẤN.md",
@@ -240,33 +261,19 @@
     "Data Structures & Algorithms/Algorithms/Searching/Interpolation Search.md",
     "Data Structures & Algorithms/Algorithms/Searching/Binary Search.md",
     "Data Structures & Algorithms/Algorithms/Graph Algorithms/Kruskal_Prim.md",
-    "Data Structures & Algorithms/Algorithms/Graph Algorithms/Dijkstra (Shortes-Path).md",
-    "Data Structures & Algorithms/Algorithms/Graph Algorithms/DFS _ Depth-First Search.md",
-    "Data Structures & Algorithms/Algorithms/Graph Algorithms/BFS _ Breadth-First Search.md",
-    "Data Structures & Algorithms/Algorithms/Sorting/Insertion Sort.md",
-    "Data Structures & Algorithms/Algorithms/Sorting/Heap Sort.md",
-    "Data Structures & Algorithms/Algorithms/Sorting/Bubble Sort.md",
     "HUST/Cai_thien/dstt/Chap3",
     "HUST/Cai_thien/dstt/Chap 2/Untitled",
     "HUST/do_an/attachements/Recommendation System - Note 1-20241004020013604.webp",
     "HUST/do_an/attachements/Recommendation System - Note 1-20241004002958245.webp",
     "HUST/do_an/attachements/Recommendation System - Note 1-20241004002856393.webp",
     "HUST/do_an/attachements",
-    "HUST/do_an",
-    "HUST/Cai_thien/dstt/Chap 2",
-    "HUST/Cai_thien/dstt",
-    "Machine Learning",
-    "HUST/Cai_thien/lsd",
     "HUST/Cai_thien/ktct/attachements/Note-20240909073712032.webp",
     "HUST/Cai_thien/ktct/attachements/Note-20240909071925248.webp",
-    "HUST/Cai_thien/ktct/attachements",
-    "HUST/Cai_thien/ktct",
     "data_101/Complete System.canvas",
     "HUST/2023.2/VP8/UnitV/attachements/28_05_2024-20240528135413279.webp",
     "data_101/imgs/Jupyter_logo.svg",
     "data_101/imgs/Apache Superset.png",
     "data_101/imgs/ckan.png",
-    "data_101/imgs/Trino.png",
     "Backend/Spring Framework/Spring Core/Spring Core.canvas",
     "HUST/2023.1/Project3/Week9/Mindmap.canvas",
     "Untitled 1.canvas",
